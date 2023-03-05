@@ -7,6 +7,19 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AButton: typeof import('@arco-design/web-vue')['Button']
+    AInput: typeof import('@arco-design/web-vue')['Input']
+    AInputSearch: typeof import('@arco-design/web-vue')['InputSearch']
+    ALayout: typeof import('@arco-design/web-vue')['Layout']
+    ALayoutContent: typeof import('@arco-design/web-vue')['LayoutContent']
+    ALayoutHeader: typeof import('@arco-design/web-vue')['LayoutHeader']
+    ALayoutSider: typeof import('@arco-design/web-vue')['LayoutSider']
+    AMenu: typeof import('@arco-design/web-vue')['Menu']
+    AMenuItem: typeof import('@arco-design/web-vue')['MenuItem']
+    AMenuItemGroup: typeof import('@arco-design/web-vue')['MenuItemGroup']
+    AScrollbar: typeof import('@arco-design/web-vue')['Scrollbar']
+    ASelect: typeof import('@arco-design/web-vue')['Select']
+    ATooltip: typeof import('@arco-design/web-vue')['Tooltip']
     HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

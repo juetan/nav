@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.43.2",
     "@iconify-json/icon-park-outline": "^1.1.10",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "@vueuse/core": "^9.13.0",
     "swagger-typescript-api": "^12.0.2",
     "typescript": "^4.6.4",
     "unocss": "^0.49.4",

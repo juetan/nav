@@ -1085,11 +1085,7 @@ const items = [
 
 const onScrollItem = (item: any) => {
   const index = items.indexOf(item);
-  const list = itemsRef.value.slice(0, index);
-  const height = list.reduce((prev: any, cur: any) => {
-    return prev + cur.getBoundingClientRect().height;
-  }, 0);
-  scrollRef.value.scrollTo(0, height || 1);
+  scrollRef.value.scrollTo(0, itemsRef.value[index].offsetTop || 1);
 }
 
 const itemsLength = items.reduce((total, item) => total + item.items.length, 0)

@@ -28,7 +28,7 @@
             <template #title>
               前端
             </template>
-            <a-menu-item v-for="item in routes" :key="item.path">
+            <a-menu-item v-for="item in routes" :key="item.path" @click="onChangeRoute(item.path)">
               <template #icon>
                 <i :class="item.meta?.icon"></i>
               </template>
@@ -62,6 +62,8 @@ const toggleTheme = () => {
   isDark.value = !isDark.value
 }
 
+const router = useRouter()
+
 const buttons = [
   {
     icon: 'icon-park-outline-moon',
@@ -76,6 +78,10 @@ const buttons = [
     }
   }
 ]
+
+const onChangeRoute = (path: string) => {
+  router.push(path)
+}
 </script>
 
 <style scoped>

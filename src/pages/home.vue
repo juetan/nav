@@ -1094,7 +1094,7 @@ const itemsLength = items.reduce((total, item) => total + item.items.length, 0)
 <route lang="json">
 {
   "meta": {
-    "title": "前端框架",
+    "title": "前端资源",
     "icon": "icon-park-outline-html-five"
   }
 }

@@ -423,10 +423,28 @@ const items = [
         url: 'https://cn.vitejs.dev/'
       },
       {
-        title: 'Can I Use',
-        description: "Browser support tables for modern web technologies。",
-        logo: 'https://caniuse.com/img/favicon-128.png',
-        url: 'https://caniuse.com/'
+        title: 'Swc',
+        description: "基于rust的web端构建工具。",
+        logo: 'https://swc.rs/favicon/apple-touch-icon.png',
+        url: 'https://swc.rs/'
+      },
+      {
+        title: 'Esbuild',
+        description: "基于go的web端构建工具。",
+        logo: 'https://esbuild.github.io/favicon.svg',
+        url: 'https://esbuild.github.io/'
+      },
+      {
+        title: 'Unbuild',
+        description: "基于rollup的构建工具。",
+        logo: 'https://esbuild.github.io/favicon.svg',
+        url: 'https://github.com/unjs/unbuild'
+      },
+      {
+        title: 'Postcss',
+        description: "一个用 JavaScript 工具和插件转换 CSS 代码的工具。",
+        logo: 'https://www.postcss.com.cn/assets/logo.3e39b0aa.svg',
+        url: 'https://www.postcss.com.cn/'
       },
       {
         title: 'Babel',
@@ -452,6 +470,13 @@ const items = [
     title: '后端框架',
     icon: '',
     items: [
+      
+      {
+        title: 'Connect',
+        description: "使用中间件的HTTP框架。",
+        logo: 'https://www.expressjs.com.cn/images/favicon.png',
+        url: 'https://github.com/senchalabs/connect'
+      },
       {
         title: 'Express',
         description: "基于 Node.js 平台，快速、开放、极简的 Web 开发框架。",
@@ -1067,17 +1092,101 @@ const items = [
         logo: 'https://github.com/fluidicon.png',
         url: 'https://github.com/patorjk/figlet.js'
       },
+      {
+        title: 'Plopjs',
+        description: "快速生成代码或模板的微生成器框架。",
+        logo: 'https://github.com/fluidicon.png',
+        url: 'https://plopjs.com/documentation/'
+      },
+      {
+        title: 'Yeoman',
+        description: "脚手架工具。",
+        logo: 'https://yeoman.io/static/favicon.b25e58c4b8.ico',
+        url: 'https://yeoman.io/'
+      },
+      {
+        title: 'Node.js Toolbox',
+        description: "发现NodeJS生态中活跃维护和流行的库。",
+        logo: 'https://nodejstoolbox.com/apple-touch-icon.png',
+        url: 'https://nodejstoolbox.com/'
+      },
+      {
+        title: 'Icons8',
+        description: "各种加载动效。",
+        logo: 'https://icons8.com/preloaders/img/favicons/favicon-194x194.png',
+        url: 'https://icons8.com/preloaders/'
+      },
+      {
+        title: 'Whirl',
+        description: "纯CSS实现的各种加载动效。",
+        logo: 'https://whirl.netlify.app/favicon.ico',
+        url: 'https://whirl.netlify.app/'
+      },
+      {
+        title: 'Tailwindcomponents',
+        description: "社区实现的各种tailwindcss组件。",
+        logo: 'https://tailwindcomponents.com/apple-touch-icon.png',
+        url: 'https://tailwindcomponents.com/'
+      },
+      {
+        title: 'Party.js',
+        description: "一个在点击时增加烟花动效的JavaScript库。",
+        logo: 'https://party.js.org/img/logo.svg',
+        url: 'https://party.js.org/'
+      },
+      {
+        title: 'Web.dev layout',
+        description: "CSS布局。",
+        logo: 'https://web.dev/images/favicon.ico',
+        url: 'https://web.dev/patterns/layout/'
+      },
+      {
+        title: 'Githack',
+        description: "把github文件作为cdn使用。",
+        logo: 'https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png',
+        url: 'http://raw.githack.com/'
+      },
+      {
+        title: 'Adobe Color',
+        description: "Adobe Color。",
+        logo: 'https://color.adobe.com/apple-touch-icon.png',
+        url: 'https://color.adobe.com/zh/create/color-contrast-analyzer'
+      },
+      {
+        title: 'Graphemica',
+        description: "查询unicode字符的在线网站",
+        logo: 'https://graphemica.com/assets/touch/apple-touch-icon-144x144-precomposed-fcf60ad170a7abd111aff90166435ccf9bfeacf9ffdc30431504afa03a2646f0.png',
+        url: 'https://graphemica.com/'
+      },
+      {
+        title: 'Buttons Generator',
+        description: "各种按钮生成器。",
+        logo: 'https://markodenic.com/wp-content/themes/blog/favicon/apple-touch-icon.png',
+        url: 'https://markodenic.com/tools/buttons-generator/'
+      },
+      {
+        title: 'Svgrepo',
+        description: "包含50w+开源的svg矢量图标。",
+        logo: 'https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.svgrepo.com/&size=128',
+        url: 'https://www.svgrepo.com/'
+      },
     ]
   },
   {
-    title: 'JQuery相关',
+    title: '数据算法',
     icon: '',
     items: [
       {
-        title: 'Minimist',
-        description: "解析命令行参数的工具，适合轻量级项目。",
-        logo: 'https://github.com/fluidicon.png',
-        url: 'https://github.com/minimistjs/minimist'
+        title: 'Visualgo',
+        description: "数据结构和算法动态可视化。",
+        logo: 'https://visualgo.net/img/favicon.png',
+        url: 'https://visualgo.net/zh'
+      },
+      {
+        title: 'Leetcode',
+        description: "全球极客挚爱的技术成长平台。",
+        logo: 'https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://leetcode.cn/&size=128',
+        url: 'https://leetcode.cn/'
       },
     ]
   }

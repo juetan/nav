@@ -8,7 +8,6 @@
         </div>
         <div>
           {{ item.name }}
-          <!-- <div class="text-slate-400 mt-1">{{ item.author }}</div> -->
         </div>
       </div>
     </div>

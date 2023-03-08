@@ -10,7 +10,6 @@ import page from "vite-plugin-pages";
 import layout from "vite-plugin-vue-layouts";
 
 export default defineConfig({
-  base: "./",
   resolve: {
     alias: [
       {
@@ -18,6 +17,9 @@ export default defineConfig({
         replacement: "src",
       },
     ],
+  },
+  server: {
+    open: true,
   },
   plugins: [
     vue(),
@@ -35,7 +37,7 @@ export default defineConfig({
     layout(),
     unocss({
       presets: [
-        presetUno(),
+        presetUno({}),
         presetIcons({
           prefix: "",
           extraProperties: {

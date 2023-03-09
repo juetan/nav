@@ -3,7 +3,7 @@
     <a-layout-header
       class="flex justify-between items-center gap-4 h-12 px-5 bg-white dark:bg-slate-800 border-b border-gray-5=200 dark:border-gray-700">
       <h1 class="flex items-center gap-2 text-base font-normal">
-        <i class="logo"></i>
+        <img src="/favicon.ico" alt="" class="w-5 h-5">
         前端导航
       </h1>
       <div class="flex gap-2">
@@ -87,9 +87,9 @@ const onChangeRoute = (path: string) => {
 <style scoped>
 .logo {
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjxwYXRoIGZpbGw9IiM1NUFDRUUiIGQ9Ik0xNi44NjcgMTUuNzM0Yy42MjUuNjI2IDEuNjQuNjI2IDIuMjY2IDBsNi4yMzItNi4yMzFhMS42MDQgMS42MDQgMCAwIDAgMC0yLjI2NmwtNi4yMzItNi4yMzFhMS42MDIgMS42MDIgMCAwIDAtMi4yNjYgMGwtNi4yMzIgNi4yMzFhMS42MDIgMS42MDIgMCAwIDAgMCAyLjI2Nmw2LjIzMiA2LjIzMXptOS42MzEgOS42M2MuNjI1LjYyNiAxLjY0LjYyNiAyLjI2NiAwbDYuMjMyLTYuMjMxYTEuNjA0IDEuNjA0IDAgMCAwIDAtMi4yNjZsLTYuMjMyLTYuMjMxYTEuNjAyIDEuNjAyIDAgMCAwLTIuMjY2IDBsLTYuMjMyIDYuMjMxYTEuNjAyIDEuNjAyIDAgMCAwIDAgMi4yNjZsNi4yMzIgNi4yMzF6bS0xLjEzNCAxLjEzNGwtNi4yMzEtNi4yMzJhMS42MDIgMS42MDIgMCAwIDAtMi4yNjYgMGwtNi4yMzEgNi4yMzJhMS42IDEuNiAwIDAgMCAwIDIuMjY1bDYuMjMxIDYuMjMyYy42MjYuNjI1IDEuNjQuNjI1IDIuMjY2IDBsNi4yMzEtNi4yMzJhMS42IDEuNiAwIDAgMCAwLTIuMjY1em0tOS42My05LjYzbC02LjIzMS02LjIzMmExLjYwMiAxLjYwMiAwIDAgMC0yLjI2NiAwbC02LjIzMSA2LjIzMmExLjYgMS42IDAgMCAwIDAgMi4yNjVsNi4yMzEgNi4yMzJjLjYyNi42MjUgMS42NC42MjUgMi4yNjYgMGw2LjIzMS02LjIzMmExLjYgMS42IDAgMCAwIDAtMi4yNjV6Ii8+PHBhdGggZmlsbD0iIzNCODhDMyIgZD0ibTE1LjczNCAxNi44NjhsLTMuMjE0LTMuMjE1QTYuOTY1IDYuOTY1IDAgMCAwIDExIDE4YzAgMS42NDQuNTcxIDMuMTUzIDEuNTIgNC4zNDdsMy4yMTQtMy4yMTRhMS42IDEuNiAwIDAgMCAwLTIuMjY1em02LjYxNCA2LjYxMmwtMy4yMTUtMy4yMTVhMS42MDUgMS42MDUgMCAwIDAtMi4yNjYgMGwtMy4yMTUgMy4yMTVBNi45NjcgNi45NjcgMCAwIDAgMTggMjVhNi45NjcgNi45NjcgMCAwIDAgNC4zNDgtMS41MnptLTIuMDgyLTQuMzQ3bDMuMjE1IDMuMjE1QTYuOTczIDYuOTczIDAgMCAwIDI1IDE4YTYuOTYyIDYuOTYyIDAgMCAwLTEuNTItNC4zNDdsLTMuMjE1IDMuMjE1YTEuNjAzIDEuNjAzIDAgMCAwIC4wMDEgMi4yNjV6bS0xLjEzMy0zLjM5OWwzLjIxNS0zLjIxNEE2Ljk2NyA2Ljk2NyAwIDAgMCAxOCAxMWE2Ljk2MiA2Ljk2MiAwIDAgMC00LjM0NyAxLjUybDMuMjE1IDMuMjE0YTEuNiAxLjYgMCAwIDAgMi4yNjUgMHoiLz48Y2lyY2xlIGN4PSIxOCIgY3k9IjE4IiByPSI1IiBmaWxsPSIjQkJEREY1Ii8+PC9zdmc+") no-repeat center center / contain;
+  width: 16px;
+  height: 16px;
+  background: url("/favicon.ico") no-repeat center center / contain;
 }
 
 .list {

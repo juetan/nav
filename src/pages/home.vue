@@ -1045,6 +1045,12 @@ const items = [
         url: 'https://github.com/minimistjs/minimist'
       },
       {
+        title: 'Cac',
+        description: "用于构建CLI应用, 类似commander的JavaScript库。",
+        logo: 'https://github.com/fluidicon.png',
+        url: 'https://github.com/cacjs/cac'
+      },
+      {
         title: 'Prompts',
         description: "轻量，美观，用户友好的交互式询问工具。",
         logo: 'https://github.com/fluidicon.png',

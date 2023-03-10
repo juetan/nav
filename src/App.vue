@@ -26,7 +26,7 @@
         <a-menu class="h-full bg-transparent" style="background-color: transparent;" :level-indent="0">
           <a-menu-item-group>
             <template #title>
-              前端
+              开发环境
             </template>
             <a-menu-item v-for="item in routes" :key="item.path" @click="onChangeRoute(item.path)">
               <template #icon>

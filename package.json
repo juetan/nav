@@ -8,12 +8,71 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
+  "simple-git-hooks": {
+    "pre-commit": "npx nano-staged"
+  },
+  "nano-staged": {
+    "src/**/*.{js,jsx,ts,tsx,vue}": [
+      "vue-tsc --noEmit",
+      "eslint --fix"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "airbnb-base",
+      "plugin:prettier/recommended"
+    ],
+    "overrides": [],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser",
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off",
+      "import/no-extraneous-dependencies": "off",
+      "no-undef": "off",
+      "import/no-unresolved": "off"
+    }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "endOfLine": "auto",
+    "bracketSpacing": true
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "commitizen": {
+    "path": "cz-conventional-changelog"
+  },
   "devDependencies": {
     "@arco-design/web-vue": "^2.43.2",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@iconify-json/icon-park-outline": "^1.1.10",
+    "@typescript-eslint/parser": "^5.54.1",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
     "@vueuse/core": "^9.13.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "nano-staged": "^0.8.0",
+    "prettier": "^2.8.4",
+    "simple-git-hooks": "^2.8.1",
     "swagger-typescript-api": "^12.0.2",
     "typescript": "^4.6.4",
     "unocss": "^0.49.4",

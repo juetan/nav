@@ -23,6 +23,9 @@
       "browser": true,
       "es2021": true
     },
+    "ignorePatterns": [
+      "src/types/*.d.ts"
+    ],
     "extends": [
       "plugin:vue/vue3-essential",
       "airbnb-base",

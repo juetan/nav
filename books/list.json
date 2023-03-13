@@ -1,0 +1,950 @@
+[
+  {
+    "name": "JavaScript权威指南（原书第6版）",
+    "author": "(美)David Flanagan",
+    "cover": "JavaScript权威指南（原书第6版）.jpg",
+    "path": "JavaScript权威指南（原书第6版）.pdf"
+  },
+  {
+    "name": "Python程序设计",
+    "author": "Administrator",
+    "cover": "Python程序设计.jpg",
+    "path": "Python程序设计.pdf"
+  },
+  {
+    "name": "未命名",
+    "author": "Administrator",
+    "cover": "未命名.jpg",
+    "path": "未命名.pdf"
+  },
+  {
+    "name": "现代操作系统（原书第3版） (计算机科学丛书)",
+    "author": "Andrews Tanenbaum",
+    "cover": "现代操作系统（原书第3版） (计算机科学丛书).jpg",
+    "path": "现代操作系统（原书第3版） (计算机科学丛书).pdf"
+  },
+  {
+    "name": "程序员必读之软件架构",
+    "author": "Brown, Simon",
+    "cover": "程序员必读之软件架构.jpg",
+    "path": "程序员必读之软件架构.pdf"
+  },
+  {
+    "name": "教孩子学编程（Python语言版）（异步图书）",
+    "author": "Bryson Payne",
+    "cover": "教孩子学编程（Python语言版）（异步图书）.jpg",
+    "path": "教孩子学编程（Python语言版）（异步图书）.pdf"
+  },
+  {
+    "name": "jQuery基础教程（第4版）",
+    "author": "Chaffer, Jonathan & Swedberg, Karl",
+    "cover": "jQuery基础教程（第4版）.jpg",
+    "path": "jQuery基础教程（第4版）.pdf"
+  },
+  {
+    "name": "Book Of Ruby, The",
+    "author": "Collingbourne, Huw",
+    "cover": "Book Of Ruby, The.jpg",
+    "path": "Book Of Ruby, The.pdf"
+  },
+  {
+    "name": "Vim实用技巧(第2版)：使用模式入门篇",
+    "author": "Drew Neil",
+    "cover": "Vim实用技巧(第2版)：使用模式入门篇.jpg",
+    "path": "Vim实用技巧(第2版)：使用模式入门篇.pdf"
+  },
+  {
+    "name": "精通正则表达式（第3版）",
+    "author": "E.F.Friedl, Jeffrey",
+    "cover": "精通正则表达式（第3版）.jpg",
+    "path": "精通正则表达式（第3版）.pdf"
+  },
+  {
+    "name": "Redis实战",
+    "author": "ePUBw.COM & Carlson）, 约西亚 L.卡尔森（Josiah L_",
+    "cover": "Redis实战.jpg",
+    "path": "Redis实战.pdf"
+  },
+  {
+    "name": "JavaScript DOM编程艺术(第2版)（图灵图书）",
+    "author": "Jeremy Keith",
+    "cover": "JavaScript DOM编程艺术(第2版)（图灵图书）.jpg",
+    "path": "JavaScript DOM编程艺术(第2版)（图灵图书）.pdf"
+  },
+  {
+    "name": "改变未来的九大算法",
+    "author": "MacCormick（约翰·麦考密克）, John",
+    "cover": "改变未来的九大算法.jpg",
+    "path": "改变未来的九大算法.pdf"
+  },
+  {
+    "name": "Code Complete, Second Edition eBook",
+    "author": "McConnell, Steve",
+    "cover": "Code Complete, Second Edition eBook.jpg",
+    "path": "Code Complete, Second Edition eBook.pdf"
+  },
+  {
+    "name": "利用Python进行数据分析",
+    "author": "McKinney, Wes",
+    "cover": "利用Python进行数据分析.jpg",
+    "path": "利用Python进行数据分析.pdf"
+  },
+  {
+    "name": "微服务设计 (图灵程序设计丛书)",
+    "author": "Newman）, 纽曼（Sam",
+    "cover": "微服务设计 (图灵程序设计丛书).jpg",
+    "path": "微服务设计 (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "深入浅出Docker（异步图书）",
+    "author": "Nigel Poulton(奈吉尔·波尔顿)",
+    "cover": "深入浅出Docker（异步图书）.jpg",
+    "path": "深入浅出Docker（异步图书）.pdf"
+  },
+  {
+    "name": "ddia-cn",
+    "author": "Ruohang, Feng",
+    "cover": "ddia-cn.jpg",
+    "path": "ddia-cn.pdf"
+  },
+  {
+    "name": "Quick Start Guide",
+    "author": "Schember, John",
+    "cover": "Quick Start Guide.jpg",
+    "path": "Quick Start Guide.pdf"
+  },
+  {
+    "name": "软技能：代码之外的生存指南",
+    "author": "Sonmez, John",
+    "cover": "软技能：代码之外的生存指南.jpg",
+    "path": "软技能：代码之外的生存指南.pdf"
+  },
+  {
+    "name": "大型网站技术架构_核心原理与案例分析",
+    "author": "Unknown",
+    "cover": "大型网站技术架构_核心原理与案例分析.jpg",
+    "path": "大型网站技术架构_核心原理与案例分析.pdf"
+  },
+  {
+    "name": "Go WebBianCheng",
+    "author": "XieMengJun",
+    "cover": "Go WebBianCheng.jpg",
+    "path": "Go WebBianCheng.pdf"
+  },
+  {
+    "name": "Mavenshizhan",
+    "author": "xuxiaobin",
+    "cover": "Mavenshizhan.jpg",
+    "path": "Mavenshizhan.pdf"
+  },
+  {
+    "name": "Maintainable JavaScript",
+    "author": "Zakas, Nicholas C_",
+    "cover": "Maintainable JavaScript.jpg",
+    "path": "Maintainable JavaScript.pdf"
+  },
+  {
+    "name": "超文本传输协议—RFC2616",
+    "author": "Zhang, Cobras",
+    "cover": "超文本传输协议—RFC2616.jpg",
+    "path": "超文本传输协议—RFC2616.pdf"
+  },
+  {
+    "name": "图解网络硬件 (图灵程序设计丛书)",
+    "author": "[日]三轮贤一",
+    "cover": "图解网络硬件 (图灵程序设计丛书).jpg",
+    "path": "图解网络硬件 (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "图解HTTP (图灵程序设计丛书)",
+    "author": "[日]上野 & 宣",
+    "cover": "图解HTTP (图灵程序设计丛书).jpg",
+    "path": "图解HTTP (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "图解服务器端网络架构 (图灵程序设计丛书)",
+    "author": "[日]宫田宽士 著",
+    "cover": "图解服务器端网络架构 (图灵程序设计丛书).jpg",
+    "path": "图解服务器端网络架构 (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "松本行弘的程序世界 (图灵程序设计丛书)",
+    "author": "[日]松本行弘",
+    "cover": "松本行弘的程序世界 (图灵程序设计丛书).jpg",
+    "path": "松本行弘的程序世界 (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "计算进化史：改变数学的命运",
+    "author": "[法] 吉尔·多维克",
+    "cover": "计算进化史：改变数学的命运.jpg",
+    "path": "计算进化史：改变数学的命运.pdf"
+  },
+  {
+    "name": "Python极客项目编程",
+    "author": "[美] Mahesh Venkitachalam",
+    "cover": "Python极客项目编程.jpg",
+    "path": "Python极客项目编程.pdf"
+  },
+  {
+    "name": "浅薄：互联网如何毒化了我们的大脑",
+    "author": "[美] 尼古拉斯·卡尔",
+    "cover": "浅薄：互联网如何毒化了我们的大脑.jpg",
+    "path": "浅薄：互联网如何毒化了我们的大脑.pdf"
+  },
+  {
+    "name": "O'reilly经典动物书套装(超值10册套装,含_像计算机科学家一样思考Python)",
+    "author": "[美]jQuery社区专家组 等",
+    "cover": "O'reilly经典动物书套装(超值10册套装,含_像计算机科学家一样思考Python).jpg",
+    "path": "O'reilly经典动物书套装(超值10册套装,含_像计算机科学家一样思考Python).pdf"
+  },
+  {
+    "name": "数据结构与算法JavaScript描述 (图灵程序设计丛书)",
+    "author": "[美]Michael McMillan",
+    "cover": "数据结构与算法JavaScript描述 (图灵程序设计丛书).jpg",
+    "path": "数据结构与算法JavaScript描述 (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "上瘾：让用户养成使用习惯的四大产品逻辑",
+    "author": "[美]尼尔·埃亚尔,[美]瑞安·胡佛",
+    "cover": "上瘾：让用户养成使用习惯的四大产品逻辑.jpg",
+    "path": "上瘾：让用户养成使用习惯的四大产品逻辑.pdf"
+  },
+  {
+    "name": "()",
+    "author": "_376_377_000A_000d_000m_000i_000n_000i_000s_000t_000r_000a_000t_000o_000r",
+    "cover": "().jpg",
+    "path": "().pdf"
+  },
+  {
+    "name": "编程之美_微软技术面试心得",
+    "author": "《编程之美》小组",
+    "cover": "编程之美_微软技术面试心得.jpg",
+    "path": "编程之美_微软技术面试心得.pdf"
+  },
+  {
+    "name": "七周七并发模型 (图灵程序设计丛书)",
+    "author": "【美】Paul Butcher",
+    "cover": "七周七并发模型 (图灵程序设计丛书).jpg",
+    "path": "七周七并发模型 (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "程序员的思维修炼：开发认知潜能的九堂课",
+    "author": "【美】亨特, 崔康, ePUBw.COM",
+    "cover": "程序员的思维修炼：开发认知潜能的九堂课.jpg",
+    "path": "程序员的思维修炼：开发认知潜能的九堂课.pdf"
+  },
+  {
+    "name": "物联网设计 从原型到产品 (无)",
+    "author": "【英】麦克依文（Adrian McEwen）， 卡西麦利（Hakim Cassimally） 著",
+    "cover": "物联网设计 从原型到产品 (无).jpg",
+    "path": "物联网设计 从原型到产品 (无).pdf"
+  },
+  {
+    "name": "代码的未来",
+    "author": "ゆきひろ, まつもと",
+    "cover": "代码的未来.jpg",
+    "path": "代码的未来.pdf"
+  },
+  {
+    "name": "高效程序员的45个习惯_敏捷开发修炼之道 (图灵程序设计丛书 11)",
+    "author": "亨特(Andy Hunt),苏帕拉马尼亚姆(Venkat Subramaniam)",
+    "cover": "高效程序员的45个习惯_敏捷开发修炼之道 (图灵程序设计丛书 11).jpg",
+    "path": "高效程序员的45个习惯_敏捷开发修炼之道 (图灵程序设计丛书 11).pdf"
+  },
+  {
+    "name": "Redis开发与运维 (数据库技术丛书)",
+    "author": "付磊 & 张益军",
+    "cover": "Redis开发与运维 (数据库技术丛书).jpg",
+    "path": "Redis开发与运维 (数据库技术丛书).pdf"
+  },
+  {
+    "name": "剑指Offer_名企面试官精讲典型编程题",
+    "author": "何海涛",
+    "cover": "剑指Offer_名企面试官精讲典型编程题.jpg",
+    "path": "剑指Offer_名企面试官精讲典型编程题.pdf"
+  },
+  {
+    "name": "JavaScript函数式编程",
+    "author": "佛格斯, Michael Fogus",
+    "cover": "JavaScript函数式编程.jpg",
+    "path": "JavaScript函数式编程.pdf"
+  },
+  {
+    "name": "只有程序员看的懂面试圣经｜如何拿下编程面试",
+    "author": "博客选编",
+    "cover": "只有程序员看的懂面试圣经｜如何拿下编程面试.jpg",
+    "path": "只有程序员看的懂面试圣经｜如何拿下编程面试.pdf"
+  },
+  {
+    "name": "香农传（信息论创始人，数字通信奠基者；与艾伦_图灵齐名的科学巨人；没有香农，就没有互联网）",
+    "author": "吉米·索尼 & 罗伯·古德曼",
+    "cover": "香农传（信息论创始人，数字通信奠基者；与艾伦_图灵齐名的科学巨人；没有香农，就没有互联网）.jpg",
+    "path": "香农传（信息论创始人，数字通信奠基者；与艾伦_图灵齐名的科学巨人；没有香农，就没有互联网）.pdf"
+  },
+  {
+    "name": "浪潮之巅",
+    "author": "吴军",
+    "cover": "浪潮之巅.jpg",
+    "path": "浪潮之巅.pdf"
+  },
+  {
+    "name": "白帽子讲Web安全",
+    "author": "吴翰清",
+    "cover": "白帽子讲Web安全.jpg",
+    "path": "白帽子讲Web安全.pdf"
+  },
+  {
+    "name": "程序员代码面试指南_IT名企算法与数据结构题目最优解",
+    "author": "左程云",
+    "cover": "程序员代码面试指南_IT名企算法与数据结构题目最优解.jpg",
+    "path": "程序员代码面试指南_IT名企算法与数据结构题目最优解.pdf"
+  },
+  {
+    "name": "成为乔布斯（完整图文版）",
+    "author": "布伦特·施兰德",
+    "cover": "成为乔布斯（完整图文版）.jpg",
+    "path": "成为乔布斯（完整图文版）.pdf"
+  },
+  {
+    "name": "亿级流量网站架构核心技术——跟开涛学搭建高可用高并发系统",
+    "author": "张开涛",
+    "cover": "亿级流量网站架构核心技术——跟开涛学搭建高可用高并发系统.jpg",
+    "path": "亿级流量网站架构核心技术——跟开涛学搭建高可用高并发系统.pdf"
+  },
+  {
+    "name": "现代前端技术解析",
+    "author": "张成文",
+    "cover": "现代前端技术解析.jpg",
+    "path": "现代前端技术解析.pdf"
+  },
+  {
+    "name": "Rust编程之道",
+    "author": "张汉东",
+    "cover": "Rust编程之道.jpg",
+    "path": "Rust编程之道.pdf"
+  },
+  {
+    "name": "CSS世界",
+    "author": "张鑫旭",
+    "cover": "CSS世界.jpg",
+    "path": "CSS世界.pdf"
+  },
+  {
+    "name": "编写高质量代码：改善Python程序的91个建议 (Effective系列丛书)",
+    "author": "张颖 赖勇浩 著",
+    "cover": "编写高质量代码：改善Python程序的91个建议 (Effective系列丛书).jpg",
+    "path": "编写高质量代码：改善Python程序的91个建议 (Effective系列丛书).pdf"
+  },
+  {
+    "name": "图说区块链（区块链本可以如此通俗易懂，是之前的解释太复杂了！）",
+    "author": "徐明星，田颖，李霁月",
+    "cover": "图说区块链（区块链本可以如此通俗易懂，是之前的解释太复杂了！）.jpg",
+    "path": "图说区块链（区块链本可以如此通俗易懂，是之前的解释太复杂了！）.pdf"
+  },
+  {
+    "name": "Ruby程序员修炼之道（第2版）（异步图书）",
+    "author": "戴维 A. 布莱克(David A. Black)",
+    "cover": "Ruby程序员修炼之道（第2版）（异步图书）.jpg",
+    "path": "Ruby程序员修炼之道（第2版）（异步图书）.pdf"
+  },
+  {
+    "name": "高性能MySQL：第3版",
+    "author": "施瓦茨 (Baron Schwartz) & 扎伊采夫 (Peter Zaitsev) & 特卡琴科 (Vadim Tkachenko)",
+    "cover": "高性能MySQL：第3版.jpg",
+    "path": "高性能MySQL：第3版.pdf"
+  },
+  {
+    "name": "Angular权威教程",
+    "author": "未知",
+    "cover": "Angular权威教程.jpg",
+    "path": "Angular权威教程.pdf"
+  },
+  {
+    "name": "CSS揭秘",
+    "author": "未知",
+    "cover": "CSS揭秘.jpg",
+    "path": "CSS揭秘.pdf"
+  },
+  {
+    "name": "CSS重构：样式表性能调优",
+    "author": "未知",
+    "cover": "CSS重构：样式表性能调优.jpg",
+    "path": "CSS重构：样式表性能调优.pdf"
+  },
+  {
+    "name": "Docker开发指南",
+    "author": "未知",
+    "cover": "Docker开发指南.jpg",
+    "path": "Docker开发指南.pdf"
+  },
+  {
+    "name": "Erlang程序设计",
+    "author": "未知",
+    "cover": "Erlang程序设计.jpg",
+    "path": "Erlang程序设计.pdf"
+  },
+  {
+    "name": "Ext JS实战",
+    "author": "未知",
+    "cover": "Ext JS实战.jpg",
+    "path": "Ext JS实战.pdf"
+  },
+  {
+    "name": "Go语言编程",
+    "author": "未知",
+    "cover": "Go语言编程.jpg",
+    "path": "Go语言编程.pdf"
+  },
+  {
+    "name": "HTML5与WebGL编程",
+    "author": "未知",
+    "cover": "HTML5与WebGL编程.jpg",
+    "path": "HTML5与WebGL编程.pdf"
+  },
+  {
+    "name": "HTTP权威指南",
+    "author": "未知",
+    "cover": "HTTP权威指南.jpg",
+    "path": "HTTP权威指南.pdf"
+  },
+  {
+    "name": "JavaScript异步编程：设计快速响应的网络应用",
+    "author": "未知",
+    "cover": "JavaScript异步编程：设计快速响应的网络应用.jpg",
+    "path": "JavaScript异步编程：设计快速响应的网络应用.pdf"
+  },
+  {
+    "name": "JavaScript设计模式",
+    "author": "未知",
+    "cover": "JavaScript设计模式.jpg",
+    "path": "JavaScript设计模式.pdf"
+  },
+  {
+    "name": "JSON必知必会",
+    "author": "未知",
+    "cover": "JSON必知必会.jpg",
+    "path": "JSON必知必会.pdf"
+  },
+  {
+    "name": "Node.js实战",
+    "author": "未知",
+    "cover": "Node.js实战.jpg",
+    "path": "Node.js实战.pdf"
+  },
+  {
+    "name": "Node.js开发指南",
+    "author": "未知",
+    "cover": "Node.js开发指南.jpg",
+    "path": "Node.js开发指南.pdf"
+  },
+  {
+    "name": "Node.js微服务",
+    "author": "未知",
+    "cover": "Node.js微服务.jpg",
+    "path": "Node.js微服务.pdf"
+  },
+  {
+    "name": "Node.js：来一打C＋＋扩展",
+    "author": "未知",
+    "cover": "Node.js：来一打C＋＋扩展.jpg",
+    "path": "Node.js：来一打C＋＋扩展.pdf"
+  },
+  {
+    "name": "Node即学即用",
+    "author": "未知",
+    "cover": "Node即学即用.jpg",
+    "path": "Node即学即用.pdf"
+  },
+  {
+    "name": "Python Web开发：测试驱动方法",
+    "author": "未知",
+    "cover": "Python Web开发：测试驱动方法.jpg",
+    "path": "Python Web开发：测试驱动方法.pdf"
+  },
+  {
+    "name": "React_Native入门与实战",
+    "author": "未知",
+    "cover": "React_Native入门与实战.jpg",
+    "path": "React_Native入门与实战.pdf"
+  },
+  {
+    "name": "React_Native开发指南",
+    "author": "未知",
+    "cover": "React_Native开发指南.jpg",
+    "path": "React_Native开发指南.pdf"
+  },
+  {
+    "name": "React快速上手开发",
+    "author": "未知",
+    "cover": "React快速上手开发.jpg",
+    "path": "React快速上手开发.pdf"
+  },
+  {
+    "name": "React设计模式与最佳实践",
+    "author": "未知",
+    "cover": "React设计模式与最佳实践.jpg",
+    "path": "React设计模式与最佳实践.pdf"
+  },
+  {
+    "name": "Sass与Compass实战",
+    "author": "未知",
+    "cover": "Sass与Compass实战.jpg",
+    "path": "Sass与Compass实战.pdf"
+  },
+  {
+    "name": "SQL必知必会",
+    "author": "未知",
+    "cover": "SQL必知必会.jpg",
+    "path": "SQL必知必会.pdf"
+  },
+  {
+    "name": "SVG精髓.第2版",
+    "author": "未知",
+    "cover": "SVG精髓.第2版.jpg",
+    "path": "SVG精髓.第2版.pdf"
+  },
+  {
+    "name": "Swift语言实战入门",
+    "author": "未知",
+    "cover": "Swift语言实战入门.jpg",
+    "path": "Swift语言实战入门.pdf"
+  },
+  {
+    "name": "Web安全开发指南",
+    "author": "未知",
+    "cover": "Web安全开发指南.jpg",
+    "path": "Web安全开发指南.pdf"
+  },
+  {
+    "name": "七周七并发模型",
+    "author": "未知",
+    "cover": "七周七并发模型.jpg",
+    "path": "七周七并发模型.pdf"
+  },
+  {
+    "name": "两周自制脚本语言",
+    "author": "未知",
+    "cover": "两周自制脚本语言.jpg",
+    "path": "两周自制脚本语言.pdf"
+  },
+  {
+    "name": "人工智能简史",
+    "author": "未知",
+    "cover": "人工智能简史.jpg",
+    "path": "人工智能简史.pdf"
+  },
+  {
+    "name": "代码之外的功夫：程序员精进之路",
+    "author": "未知",
+    "cover": "代码之外的功夫：程序员精进之路.jpg",
+    "path": "代码之外的功夫：程序员精进之路.pdf"
+  },
+  {
+    "name": "你不知道的JavaScript（中卷）",
+    "author": "未知",
+    "cover": "你不知道的JavaScript（中卷）.jpg",
+    "path": "你不知道的JavaScript（中卷）.pdf"
+  },
+  {
+    "name": "你不知道的JS-上",
+    "author": "未知",
+    "cover": "你不知道的JS-上.jpg",
+    "path": "你不知道的JS-上.pdf"
+  },
+  {
+    "name": "你不知道的JS-下",
+    "author": "未知",
+    "cover": "你不知道的JS-下.jpg",
+    "path": "你不知道的JS-下.pdf"
+  },
+  {
+    "name": "全端Web开发：使用JavaScript与Java",
+    "author": "未知",
+    "cover": "全端Web开发：使用JavaScript与Java.jpg",
+    "path": "全端Web开发：使用JavaScript与Java.pdf"
+  },
+  {
+    "name": "具体数学：计算机科学基础（第2版）",
+    "author": "未知",
+    "cover": "具体数学：计算机科学基础（第2版）.jpg",
+    "path": "具体数学：计算机科学基础（第2版）.pdf"
+  },
+  {
+    "name": "函数式编程思维",
+    "author": "未知",
+    "cover": "函数式编程思维.jpg",
+    "path": "函数式编程思维.pdf"
+  },
+  {
+    "name": "前端架构设计",
+    "author": "未知",
+    "cover": "前端架构设计.jpg",
+    "path": "前端架构设计.pdf"
+  },
+  {
+    "name": "同构JavaScript应用开发",
+    "author": "未知",
+    "cover": "同构JavaScript应用开发.jpg",
+    "path": "同构JavaScript应用开发.pdf"
+  },
+  {
+    "name": "响应式Web设计：HTML5和CSS3实战",
+    "author": "未知",
+    "cover": "响应式Web设计：HTML5和CSS3实战.jpg",
+    "path": "响应式Web设计：HTML5和CSS3实战.pdf"
+  },
+  {
+    "name": "图解物联网",
+    "author": "未知",
+    "cover": "图解物联网.jpg",
+    "path": "图解物联网.pdf"
+  },
+  {
+    "name": "垃圾回收的算法与实现",
+    "author": "未知",
+    "cover": "垃圾回收的算法与实现.jpg",
+    "path": "垃圾回收的算法与实现.pdf"
+  },
+  {
+    "name": "宇宙的历程",
+    "author": "未知",
+    "cover": "宇宙的历程.jpg",
+    "path": "宇宙的历程.pdf"
+  },
+  {
+    "name": "客户端存储技术",
+    "author": "未知",
+    "cover": "客户端存储技术.jpg",
+    "path": "客户端存储技术.pdf"
+  },
+  {
+    "name": "挑战编程技能：57道程序员功力测试题",
+    "author": "未知",
+    "cover": "挑战编程技能：57道程序员功力测试题.jpg",
+    "path": "挑战编程技能：57道程序员功力测试题.pdf"
+  },
+  {
+    "name": "揭秘Angular（第2版）",
+    "author": "未知",
+    "cover": "揭秘Angular（第2版）.jpg",
+    "path": "揭秘Angular（第2版）.pdf"
+  },
+  {
+    "name": "数据结构与算法：JavaScript描述",
+    "author": "未知",
+    "cover": "数据结构与算法：JavaScript描述.jpg",
+    "path": "数据结构与算法：JavaScript描述.pdf"
+  },
+  {
+    "name": "深入React技术栈",
+    "author": "未知",
+    "cover": "深入React技术栈.jpg",
+    "path": "深入React技术栈.pdf"
+  },
+  {
+    "name": "父与子的编程之旅：与小卡特一起学Python",
+    "author": "未知",
+    "cover": "父与子的编程之旅：与小卡特一起学Python.jpg",
+    "path": "父与子的编程之旅：与小卡特一起学Python.pdf"
+  },
+  {
+    "name": "程序员的算法趣题",
+    "author": "未知",
+    "cover": "程序员的算法趣题.jpg",
+    "path": "程序员的算法趣题.pdf"
+  },
+  {
+    "name": "程序是怎样跑起来的",
+    "author": "未知",
+    "cover": "程序是怎样跑起来的.jpg",
+    "path": "程序是怎样跑起来的.pdf"
+  },
+  {
+    "name": "简约之美",
+    "author": "未知",
+    "cover": "简约之美.jpg",
+    "path": "简约之美.pdf"
+  },
+  {
+    "name": "算法图解",
+    "author": "未知",
+    "cover": "算法图解.jpg",
+    "path": "算法图解.pdf"
+  },
+  {
+    "name": "精通Metasploit渗透测试.第2版",
+    "author": "未知",
+    "cover": "精通Metasploit渗透测试.第2版.jpg",
+    "path": "精通Metasploit渗透测试.第2版.pdf"
+  },
+  {
+    "name": "网络是怎样连接的",
+    "author": "未知",
+    "cover": "网络是怎样连接的.jpg",
+    "path": "网络是怎样连接的.pdf"
+  },
+  {
+    "name": "计算机是怎样跑起来的",
+    "author": "未知",
+    "cover": "计算机是怎样跑起来的.jpg",
+    "path": "计算机是怎样跑起来的.pdf"
+  },
+  {
+    "name": "计算机科学的基础",
+    "author": "未知",
+    "cover": "计算机科学的基础.jpg",
+    "path": "计算机科学的基础.pdf"
+  },
+  {
+    "name": "设计模式之禅（第2版）（华章原创精品）",
+    "author": "未知",
+    "cover": "设计模式之禅（第2版）（华章原创精品）.jpg",
+    "path": "设计模式之禅（第2版）（华章原创精品）.pdf"
+  },
+  {
+    "name": "黑客攻防技术宝典：iOS实战篇",
+    "author": "未知",
+    "cover": "黑客攻防技术宝典：iOS实战篇.jpg",
+    "path": "黑客攻防技术宝典：iOS实战篇.pdf"
+  },
+  {
+    "name": "黑客攻防技术宝典：浏览器实战篇",
+    "author": "未知",
+    "cover": "黑客攻防技术宝典：浏览器实战篇.jpg",
+    "path": "黑客攻防技术宝典：浏览器实战篇.pdf"
+  },
+  {
+    "name": "密码朋克：自由与互联网的未来",
+    "author": "朱利安· 阿桑奇",
+    "cover": "密码朋克：自由与互联网的未来.jpg",
+    "path": "密码朋克：自由与互联网的未来.pdf"
+  },
+  {
+    "name": "WebKit技术内幕",
+    "author": "朱永盛",
+    "cover": "WebKit技术内幕.jpg",
+    "path": "WebKit技术内幕.pdf"
+  },
+  {
+    "name": "深入浅出Node.js",
+    "author": "朴灵",
+    "cover": "深入浅出Node.js.jpg",
+    "path": "深入浅出Node.js.pdf"
+  },
+  {
+    "name": "Redis入门指南（第2版）（异步图书）",
+    "author": "李子骅",
+    "cover": "Redis入门指南（第2版）（异步图书）.jpg",
+    "path": "Redis入门指南（第2版）（异步图书）.pdf"
+  },
+  {
+    "name": "腾讯产品法（一本书读懂腾讯产品思维与运营方法，《腾讯传》作者吴晓波推荐）",
+    "author": "李立",
+    "cover": "腾讯产品法（一本书读懂腾讯产品思维与运营方法，《腾讯传》作者吴晓波推荐）.jpg",
+    "path": "腾讯产品法（一本书读懂腾讯产品思维与运营方法，《腾讯传》作者吴晓波推荐）.pdf"
+  },
+  {
+    "name": "微信小程序：开发入门及案例详解 (readOnly)",
+    "author": "李骏",
+    "cover": "微信小程序：开发入门及案例详解 (readOnly).jpg",
+    "path": "微信小程序：开发入门及案例详解 (readOnly).pdf"
+  },
+  {
+    "name": "图灵程序设计丛书_图解TCP_IP(第5版)",
+    "author": "村山公保",
+    "cover": "图灵程序设计丛书_图解TCP_IP(第5版).jpg",
+    "path": "图灵程序设计丛书_图解TCP_IP(第5版).pdf"
+  },
+  {
+    "name": "大规模分布式存储系统：原理解析与架构实战",
+    "author": "杨传辉, ePUBw.COM",
+    "cover": "大规模分布式存储系统：原理解析与架构实战.jpg",
+    "path": "大规模分布式存储系统：原理解析与架构实战.pdf"
+  },
+  {
+    "name": "柏杨历史研究丛书总序",
+    "author": "柏杨",
+    "cover": "柏杨历史研究丛书总序.jpg",
+    "path": "柏杨历史研究丛书总序.pdf"
+  },
+  {
+    "name": "编码_隐匿在计算机软硬件背后的语言",
+    "author": "查尔斯•佩措尔德 (Charles Petzold)",
+    "cover": "编码_隐匿在计算机软硬件背后的语言.jpg",
+    "path": "编码_隐匿在计算机软硬件背后的语言.pdf"
+  },
+  {
+    "name": "深入理解计算机网络 (华章原创精品)",
+    "author": "王达",
+    "cover": "深入理解计算机网络 (华章原创精品).jpg",
+    "path": "深入理解计算机网络 (华章原创精品).pdf"
+  },
+  {
+    "name": "深入浅出RxJS (实战)",
+    "author": "程墨",
+    "cover": "深入浅出RxJS (实战).jpg",
+    "path": "深入浅出RxJS (实战).pdf"
+  },
+  {
+    "name": "大话数据结构",
+    "author": "程杰",
+    "cover": "大话数据结构.jpg",
+    "path": "大话数据结构.pdf"
+  },
+  {
+    "name": "大话设计模式",
+    "author": "程杰",
+    "cover": "大话设计模式.jpg",
+    "path": "大话设计模式.pdf"
+  },
+  {
+    "name": "大数据时代_生活,工作与思维的大变革 (湛庐文化•财富汇)",
+    "author": "维克托•迈尔-舍恩伯格",
+    "cover": "大数据时代_生活,工作与思维的大变革 (湛庐文化•财富汇).jpg",
+    "path": "大数据时代_生活,工作与思维的大变革 (湛庐文化•财富汇).pdf"
+  },
+  {
+    "name": "七周七语言：理解多种编程范型",
+    "author": "美 & Tate, Bruce A_",
+    "cover": "七周七语言：理解多种编程范型.jpg",
+    "path": "七周七语言：理解多种编程范型.pdf"
+  },
+  {
+    "name": "Spring Cloud微服务实战",
+    "author": "翟永超",
+    "cover": "Spring Cloud微服务实战.jpg",
+    "path": "Spring Cloud微服务实战.pdf"
+  },
+  {
+    "name": "深入浅出Rust",
+    "author": "范长春",
+    "cover": "深入浅出Rust.jpg",
+    "path": "深入浅出Rust.pdf"
+  },
+  {
+    "name": "编程珠玑（第2版·修订版）",
+    "author": "著, 乔恩·本特利（Jon Bentley）",
+    "cover": "编程珠玑（第2版·修订版）.jpg",
+    "path": "编程珠玑（第2版·修订版）.pdf"
+  },
+  {
+    "name": "Git权威指南",
+    "author": "蒋鑫",
+    "cover": "Git权威指南.jpg",
+    "path": "Git权威指南.pdf"
+  },
+  {
+    "name": "计算机程序的构造和解释 （原书第2版）",
+    "author": "裘宗燕译, Harold Abelson Gerald Jay Sussman Julie Sussman著",
+    "cover": "计算机程序的构造和解释 （原书第2版）.jpg",
+    "path": "计算机程序的构造和解释 （原书第2版）.pdf"
+  },
+  {
+    "name": "第一本Docker书（修订版）（异步图书）",
+    "author": "詹姆斯·特恩布尔(James Turnbull)",
+    "cover": "第一本Docker书（修订版）（异步图书）.jpg",
+    "path": "第一本Docker书（修订版）（异步图书）.pdf"
+  },
+  {
+    "name": "精通Python爬虫框架Scrapy（异步图书）",
+    "author": "迪米特里奥斯·考奇斯·劳卡斯",
+    "cover": "精通Python爬虫框架Scrapy（异步图书）.jpg",
+    "path": "精通Python爬虫框架Scrapy（异步图书）.pdf"
+  },
+  {
+    "name": "灵域",
+    "author": "逆苍天",
+    "cover": "灵域.jpg",
+    "path": "灵域.pdf"
+  },
+  {
+    "name": "JavaScript语言精粹（修订版）",
+    "author": "道格拉斯•克罗克福德 (Douglas Crockford)",
+    "cover": "JavaScript语言精粹（修订版）.jpg",
+    "path": "JavaScript语言精粹（修订版）.pdf"
+  },
+  {
+    "name": "黑客与画家_硅谷创业之父Paul Graham文集",
+    "author": "阮一峰",
+    "cover": "黑客与画家_硅谷创业之父Paul Graham文集.jpg",
+    "path": "黑客与画家_硅谷创业之父Paul Graham文集.pdf"
+  },
+  {
+    "name": "大型分布式网站架构设计与实践",
+    "author": "陈康贤著",
+    "cover": "大型分布式网站架构设计与实践.jpg",
+    "path": "大型分布式网站架构设计与实践.pdf"
+  },
+  {
+    "name": "Vue.js 前端开发 快速入门与专业应用（异步图书）",
+    "author": "陈陆扬",
+    "cover": "Vue.js 前端开发 快速入门与专业应用（异步图书）.jpg",
+    "path": "Vue.js 前端开发 快速入门与专业应用（异步图书）.pdf"
+  },
+  {
+    "name": "MongoDB权威指南(第2版) (图灵程序设计丛书)",
+    "author": "霍多罗夫 (Kristina Chodorow)",
+    "cover": "MongoDB权威指南(第2版) (图灵程序设计丛书).jpg",
+    "path": "MongoDB权威指南(第2版) (图灵程序设计丛书).pdf"
+  },
+  {
+    "name": "代码整洁之道",
+    "author": "马丁(Robert C. Martin)",
+    "cover": "代码整洁之道.jpg",
+    "path": "代码整洁之道.pdf"
+  },
+  {
+    "name": "重构：改善既有代码的设计（第2版）",
+    "author": "马丁·福勒(Martin Fowler)",
+    "cover": "重构：改善既有代码的设计（第2版）.jpg",
+    "path": "重构：改善既有代码的设计（第2版）.pdf"
+  },
+  {
+    "name": "漫画算法：小灰的算法之旅",
+    "author": "魏梦舒",
+    "cover": "漫画算法：小灰的算法之旅.jpg",
+    "path": "漫画算法：小灰的算法之旅.pdf"
+  },
+  {
+    "name": "鸟哥的Linux私房菜——基础学习篇（第四版）",
+    "author": "鸟哥",
+    "cover": "鸟哥的Linux私房菜——基础学习篇（第四版）.jpg",
+    "path": "鸟哥的Linux私房菜——基础学习篇（第四版）.pdf"
+  },
+  {
+    "name": "鸟哥的Linux私房菜：服务器架设篇(第3版)",
+    "author": "鸟哥",
+    "cover": "鸟哥的Linux私房菜：服务器架设篇(第3版).jpg",
+    "path": "鸟哥的Linux私房菜：服务器架设篇(第3版).pdf"
+  },
+  {
+    "name": "Redis设计与实现 (数据库技术丛书)",
+    "author": "黄健宏 著",
+    "cover": "Redis设计与实现 (数据库技术丛书).jpg",
+    "path": "Redis设计与实现 (数据库技术丛书).pdf"
+  },
+  {
+    "name": "跟老齐学Python：从入门到精通",
+    "author": "齐伟",
+    "cover": "跟老齐学Python：从入门到精通.jpg",
+    "path": "跟老齐学Python：从入门到精通.pdf"
+  },
+  {
+    "name": "短码之美：编程达人的心得技法",
+    "author": "（日）Ozy著",
+    "cover": "短码之美：编程达人的心得技法.jpg",
+    "path": "短码之美：编程达人的心得技法.pdf"
+  },
+  {
+    "name": "恰如其分的软件架构",
+    "author": "（美）George Fairbanks 著",
+    "cover": "恰如其分的软件架构.jpg",
+    "path": "恰如其分的软件架构.pdf"
+  },
+  {
+    "name": "十问：霍金沉思录",
+    "author": "（英）史蒂芬·霍金",
+    "cover": "十问：霍金沉思录.jpg",
+    "path": "十问：霍金沉思录.pdf"
+  }
+]

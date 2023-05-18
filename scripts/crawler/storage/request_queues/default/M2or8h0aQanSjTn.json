@@ -1,0 +1,9 @@
+{
+	"id": "M2or8h0aQanSjTn",
+	"json": "{\"id\":\"M2or8h0aQanSjTn\",\"url\":\"https://stocksnap.io/img/favicon.png\",\"loadedUrl\":\"https://stocksnap.io/img/favicon.png\",\"uniqueKey\":\"https://stocksnap.io/img/favicon.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:32.195Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stocksnap.io/img/favicon.png",
+	"url": "https://stocksnap.io/img/favicon.png"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4o0wsACdeEEcQbu",
+	"json": "{\"id\":\"4o0wsACdeEEcQbu\",\"url\":\"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://leetcode.cn/&size=128\",\"loadedUrl\":\"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://leetcode.cn/&size=128\",\"uniqueKey\":\"https://t0.gstatic.com/faviconV2?client=SOCIAL&fallback_opts=TYPE%2CSIZE%2CURL&size=128&type=FAVICON&url=https%3A%2F%2Fleetcode.cn%2F\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:23.714Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://t0.gstatic.com/faviconV2?client=SOCIAL&fallback_opts=TYPE%2CSIZE%2CURL&size=128&type=FAVICON&url=https%3A%2F%2Fleetcode.cn%2F",
+	"url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://leetcode.cn/&size=128"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1u2c5Eqn2cDW2zF",
+	"json": "{\"id\":\"1u2c5Eqn2cDW2zF\",\"url\":\"https://less.bootcss.com/public/img/less_logo.png\",\"loadedUrl\":\"https://less.bootcss.com/public/img/less_logo.png\",\"uniqueKey\":\"https://less.bootcss.com/public/img/less_logo.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:24.397Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://less.bootcss.com/public/img/less_logo.png",
+	"url": "https://less.bootcss.com/public/img/less_logo.png"
+}

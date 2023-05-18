@@ -1,0 +1,9 @@
+{
+	"id": "8y2UftyXgoSlnLY",
+	"json": "{\"id\":\"8y2UftyXgoSlnLY\",\"url\":\"https://common.cnblogs.com/favicon.ico\",\"loadedUrl\":\"https://common.cnblogs.com/favicon.ico\",\"uniqueKey\":\"https://common.cnblogs.com/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:20.089Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://common.cnblogs.com/favicon.ico",
+	"url": "https://common.cnblogs.com/favicon.ico"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wwsaNAe8VN1hM4D",
+	"json": "{\"id\":\"wwsaNAe8VN1hM4D\",\"url\":\"https://yarnpkg.com/favicon.svg\",\"loadedUrl\":\"https://yarnpkg.com/favicon.svg\",\"uniqueKey\":\"https://yarnpkg.com/favicon.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:24.377Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yarnpkg.com/favicon.svg",
+	"url": "https://yarnpkg.com/favicon.svg"
+}

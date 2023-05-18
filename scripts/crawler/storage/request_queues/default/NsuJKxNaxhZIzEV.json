@@ -1,0 +1,9 @@
+{
+	"id": "NsuJKxNaxhZIzEV",
+	"json": "{\"id\":\"NsuJKxNaxhZIzEV\",\"url\":\"http://mockjs.com/assets/img/logo-2.svg\",\"loadedUrl\":\"http://mockjs.com/assets/img/logo-2.svg\",\"uniqueKey\":\"http://mockjs.com/assets/img/logo-2.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:23.269Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://mockjs.com/assets/img/logo-2.svg",
+	"url": "http://mockjs.com/assets/img/logo-2.svg"
+}

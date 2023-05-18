@@ -1,0 +1,9 @@
+{
+	"id": "HfjkxVvRONTTMNl",
+	"json": "{\"id\":\"HfjkxVvRONTTMNl\",\"url\":\"https://web.dev/images/favicon.ico\",\"loadedUrl\":\"https://web.dev/images/favicon.ico\",\"uniqueKey\":\"https://web.dev/images/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:26.685Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://web.dev/images/favicon.ico",
+	"url": "https://web.dev/images/favicon.ico"
+}

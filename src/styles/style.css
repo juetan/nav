@@ -27,3 +27,15 @@ a {
 a:visited {
   color: initial;
 }
+
+.arco-menu-light .arco-menu-item {
+  background: transparent;
+}
+
+.arco-menu-vertical .arco-menu-group .arco-menu-group-title {
+  background: transparent;
+}
+
+.arco-layout-sider-trigger.arco-layout-sider-trigger-light {
+  background: transparent;
+}

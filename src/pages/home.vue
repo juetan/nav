@@ -8,17 +8,23 @@
         </p>
       </div>
       <div class="flex gap-2">
-        <a-input-search class="w-96" placeholder="请输入关键字..."></a-input-search>
+        <a-input-search
+          v-model="keyword"
+          @change="onKeywordChange"
+          class="w-96"
+          placeholder="名称/描述关键字..."
+          allow-clear
+        ></a-input-search>
       </div>
     </div>
-    <div class="flex items-center gap-2 px-6 mt-2 text-slate-500">
+    <!-- <div class="flex items-center gap-2 px-6 mt-2 text-slate-500">
       <span>分类({{ items.length }}): </span>
       <a-link v-for="item in items" :key="item.title" @click="onScrollItem(item)">
         <span class="text-slate-600 hover:text-blue-500">
           {{ item.title }}
         </span>
       </a-link>
-    </div>
+    </div> -->
     <a-scrollbar ref="scrollRef" outer-class="overflow-hidden" class="h-full overflow-auto mt-3 pb-4">
       <div v-for="category in items" :key="category.title" ref="itemsRef">
         <div class="text-slate-500 px-6 mb-3 mt-2">{{ category.title }}</div>
@@ -28,7 +34,13 @@
             :key="item.title"
             class="item flex w-[280px] gap-3 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
           >
-            <img :src="item.logo" :alt="item.title" class="w-12 h-12 object-contain" width="48" height="48" />
+            <img
+              :src="`./images/${item.logoFileName}`"
+              :alt="item.title"
+              class="w-12 h-12 object-contain"
+              width="48"
+              height="48"
+            />
             <div>
               <a :href="item.url" target="_blank" class="hover:text-blue-500 dark:text-slate-100">
                 <h3 class="font-normal m-0">{{ item.title }}</h3>
@@ -43,146 +55,33 @@
 </template>
 
 <script setup lang="ts">
+import data from "../../public/images/items.json";
+
+const items = reactive([
+  {
+    title: "网址列表",
+    items: data,
+  },
+]);
+
 const itemsRef = ref();
 const scrollRef = ref();
+const keyword = ref("");
 
-const items = [
-  {
-    title: "工具类库",
-    icon: "",
-    items: [
-      {
-        title: "Lodash",
-        description: "一致性、模块化、高性能的 JavaScript 实用工具库。",
-        logo: "https://www.lodashjs.com/img/favicon.ico",
-        url: "https://www.lodashjs.com/",
-      },
-      {
-        title: "Dayjs",
-        description: "Moment.js 的 2kB 轻量化方案，拥有同样强大的 API。",
-        logo: "https://dayjs.gitee.io/img/favicon.ico",
-        url: "https://dayjs.gitee.io/docs/zh-CN/installation/installation",
-      },
-      {
-        title: "Axios",
-        description: "一个基于 promise 网络请求库，作用于node.js 和浏览器中。",
-        logo: "https://axios-http.com/assets/favicon.ico",
-        url: "https://axios-http.com/zh/docs/intro",
-      },
-      {
-        title: "Numeral",
-        description: "一个处理和格式化数字的Javascript库。",
-        logo: "https://axios-http.com/assets/favicon.ico",
-        url: "http://numeraljs.com/",
-      },
-      {
-        title: "Mock.js",
-        description: "生成随机数据，拦截 Ajax 请求。",
-        logo: "http://mockjs.com/assets/img/logo-2.svg",
-        url: "http://mockjs.com/examples.html",
-      },
-      {
-        title: "Swagger Typescript API",
-        description: "根据OpenAPI格式生成typescript类型，请求API。",
-        logo: "http://mockjs.com/assets/img/logo-2.svg",
-        url: "https://github.com/acacode/swagger-typescript-api",
-      },
-      {
-        title: "Animate",
-        description: "Css动画库。",
-        logo: "https://animate.style/img/favicon.ico",
-        url: "https://animate.style/",
-      },
-      {
-        title: "Animista",
-        description: "Css动画效果，可以在线生成代码。",
-        logo: "https://animista.net/favicon.ico",
-        url: "https://animista.net/play/basic/scale-up",
-      },
-    ],
-  },
+// const onScrollItem = (item: any) => {
+//   const index = items.indexOf(item);
+//   scrollRef.value.scrollTo(0, itemsRef.value[index].offsetTop || 1);
+// };
 
-  {
-    title: "代码风格",
-    icon: "",
-    items: [
-      {
-        title: "Eslint",
-        description: "一个插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。",
-        logo: "https://eslint.org/favicon.ico",
-        url: "https://eslint.org/docs/latest/use/getting-started",
-      },
-      {
-        title: "Prettier",
-        description: "一个 “有主见” 的代码格式化工具。",
-        logo: "https://prettier.io/icon.png",
-        url: "https://prettier.io/docs/en/index.html",
-      },
-      {
-        title: "Stylelint",
-        description: "一个摩登的 CSS linter 工具。",
-        logo: "https://stylelint.io/img/favicon.ico",
-        url: "https://stylelint.io/",
-      },
-      {
-        title: "Airbnb Guide",
-        description: "Airbnb的JavaScript规范。",
-        logo: "https://z1.muscache.cn/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
-        url: "https://github.com/airbnb/javascript",
-      },
-      {
-        title: "Puppeteer",
-        description: "一个控制 headless Chrome 的 Node.js 库。",
-        logo: "https://pptr.dev/img/favicon.ico",
-        url: "https://pptr.dev/",
-      },
-      {
-        title: "Markdown Guide",
-        description: "Markdown语法介绍。",
-        logo: "https://www.markdownguide.org/favicon.ico",
-        url: "https://www.markdownguide.org/basic-syntax/",
-      },
-      {
-        title: "OpenAPI",
-        description: "为 RESTful API 定义一个与语言无关的标准接口。",
-        logo: "https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png",
-        url: "https://www.openapis.org/",
-      },
-      {
-        title: "Json",
-        description: "一种轻量级的数据交换格式。",
-        logo: "http://json-schema.org/assets/logo.svg",
-        url: "http://json-schema.org/",
-      },
-    ],
-  },
-
-  {
-    title: "数据算法",
-    icon: "",
-    items: [
-      {
-        title: "Visualgo",
-        description: "数据结构和算法动态可视化。",
-        logo: "https://visualgo.net/img/favicon.png",
-        url: "https://visualgo.net/zh",
-      },
-      {
-        title: "Leetcode",
-        description: "全球极客挚爱的技术成长平台。",
-        logo: "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://leetcode.cn/&size=128",
-        url: "https://leetcode.cn/",
-      },
-    ],
-  },
-];
-
-const onScrollItem = (item: any) => {
-  const index = items.indexOf(item);
-  scrollRef.value.scrollTo(0, itemsRef.value[index].offsetTop || 1);
+const onKeywordChange = (value: string) => {
+  items[0].items = data.filter((item) => {
+    const hasTitle = item.title.toLowerCase().includes(value.toLowerCase());
+    const hasDesc = item.description.toLowerCase().includes(value.toLowerCase());
+    return hasTitle || hasDesc;
+  });
 };
 
-const itemsLength = items.reduce((total, item) => total + item.items.length, 0);
+const itemsLength = data.length;
 </script>
 
 <route lang="json">

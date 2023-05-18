@@ -1,0 +1,9 @@
+{
+	"id": "FKhk9f3h79JkhSV",
+	"json": "{\"id\":\"FKhk9f3h79JkhSV\",\"url\":\"https://res.u-tools.cn/website/logo.png\",\"loadedUrl\":\"https://res.u-tools.cn/website/logo.png\",\"uniqueKey\":\"https://res.u-tools.cn/website/logo.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:24.713Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://res.u-tools.cn/website/logo.png",
+	"url": "https://res.u-tools.cn/website/logo.png"
+}

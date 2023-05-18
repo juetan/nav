@@ -1,0 +1,9 @@
+{
+	"id": "1TqomTtgDy06ruM",
+	"json": "{\"id\":\"1TqomTtgDy06ruM\",\"url\":\"https://nodejs.org/static/images/logo-hexagon-card.png\",\"loadedUrl\":\"https://nodejs.org/static/images/logo-hexagon-card.png\",\"uniqueKey\":\"https://nodejs.org/static/images/logo-hexagon-card.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:24.053Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nodejs.org/static/images/logo-hexagon-card.png",
+	"url": "https://nodejs.org/static/images/logo-hexagon-card.png"
+}

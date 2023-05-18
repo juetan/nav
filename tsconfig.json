@@ -13,10 +13,11 @@
     "skipLibCheck": true,
     "noEmit": true,
     "baseUrl": ".",
+    "allowImportingTsExtensions": true,
     "paths": {
       "@app/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "scripts/**/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

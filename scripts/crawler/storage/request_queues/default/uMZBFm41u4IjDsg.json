@@ -1,0 +1,9 @@
+{
+	"id": "uMZBFm41u4IjDsg",
+	"json": "{\"id\":\"uMZBFm41u4IjDsg\",\"url\":\"https://party.js.org/img/logo.svg\",\"loadedUrl\":\"https://party.js.org/img/logo.svg\",\"uniqueKey\":\"https://party.js.org/img/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:27.202Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://party.js.org/img/logo.svg",
+	"url": "https://party.js.org/img/logo.svg"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "H7Wh1bJa8kCCcEW",
+	"json": "{\"id\":\"H7Wh1bJa8kCCcEW\",\"url\":\"http://www.alloyteam.com/nav/static/images/gold-favicon.png\",\"loadedUrl\":\"http://www.alloyteam.com/nav/static/images/gold-favicon.png\",\"uniqueKey\":\"http://www.alloyteam.com/nav/static/images/gold-favicon.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:19.709Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://www.alloyteam.com/nav/static/images/gold-favicon.png",
+	"url": "http://www.alloyteam.com/nav/static/images/gold-favicon.png"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4IUu8Xns3d52Aho",
+	"json": "{\"id\":\"4IUu8Xns3d52Aho\",\"url\":\"https://nestjs.com/apple-touch-icon.50147714.png\",\"loadedUrl\":\"https://nestjs.com/apple-touch-icon.50147714.png\",\"uniqueKey\":\"https://nestjs.com/apple-touch-icon.50147714.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:21.741Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nestjs.com/apple-touch-icon.50147714.png",
+	"url": "https://nestjs.com/apple-touch-icon.50147714.png"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MRi9AibXmtgr7Lu",
+	"json": "{\"id\":\"MRi9AibXmtgr7Lu\",\"url\":\"https://www.w3.org/Style/CSS/w3c-2010/w3c-logo\",\"loadedUrl\":\"https://www.w3.org/Style/CSS/w3c-2010/w3c-logo\",\"uniqueKey\":\"https://www.w3.org/Style/CSS/w3c-2010/w3c-logo\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:26.158Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.w3.org/Style/CSS/w3c-2010/w3c-logo",
+	"url": "https://www.w3.org/Style/CSS/w3c-2010/w3c-logo"
+}

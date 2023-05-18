@@ -1,0 +1,9 @@
+{
+	"id": "DD8LLBiNVSg6hUK",
+	"json": "{\"id\":\"DD8LLBiNVSg6hUK\",\"url\":\"https://docs.taro.zone/img/taroLogo180.png\",\"loadedUrl\":\"https://docs.taro.zone/img/taroLogo180.png\",\"uniqueKey\":\"https://docs.taro.zone/img/taroLogo180.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:20.921Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://docs.taro.zone/img/taroLogo180.png",
+	"url": "https://docs.taro.zone/img/taroLogo180.png"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PjkX6SjriGSqWRt",
+	"json": "{\"id\":\"PjkX6SjriGSqWRt\",\"url\":\"https://babeljs.io/img/favicon.png\",\"loadedUrl\":\"https://babeljs.io/img/favicon.png\",\"uniqueKey\":\"https://babeljs.io/img/favicon.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:20.758Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://babeljs.io/img/favicon.png",
+	"url": "https://babeljs.io/img/favicon.png"
+}

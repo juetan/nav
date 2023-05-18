@@ -1,0 +1,9 @@
+{
+	"id": "9EnjLIDcWkKqDbt",
+	"json": "{\"id\":\"9EnjLIDcWkKqDbt\",\"url\":\"https://cn.vuejs.org/logo.svg\",\"loadedUrl\":\"https://cn.vuejs.org/logo.svg\",\"uniqueKey\":\"https://cn.vuejs.org/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:20.901Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cn.vuejs.org/logo.svg",
+	"url": "https://cn.vuejs.org/logo.svg"
+}

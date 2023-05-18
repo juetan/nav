@@ -1,0 +1,9 @@
+{
+	"id": "5yk8eL2jISr6SiP",
+	"json": "{\"id\":\"5yk8eL2jISr6SiP\",\"url\":\"https://developer.mozilla.org/favicon-48x48.cbbd161b.png\",\"loadedUrl\":\"https://developer.mozilla.org/favicon-48x48.cbbd161b.png\",\"uniqueKey\":\"https://developer.mozilla.org/favicon-48x48.cbbd161b.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:23.939Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
+	"url": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png"
+}

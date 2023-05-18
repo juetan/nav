@@ -1,0 +1,9 @@
+{
+	"id": "IgATAU8ipRhB9hI",
+	"json": "{\"id\":\"IgATAU8ipRhB9hI\",\"url\":\"http://www.jsfuck.com/preview.png\",\"loadedUrl\":\"http://www.jsfuck.com/preview.png\",\"uniqueKey\":\"http://www.jsfuck.com/preview.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:31.671Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://www.jsfuck.com/preview.png",
+	"url": "http://www.jsfuck.com/preview.png"
+}

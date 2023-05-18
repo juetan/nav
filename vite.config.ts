@@ -38,7 +38,7 @@ export default defineConfig({
     layout(),
     unocss({
       presets: [
-        presetUno({preflight: true}),
+        presetUno({ preflight: true }),
         presetIcons({
           prefix: "",
           extraProperties: {

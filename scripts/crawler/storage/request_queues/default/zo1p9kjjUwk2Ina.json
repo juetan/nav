@@ -1,6 +1,6 @@
 {
 	"id": "zo1p9kjjUwk2Ina",
-	"json": "{\"id\":\"zo1p9kjjUwk2Ina\",\"url\":\"https://caniuse.com/img/favicon-128.png\",\"loadedUrl\":\"https://caniuse.com/img/favicon-128.png\",\"uniqueKey\":\"https://caniuse.com/img/favicon-128.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:30.709Z\"}",
+	"json": "{\"id\":\"zo1p9kjjUwk2Ina\",\"url\":\"https://caniuse.com/img/favicon-128.png\",\"loadedUrl\":\"https://caniuse.com/img/favicon-128.png\",\"uniqueKey\":\"https://caniuse.com/img/favicon-128.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:18.490Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

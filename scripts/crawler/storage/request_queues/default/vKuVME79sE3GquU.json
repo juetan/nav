@@ -1,6 +1,6 @@
 {
 	"id": "vKuVME79sE3GquU",
-	"json": "{\"id\":\"vKuVME79sE3GquU\",\"url\":\"http://json-schema.org/assets/logo.svg\",\"loadedUrl\":\"http://json-schema.org/assets/logo.svg\",\"uniqueKey\":\"http://json-schema.org/assets/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:23.722Z\"}",
+	"json": "{\"id\":\"vKuVME79sE3GquU\",\"url\":\"http://json-schema.org/assets/logo.svg\",\"loadedUrl\":\"http://json-schema.org/assets/logo.svg\",\"uniqueKey\":\"http://json-schema.org/assets/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:12.495Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,6 +1,6 @@
 {
 	"id": "xANfkykmdOzonrk",
-	"json": "{\"id\":\"xANfkykmdOzonrk\",\"url\":\"https://gitmoji.dev/static/android-icon-192x192.png\",\"loadedUrl\":\"https://gitmoji.dev/static/android-icon-192x192.png\",\"uniqueKey\":\"https://gitmoji.dev/static/android-icon-192x192.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:27.970Z\"}",
+	"json": "{\"id\":\"xANfkykmdOzonrk\",\"url\":\"https://gitmoji.dev/static/android-icon-192x192.png\",\"loadedUrl\":\"https://gitmoji.dev/static/android-icon-192x192.png\",\"uniqueKey\":\"https://gitmoji.dev/static/android-icon-192x192.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:17.461Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

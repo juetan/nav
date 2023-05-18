@@ -7,13 +7,10 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    AAnchorLink: typeof import("@arco-design/web-vue")["AnchorLink"]
     AButton: typeof import('@arco-design/web-vue')['Button']
     ACard: typeof import('@arco-design/web-vue')['Card']
-    AInput: typeof import("@arco-design/web-vue")["Input"]
     AInputSearch: typeof import('@arco-design/web-vue')['InputSearch']
     ALayout: typeof import('@arco-design/web-vue')['Layout']
-    ALayoutContent: typeof import("@arco-design/web-vue")["LayoutContent"]
     ALayoutHeader: typeof import('@arco-design/web-vue')['LayoutHeader']
     ALayoutSider: typeof import('@arco-design/web-vue')['LayoutSider']
     ALink: typeof import('@arco-design/web-vue')['Link']
@@ -21,7 +18,6 @@ declare module '@vue/runtime-core' {
     AMenuItem: typeof import('@arco-design/web-vue')['MenuItem']
     AMenuItemGroup: typeof import('@arco-design/web-vue')['MenuItemGroup']
     AScrollbar: typeof import('@arco-design/web-vue')['Scrollbar']
-    ASelect: typeof import("@arco-design/web-vue")["Select"]
     ATooltip: typeof import('@arco-design/web-vue')['Tooltip']
     HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

@@ -1,25 +1,25 @@
-import { Configuration, Dictionary, HttpCrawler, KeyValueStore, ProxyConfiguration, RequestOptions } from "crawlee";
+import { Dictionary, HttpCrawler, KeyValueStore, ProxyConfiguration, RequestOptions } from "crawlee";
+import fse from "fs-extra";
 import mime from "mime";
-import { resolve } from "path";
+import { join, resolve } from "path";
 import { fileURLToPath } from "url";
-import items from "../../src/data/index.ts";
+import items from "../../src/data/index";
 import { useUid } from "./helpers";
 
-const __dirname = fileURLToPath(import.meta.url);
+const __dirname = join(fileURLToPath(import.meta.url), "..");
+const sourceDir = resolve(__dirname, "./storage/key_value_stores/images");
+const targetDir = resolve(__dirname, "../../public/images");
 
 const proxy = new ProxyConfiguration({
   proxyUrls: ["http://127.0.0.1:10800"],
 });
-
-const storage = Configuration.getStorageClient();
-(storage as any).keyValueStoresDirectory = resolve(__dirname, "../../../public/images");
 
 export const run = async () => {
   const store = await KeyValueStore.open("images");
   store.forEachKey(async (key) => {
     await store.setValue(key, null);
   });
-  const getChars = useUid(10);
+  const getUid = useUid(10);
 
   type Request = RequestOptions<Dictionary>;
   const requests: Request[] = [];
@@ -42,7 +42,7 @@ export const run = async () => {
     async requestHandler({ request, sendRequest, log }) {
       log.info(`开始下载 ${request.url}`);
       const res = await sendRequest({ responseType: "buffer" });
-      const name = getChars();
+      const name = getUid();
       const contentType = res.headers["content-type"];
       await store.setValue(name, res.body, { contentType });
       for (const item of cache.get(request.url)!) {
@@ -53,6 +53,9 @@ export const run = async () => {
 
   await crawler.run(requests);
   await store.setValue("items", items);
+
+  fse.emptyDirSync(targetDir);
+  fse.copySync(sourceDir, targetDir);
 };
 
 run();

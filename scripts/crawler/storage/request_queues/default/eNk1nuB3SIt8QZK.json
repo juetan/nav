@@ -1,6 +1,6 @@
 {
 	"id": "eNk1nuB3SIt8QZK",
-	"json": "{\"id\":\"eNk1nuB3SIt8QZK\",\"url\":\"https://pptr.dev/img/favicon.ico\",\"loadedUrl\":\"https://pptr.dev/img/favicon.ico\",\"uniqueKey\":\"https://pptr.dev/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:23.722Z\"}",
+	"json": "{\"id\":\"eNk1nuB3SIt8QZK\",\"url\":\"https://pptr.dev/img/favicon.ico\",\"loadedUrl\":\"https://pptr.dev/img/favicon.ico\",\"uniqueKey\":\"https://pptr.dev/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:12.505Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

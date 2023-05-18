@@ -1,6 +1,6 @@
 {
 	"id": "0AMn321zfcqdr3l",
-	"json": "{\"id\":\"0AMn321zfcqdr3l\",\"url\":\"https://www.lodashjs.com/img/favicon.ico\",\"loadedUrl\":\"https://www.lodashjs.com/img/favicon.ico\",\"uniqueKey\":\"https://www.lodashjs.com/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:21.596Z\"}",
+	"json": "{\"id\":\"0AMn321zfcqdr3l\",\"url\":\"https://www.lodashjs.com/img/favicon.ico\",\"loadedUrl\":\"https://www.lodashjs.com/img/favicon.ico\",\"uniqueKey\":\"https://www.lodashjs.com/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:12.240Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

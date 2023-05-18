@@ -1,6 +1,6 @@
 {
 	"id": "pgyApCG1SlzE2BF",
-	"json": "{\"id\":\"pgyApCG1SlzE2BF\",\"url\":\"https://resources.whatwg.org/logo.svg\",\"loadedUrl\":\"https://resources.whatwg.org/logo.svg\",\"uniqueKey\":\"https://resources.whatwg.org/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:27.073Z\"}",
+	"json": "{\"id\":\"pgyApCG1SlzE2BF\",\"url\":\"https://resources.whatwg.org/logo.svg\",\"loadedUrl\":\"https://resources.whatwg.org/logo.svg\",\"uniqueKey\":\"https://resources.whatwg.org/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:16.887Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

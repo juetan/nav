@@ -1,6 +1,6 @@
 {
 	"id": "FnqbDdYB7aKKFBo",
-	"json": "{\"id\":\"FnqbDdYB7aKKFBo\",\"url\":\"http://zhongguose.com/img/favicon.ico\",\"loadedUrl\":\"http://zhongguose.com/img/favicon.ico\",\"uniqueKey\":\"http://zhongguose.com/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:02:29.758Z\"}",
+	"json": "{\"id\":\"FnqbDdYB7aKKFBo\",\"url\":\"http://zhongguose.com/img/favicon.ico\",\"loadedUrl\":\"http://zhongguose.com/img/favicon.ico\",\"uniqueKey\":\"http://zhongguose.com/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:18.090Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

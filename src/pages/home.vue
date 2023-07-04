@@ -79,15 +79,6 @@ const itemsRef = ref();
 const scrollRef = ref();
 const keyword = ref("");
 
-const onClickTag = (tag: string) => {
-  items[0].items = data.filter((item) => item.tags.includes(tag));
-};
-
-// const onScrollItem = (item: any) => {
-//   const index = items.indexOf(item);
-//   scrollRef.value.scrollTo(0, itemsRef.value[index].offsetTop || 1);
-// };
-
 const onKeywordChange = () => {
   const value = keyword.value;
   items[0].items = data.filter((item) => {

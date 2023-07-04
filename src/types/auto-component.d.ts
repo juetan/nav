@@ -16,7 +16,6 @@ declare module '@vue/runtime-core' {
     ALink: typeof import('@arco-design/web-vue')['Link']
     AMenu: typeof import('@arco-design/web-vue')['Menu']
     AMenuItem: typeof import('@arco-design/web-vue')['MenuItem']
-    AMenuItemGroup: typeof import('@arco-design/web-vue')['MenuItemGroup']
     AScrollbar: typeof import('@arco-design/web-vue')['Scrollbar']
     ATag: typeof import('@arco-design/web-vue')['Tag']
     ATooltip: typeof import('@arco-design/web-vue')['Tooltip']

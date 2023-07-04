@@ -3,10 +3,12 @@
     <a-layout-header
       class="flex justify-between items-center gap-4 h-12 px-5 bg-white dark:bg-slate-800 border-b border-gray-5=200 dark:border-gray-700"
     >
-      <h1 class="flex items-center gap-2 text-base font-normal">
-        <img src="/favicon.ico" alt="" class="w-5 h-5" />
-        前端驿站
-      </h1>
+      <router-link to="/">
+        <h1 class="flex items-center gap-2 text-base font-normal dark:text-white">
+          <img src="/favicon.ico" alt="" class="w-5 h-5" />
+          前端驿站
+        </h1>
+      </router-link>
       <div class="flex gap-2">
         <a-tooltip :content="isDark ? '点击切换为亮色模式' : '点击切换为暗色模式'">
           <a-button shape="circle" @click="toggleTheme">
@@ -28,7 +30,7 @@
         :collapsible="true"
         class="dark:bg-slate-800 border-r border-gray-100 dark:border-gray-700 hidden md:block"
       >
-        <a-menu class="h-full bg-transparent" style="background-color: transparent" :level-indent="0">
+        <a-menu class="h-full !bg-transparent" :selected-keys="selectedKeys">
           <a-menu-item v-for="item in routes" :key="item.path" @click="onChangeRoute(item.path)">
             <template #icon>
               <i :class="item.meta?.icon"></i>
@@ -63,6 +65,16 @@ const toggleTheme = () => {
 };
 
 const router = useRouter();
+const route = useRoute();
+const selectedKeys = ref<string[]>([]);
+
+watch(
+  () => route.path,
+  (path) => {
+    selectedKeys.value = [path];
+  },
+  { immediate: true }
+);
 
 // const buttons = [
 //   {

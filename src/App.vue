@@ -5,7 +5,7 @@
     >
       <h1 class="flex items-center gap-2 text-base font-normal">
         <img src="/favicon.ico" alt="" class="w-5 h-5" />
-        前端导航
+        前端驿站
       </h1>
       <div class="flex gap-2">
         <a-tooltip :content="isDark ? '点击切换为亮色模式' : '点击切换为暗色模式'">
@@ -15,25 +15,26 @@
             </template>
           </a-button>
         </a-tooltip>
-        <a-button class="bg-transparent">
+        <!-- <a-button class="bg-transparent">
           <template #icon>
             <i class="icon-park-outline-config"></i>
           </template>
-        </a-button>
+        </a-button> -->
       </div>
     </a-layout-header>
     <a-layout class="flex overflow-hidden">
-      <a-layout-sider :width="224" :collapsible="true" class="dark:bg-slate-800">
+      <a-layout-sider
+        :width="224"
+        :collapsible="true"
+        class="dark:bg-slate-800 border-r border-gray-100 dark:border-gray-700 hidden md:block"
+      >
         <a-menu class="h-full bg-transparent" style="background-color: transparent" :level-indent="0">
-          <a-menu-item-group>
-            <template #title> 开发环境 </template>
-            <a-menu-item v-for="item in routes" :key="item.path" @click="onChangeRoute(item.path)">
-              <template #icon>
-                <i :class="item.meta?.icon"></i>
-              </template>
-              {{ item.meta?.title }}
-            </a-menu-item>
-          </a-menu-item-group>
+          <a-menu-item v-for="item in routes" :key="item.path" @click="onChangeRoute(item.path)">
+            <template #icon>
+              <i :class="item.meta?.icon"></i>
+            </template>
+            {{ item.meta?.title }}
+          </a-menu-item>
         </a-menu>
       </a-layout-sider>
       <router-view></router-view>

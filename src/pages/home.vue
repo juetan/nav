@@ -1,8 +1,10 @@
 <template>
   <div class="flex-1 h-full grid grid-rows-[auto_1fr]">
-    <div class="flex justify-between items-center mx-6 pt-4 pb-0 border-b border-gray-200 dark:border-slate-800">
+    <div
+      class="md:flex justify-between items-center px-6 pt-4 pb-4 md:pb-1 border-b border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800"
+    >
       <div>
-        <div class="text-base">常用网址</div>
+        <div class="text-base">网址列表</div>
         <p class="text-slate-500 p-0 mt-2">
           涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ itemsLength }} 个网站。
         </p>
@@ -10,20 +12,24 @@
       <div class="flex gap-2">
         <a-input-search
           v-model="keyword"
-          @change="onKeywordChange"
           class="w-96"
           placeholder="名称/描述关键字..."
           allow-clear
+          @change="onKeywordChange"
+          @clear="onKeywordChange"
+          @search="onKeywordChange"
         ></a-input-search>
       </div>
     </div>
-    <!-- <div class="flex items-center gap-2 px-6 mt-2 text-slate-500">
-      <span>分类({{ items.length }}): </span>
-      <a-link v-for="item in items" :key="item.title" @click="onScrollItem(item)">
-        <span class="text-slate-600 hover:text-blue-500">
-          {{ item.title }}
-        </span>
-      </a-link>
+    <!-- <div class="bg-white">
+      <div v-for="tag in tags" :key="tag.value" class="flex items-center gap-2 px-6 mt-2 text-slate-500 bg-white">
+        <span class="w-16">{{ tag.label }}({{ tag.children.length }}): </span>
+        <a-link v-for="item in tag.children" :key="item.label" bordered @click="onClickTag(tag.value)">
+          <span>
+            {{ item.label }}
+          </span>
+        </a-link>
+      </div>
     </div> -->
     <a-scrollbar ref="scrollRef" outer-class="overflow-hidden" class="h-full overflow-auto mt-3 pb-4">
       <div v-for="category in items" :key="category.title" ref="itemsRef">
@@ -32,20 +38,25 @@
           <div
             v-for="item in category.items"
             :key="item.title"
-            class="item flex w-[280px] gap-3 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
+            class="item flex w-[280px] gap-4 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
           >
             <img
-              :src="`./images/${item.logoFileName}`"
+              :src="`./images/${item.logo}`"
               :alt="item.title"
-              class="w-12 h-12 object-contain"
+              class="w-12 h-12 object-contain bg-slate-50 dark:bg-slate-700 p-1 rounded"
               width="48"
               height="48"
             />
-            <div>
+            <div class="grid grid-rows-[auto_1fr_auto] gap-2">
               <a :href="item.url" target="_blank" class="hover:text-blue-500 dark:text-slate-100">
                 <h3 class="font-normal m-0">{{ item.title }}</h3>
               </a>
-              <p class="text-gray-500 mt-2 leading-6">{{ item.description }}</p>
+              <p class="text-gray-500 leading-5 my-0">{{ item.description }}</p>
+              <div class="flex gap-2">
+                <a-tag v-for="tag in item.tags" :key="tag" size="small" color="blue" class="cursor-pointer">
+                  {{ tag }}
+                </a-tag>
+              </div>
             </div>
           </div>
         </div>
@@ -55,7 +66,7 @@
 </template>
 
 <script setup lang="ts">
-import data from "../../public/images/items.json";
+import data from "../data/items1.json";
 
 const items = reactive([
   {
@@ -68,12 +79,17 @@ const itemsRef = ref();
 const scrollRef = ref();
 const keyword = ref("");
 
+const onClickTag = (tag: string) => {
+  items[0].items = data.filter((item) => item.tags.includes(tag));
+};
+
 // const onScrollItem = (item: any) => {
 //   const index = items.indexOf(item);
 //   scrollRef.value.scrollTo(0, itemsRef.value[index].offsetTop || 1);
 // };
 
-const onKeywordChange = (value: string) => {
+const onKeywordChange = () => {
+  const value = keyword.value;
   items[0].items = data.filter((item) => {
     const hasTitle = item.title.toLowerCase().includes(value.toLowerCase());
     const hasDesc = item.description.toLowerCase().includes(value.toLowerCase());
@@ -87,7 +103,7 @@ const itemsLength = data.length;
 <route lang="json">
 {
   "meta": {
-    "title": "前端资源",
+    "title": "网址列表",
     "icon": "icon-park-outline-html-five"
   }
 }
@@ -103,7 +119,7 @@ const itemsLength = data.length;
 }
 
 .list {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .item {

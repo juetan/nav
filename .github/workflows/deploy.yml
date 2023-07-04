@@ -1,5 +1,5 @@
 # 工作流名称，可自定义
-name: 通过GithubAction自动部署到GithubPages
+name: 自动部署
 
 # 事件监听，决定什么时候触发该工作流内的任务
 on:
@@ -29,5 +29,5 @@ jobs:
           git config --global user.email "810335188@qq.com"
           git init
           git add -A
-          git commit -m "通过Github Action自动构建"
+          git commit -m "通过GithubAction构建"
           git push -f "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" master:gh-pages

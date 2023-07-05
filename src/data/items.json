@@ -1358,5 +1358,69 @@
     "logoFileName": "",
     "url": "https://anov.cucloud.cn/anov-projects/",
     "tags": ["big-data"]
+  },
+  {
+    "title": "Esm.sh",
+    "description": "一个可以从URL导入ES6模块的现代CDN。",
+    "logo": "https://esm.sh/favicon.svg",
+    "logoFileName": "",
+    "url": "https://esm.sh/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Esm.run",
+    "description": "JsDelivr出品, 可以从URL导入ES6模块的现代CDN。",
+    "logo": "https://www.jsdelivr.com/favicon.ico",
+    "logoFileName": "",
+    "url": "https://www.jsdelivr.com/esm",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Skypack",
+    "description": "无需安装和构建工具, 按需加载ES6模块的在线CDN。",
+    "logo": "https://www.skypack.dev/favicon.png",
+    "logoFileName": "",
+    "url": "https://www.skypack.dev/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Unpkg",
+    "description": "可使用URL加载npm包的在线CDN。",
+    "logo": "https://unpkg.com/favicon.ico",
+    "logoFileName": "",
+    "url": "https://unpkg.com/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Icon Horse",
+    "description": "在线获取任何网站的图标(favicon)。",
+    "logo": "https://unpkg.com/favicon.ico",
+    "logoFileName": "",
+    "url": "https://unpkg.com/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "User Agents",
+    "description": "提供常见桌面浏览器的用户代理(useragent)。",
+    "logo": "https://www.useragents.me/static/apple-touch-icon.png",
+    "logoFileName": "",
+    "url": "https://www.useragents.me/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Permission",
+    "description": "可查看浏览器，可能需要用户允许才能使用的功能。",
+    "logo": "https://www.useragents.me/static/apple-touch-icon.png",
+    "logoFileName": "",
+    "url": "https://permission.site/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Vue Macros",
+    "description": "提供vue正在试验或提案、宏相关的功能或语法糖。",
+    "logo": "https://vue-macros.sxzz.moe/favicon.svg",
+    "logoFileName": "",
+    "url": "https://vue-macros.sxzz.moe/guide/getting-started.html",
+    "tags": ["online-tools"]
   }
 ]

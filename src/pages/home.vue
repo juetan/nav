@@ -15,7 +15,7 @@
           class="w-96"
           placeholder="名称/描述关键字..."
           allow-clear
-          @change="onKeywordChange"
+          @input="onKeywordChange"
           @clear="onKeywordChange"
           @search="onKeywordChange"
         ></a-input-search>
@@ -38,7 +38,7 @@
           <div
             v-for="item in category.items"
             :key="item.title"
-            class="item flex w-[280px] gap-4 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
+            class="item group flex w-[280px] gap-4 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
           >
             <img
               :src="`./images/${item.logo}`"
@@ -48,9 +48,18 @@
               height="48"
             />
             <div class="grid grid-rows-[auto_1fr_auto] gap-2">
-              <a :href="item.url" target="_blank" class="hover:text-blue-500 dark:text-slate-100">
-                <h3 class="font-normal m-0">{{ item.title }}</h3>
-              </a>
+              <div class="flex items-center gap-2">
+                <a :href="item.url" target="_blank" class="hover:text-blue-500 dark:text-slate-100">
+                  <h3 class="font-normal m-0">{{ item.title }}</h3>
+                </a>
+                <span :title="'复制当前地址'">
+                  <i
+                    class="hidden group-hover:block icon-park-outline-copy w-4 h-4 text-slate-400 hover:text-slate-500 cursor-pointer"
+                    style="vertical-align: 1px; width: 13px; height: 13px"
+                    @click="onCopyUrl(item)"
+                  ></i>
+                </span>
+              </div>
               <p class="text-gray-500 leading-5 my-0">{{ item.description }}</p>
               <div class="flex gap-2">
                 <a-tag v-for="tag in item.tags" :key="tag" size="small" color="blue" class="cursor-pointer">
@@ -66,6 +75,8 @@
 </template>
 
 <script setup lang="ts">
+import { Message } from "@arco-design/web-vue";
+import { debounce } from "lodash-es";
 import data from "../data/items1.json";
 
 const items = reactive([
@@ -79,13 +90,29 @@ const itemsRef = ref();
 const scrollRef = ref();
 const keyword = ref("");
 
-const onKeywordChange = () => {
+const onKeywordChange = debounce(() => {
   const value = keyword.value;
   items[0].items = data.filter((item) => {
     const hasTitle = item.title.toLowerCase().includes(value.toLowerCase());
     const hasDesc = item.description.toLowerCase().includes(value.toLowerCase());
     return hasTitle || hasDesc;
   });
+}, 500);
+
+watch(
+  () => keyword.value,
+  () => {
+    if (keyword.value) {
+      items[0].title = `搜索结果：${keyword.value}，共 ${items[0].items.length} 条。`;
+    } else {
+      items[0].title = `网址列表`;
+    }
+  }
+);
+
+const onCopyUrl = (item: any) => {
+  navigator.clipboard.writeText(item.url);
+  Message.success(`已复制 ${item.title} 的网址`);
 };
 
 const itemsLength = data.length;

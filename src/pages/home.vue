@@ -54,7 +54,7 @@
                 </a>
                 <span :title="'复制当前地址'">
                   <i
-                    class="hidden group-hover:block icon-park-outline-copy w-4 h-4 text-slate-400 hover:text-slate-500 cursor-pointer"
+                    class="hidden group-hover:block icon-park-outline-copy w-4 h-4 text-slate-300 hover:text-slate-500 cursor-pointer"
                     style="vertical-align: 1px; width: 13px; height: 13px"
                     @click="onCopyUrl(item)"
                   ></i>
@@ -143,5 +143,11 @@ const itemsLength = data.length;
 .item {
   width: 100%;
   overflow: hidden;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+.item:hover {
+  border-color: #0099ff40;
+  box-shadow: 0 0 12px #0099ff30;
 }
 </style>

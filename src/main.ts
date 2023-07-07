@@ -5,10 +5,8 @@ import { router } from "./router";
 
 const start = async () => {
   const app = createApp(App);
-
   app.use(styler);
   app.use(router);
-
   app.mount("#app");
 };
 

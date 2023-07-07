@@ -3,7 +3,7 @@ import fse from "fs-extra";
 import mime from "mime";
 import { join, resolve } from "path";
 import { fileURLToPath } from "url";
-import items from "../../src/data/items.json";
+import items from "../../src/api/items/build-bundler.json";
 import { useUid } from "./helpers";
 
 const __dirname = join(fileURLToPath(import.meta.url), "..");

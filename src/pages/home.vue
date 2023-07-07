@@ -111,6 +111,7 @@ const onKeywordChange = debounce(() => {
   showData.value = [
     {
       label: `搜索：${keyword.value}，共 ${children.length} 条结果。`,
+      value: "",
       children: children,
     },
   ];

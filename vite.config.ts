@@ -35,7 +35,7 @@ export default defineConfig({
       resolvers: [ArcoResolver({ sideEffect: true })],
       dts: "./src/types/auto-component.d.ts",
     }),
-    page(),
+    page({ importMode: "sync" }),
     layout(),
     unocss({
       presets: [

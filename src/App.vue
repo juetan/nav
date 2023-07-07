@@ -24,11 +24,6 @@
             </template>
           </a-button>
         </a-tooltip>
-        <!-- <a-button class="bg-transparent">
-          <template #icon>
-            <i class="icon-park-outline-config"></i>
-          </template>
-        </a-button> -->
       </div>
     </a-layout-header>
     <a-layout class="flex overflow-hidden">
@@ -55,6 +50,9 @@
 import { useDark } from "@vueuse/core";
 import routes from "~pages";
 
+const router = useRouter();
+const route = useRoute();
+const selectedKeys = ref<string[]>([]);
 const isDark = useDark({
   onChanged(dark) {
     if (dark) {
@@ -66,14 +64,9 @@ const isDark = useDark({
     }
   },
 });
-
 const toggleTheme = () => {
   isDark.value = !isDark.value;
 };
-
-const router = useRouter();
-const route = useRoute();
-const selectedKeys = ref<string[]>([]);
 
 watch(
   () => route.path,

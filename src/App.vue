@@ -10,14 +10,14 @@
         </h1>
       </router-link>
       <div class="flex gap-2">
-        <a-tooltip :content="isDark ? '点击切换为亮色模式' : '点击切换为暗色模式'">
+        <a-tooltip :content="isDark ? '切换为亮色模式' : '切换为暗色模式'">
           <a-button shape="circle" @click="toggleTheme">
             <template #icon>
               <i :class="!isDark ? 'icon-park-outline-moon' : 'icon-park-outline-sun'"></i>
             </template>
           </a-button>
         </a-tooltip>
-        <a-tooltip :content="'Gihub仓库'">
+        <a-tooltip :content="'打开 Github 仓库'">
           <a-button shape="circle" @click="onGotoGithub">
             <template #icon>
               <i class="icon-park-outline-github"></i>

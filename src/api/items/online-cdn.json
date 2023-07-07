@@ -5,9 +5,7 @@
     "logo": "https://esm.sh/favicon.svg",
     "logoFileName": "",
     "url": "https://esm.sh/",
-    "tags": [
-      "online-tools"
-    ]
+    "tags": ["online-tools"]
   },
   {
     "title": "Esm.run",
@@ -15,9 +13,7 @@
     "logo": "https://www.jsdelivr.com/favicon.ico",
     "logoFileName": "",
     "url": "https://www.jsdelivr.com/esm",
-    "tags": [
-      "online-tools"
-    ]
+    "tags": ["online-tools"]
   },
   {
     "title": "Skypack",
@@ -25,9 +21,7 @@
     "logo": "https://www.skypack.dev/favicon.png",
     "logoFileName": "",
     "url": "https://www.skypack.dev/",
-    "tags": [
-      "online-tools"
-    ]
+    "tags": ["online-tools"]
   },
   {
     "title": "Unpkg",
@@ -35,9 +29,7 @@
     "logo": "https://unpkg.com/favicon.ico",
     "logoFileName": "",
     "url": "https://unpkg.com/",
-    "tags": [
-      "online-tools"
-    ]
+    "tags": ["online-tools"]
   },
   {
     "title": "Githack",
@@ -45,8 +37,14 @@
     "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
     "logoFileName": "jsl2ocemqd.png",
     "url": "http://raw.githack.com/",
-    "tags": [
-      "online-tools"
-    ]
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "GitHub Proxy",
+    "description": "GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务.",
+    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
+    "logoFileName": "dlnx3fj2v7.png",
+    "url": "https://ghproxy.com/",
+    "tags": ["online-tools"]
   }
 ]

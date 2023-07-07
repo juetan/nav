@@ -76,7 +76,7 @@
           <template #image>
             <img src="../assets//empty.svg" alt="empty" class="!h-48" />
           </template>
-          搜索为空，换个关键字试试？
+          结果为空，换个关键字试试？
         </a-empty>
       </div>
     </a-scrollbar>
@@ -126,7 +126,7 @@ const onCopyUrl = (item: any) => {
 <route lang="json">
 {
   "meta": {
-    "title": "网址导航",
+    "title": "前端导航",
     "icon": "icon-park-outline-navigation"
   }
 }

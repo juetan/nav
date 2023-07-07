@@ -3,56 +3,71 @@
     "title": "Npm",
     "description": "NodeJS的官方包管理工具。",
     "logo": "https://docs.npmjs.com/favicon-32x32.png",
-    "logoFileName": "",
+    "logoFileName": "7finwe1koo.png",
     "url": "https://docs.npmjs.com/about-npm",
-    "tags": ["nodejs"]
+    "tags": [
+      "nodejs"
+    ]
   },
   {
     "title": "Yarn",
     "description": "Facebook 贡献的 Javascript 包管理器。",
     "logo": "https://yarnpkg.com/favicon.svg",
-    "logoFileName": "",
+    "logoFileName": "1mqnl6s9em.svg",
     "url": "https://yarnpkg.com/getting-started/migration",
-    "tags": ["nodejs"]
+    "tags": [
+      "nodejs"
+    ]
   },
   {
     "title": "Pnpm",
     "description": "快速的，节省磁盘空间的包管理工具。",
     "logo": "https://pnpm.io/zh/img/favicon.png",
-    "logoFileName": "",
+    "logoFileName": "jvx3covog9.png",
     "url": "https://pnpm.io/zh/",
-    "tags": ["nodejs"]
+    "tags": [
+      "nodejs"
+    ]
   },
   {
     "title": "Nvm",
     "description": "npm推荐的NodeJS版本管理工具(Windows版)。",
     "logo": "https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg",
-    "logoFileName": "",
+    "logoFileName": "216rw1wbyb.svg",
     "url": "https://github.com/coreybutler/nvm-windows",
-    "tags": ["nodejs"]
+    "tags": [
+      "nodejs"
+    ]
   },
   {
     "title": "Volta",
     "description": "NodeJS版本管理工具。",
     "logo": "https://github.com/volta-cli/volta/raw/main/volta.png?raw=true",
-    "logoFileName": "",
+    "logoFileName": "dx49rr2f7y.png",
     "url": "https://docs.volta.sh/guide/getting-started",
-    "tags": ["nodejs"]
+    "tags": [
+      "nodejs"
+    ]
   },
   {
     "title": "Nrm",
     "description": "Npm镜像源切换工具。",
     "logo": "https://docs.npmjs.com/favicon-32x32.png",
-    "logoFileName": "",
+    "logoFileName": "7finwe1koo.png",
     "url": "https://www.npmjs.com/package/nrm",
-    "tags": ["nodejs"]
+    "tags": [
+      "nodejs"
+    ]
   },
   {
     "title": "Bundle Phobia",
     "description": "查看npm包大小的在线网站。",
     "logo": "https://bundlephobia.com/apple-touch-icon.png",
-    "logoFileName": "",
+    "logoFileName": "40kfknfjln.png",
     "url": "https://bundlephobia.com/",
-    "tags": ["nodejs", "online-tools"]
+    "tags": [
+      "nodejs",
+      "online-tools"
+    ]
   }
 ]

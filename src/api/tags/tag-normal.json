@@ -28,10 +28,6 @@
     "value": "community"
   },
   {
-    "label": "社区名人",
-    "value": "people"
-  },
-  {
     "label": "命令行工具",
     "value": "cli"
   },

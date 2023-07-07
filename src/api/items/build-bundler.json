@@ -3,88 +3,116 @@
     "title": "Terser",
     "description": "JavaScript代码压缩器。",
     "logo": "https://terser.org/favicon.ico",
-    "logoFileName": "",
+    "logoFileName": "mvkkswi325.ico",
     "url": "https://terser.org/docs/cli-usage",
-    "tags": ["javascript"]
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "title": "Tsx",
     "description": "基于Esbuild，运行和编译Typescript的命令行工具(别名esno)。",
     "logo": "https://github.com/fluidicon.png",
-    "logoFileName": "",
+    "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/esbuild-kit/tsx",
-    "tags": ["typescript"]
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "title": "Tsup",
     "description": "基于Esbuild，零配置构建Typescript库的编译工具。",
     "logo": "https://github.com/fluidicon.png",
-    "logoFileName": "",
+    "logoFileName": "dlnx3fj2v7.png",
     "url": "https://tsup.egoist.dev/",
-    "tags": ["typescript"]
+    "tags": [
+      "typescript"
+    ]
   },
   {
     "title": "Vite",
     "description": "下一代的前端工具链, 为开发提供极速响应。",
     "logo": "https://cn.vitejs.dev/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "2fgxxi7789.svg",
     "url": "https://cn.vitejs.dev/",
-    "tags": ["bundler"]
+    "tags": [
+      "bundler"
+    ]
   },
   {
     "title": "Swc",
     "description": "基于rust的web端构建工具。",
     "logo": "https://swc.rs/favicon/apple-touch-icon.png",
-    "logoFileName": "",
+    "logoFileName": "kljokhjd8m.png",
     "url": "https://swc.rs/",
-    "tags": ["bundler"]
+    "tags": [
+      "bundler"
+    ]
   },
   {
     "title": "Esbuild",
     "description": "基于go的web端构建工具。",
     "logo": "https://esbuild.github.io/favicon.svg",
-    "logoFileName": "",
+    "logoFileName": "ka2r2ml0p7.svg",
     "url": "https://esbuild.github.io/",
-    "tags": ["bundler"]
+    "tags": [
+      "bundler"
+    ]
   },
   {
     "title": "Unbuild",
     "description": "基于rollup的构建工具。",
     "logo": "https://esbuild.github.io/favicon.svg",
-    "logoFileName": "",
+    "logoFileName": "ka2r2ml0p7.svg",
     "url": "https://github.com/unjs/unbuild",
-    "tags": ["bundler"]
+    "tags": [
+      "bundler"
+    ]
   },
   {
     "title": "Postcss",
     "description": "一个用 JavaScript 工具和插件转换 CSS 代码的工具。",
     "logo": "https://www.postcss.com.cn/assets/logo.3e39b0aa.svg",
-    "logoFileName": "",
+    "logoFileName": "m3pdhpr9g3.svg",
     "url": "https://www.postcss.com.cn/",
-    "tags": ["bundler", "compiler", "css"]
+    "tags": [
+      "bundler",
+      "compiler",
+      "css"
+    ]
   },
   {
     "title": "Babel",
     "description": "JavaScript 编译器，使用下一代的 JavaScript 语法编程。",
     "logo": "https://babeljs.io/img/favicon.png",
-    "logoFileName": "",
+    "logoFileName": "12njjvlq9u.png",
     "url": "https://babeljs.io/docs/",
-    "tags": ["bundler", "compiler", "javascript"]
+    "tags": [
+      "bundler",
+      "compiler",
+      "javascript"
+    ]
   },
   {
     "title": "Rollup",
     "description": "默认基于ESM的 JavaScript 模块化打包工具。",
     "logo": "https://rollupjs.org/favicon.png",
-    "logoFileName": "",
+    "logoFileName": "cw7jfludbh.png",
     "url": "https://rollupjs.org/introduction/",
-    "tags": ["bundler", "compiler", "javascript"]
+    "tags": [
+      "bundler",
+      "compiler",
+      "javascript"
+    ]
   },
   {
     "title": "Webpack",
     "description": "用于现代 JavaScript 应用程序的静态模块打包工具。",
     "logo": "https://webpack.docschina.org/favicon.f326220248556af65f41.ico",
-    "logoFileName": "",
+    "logoFileName": "hp5ixcmqxd.ico",
     "url": "https://webpack.docschina.org/concepts/",
-    "tags": ["bundler"]
+    "tags": [
+      "bundler"
+    ]
   }
 ]

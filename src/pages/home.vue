@@ -4,9 +4,9 @@
       class="md:flex justify-between items-center px-6 pt-4 pb-4 md:pb-1 border-b border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800"
     >
       <div>
-        <div class="text-base">网址列表</div>
+        <div class="text-base">前端导航</div>
         <p class="text-slate-500 p-0 mt-2">
-          涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ itemsLength }} 个网站。
+          涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ items.length }} 个网站。
         </p>
       </div>
       <div class="flex gap-2">
@@ -19,6 +19,7 @@
           @clear="onKeywordChange"
           @search="onKeywordChange"
         ></a-input-search>
+        <!-- <i class="icon-park-outline-more"></i> -->
       </div>
     </div>
     <!-- <div class="bg-white">
@@ -32,16 +33,16 @@
       </div>
     </div> -->
     <a-scrollbar ref="scrollRef" outer-class="overflow-hidden" class="h-full overflow-auto mt-3 pb-4">
-      <div v-for="category in showData" :key="category.label" ref="itemsRef">
+      <div v-for="category in showData" :key="category.label" ref="itemsRef" class="fade-in-bottom">
         <div class="text-slate-500 px-6 mb-3 mt-2">{{ category.label }}</div>
-        <div class="list flex-1 grid gap-4 px-5 pb-4">
+        <div v-if="category.children?.length" class="list flex-1 grid gap-4 px-5 pb-4">
           <div
             v-for="item in category.children"
             :key="item.title"
             class="item group flex w-[280px] gap-4 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
           >
             <img
-              :src="`./images/${item.logo}`"
+              :src="item.logoFileName ? `./images/${item.logoFileName}` : item.logo"
               :alt="item.title"
               class="w-12 h-12 object-contain bg-slate-50 dark:bg-slate-700 p-1 rounded"
               width="48"
@@ -60,15 +61,23 @@
                   ></i>
                 </span>
               </div>
-              <p class="text-gray-500 leading-5 my-0">{{ item.description }}</p>
+              <p class="text-gray-500 leading-5 my-0 line-clamp-2" :title="item.description">
+                {{ item.description }}
+              </p>
               <div class="flex gap-2">
                 <a-tag v-for="tag in item.tags" :key="tag" size="small" color="blue" class="cursor-pointer">
-                  {{ tag }}
+                  {{ tagMap[tag] || tag }}
                 </a-tag>
               </div>
             </div>
           </div>
         </div>
+        <a-empty v-else class="mt-32">
+          <template #image>
+            <img src="../assets//empty.svg" alt="empty" class="!h-48" />
+          </template>
+          搜索为空，换个关键字试试？
+        </a-empty>
       </div>
     </a-scrollbar>
   </div>
@@ -77,12 +86,17 @@
 <script setup lang="ts">
 import { Message } from "@arco-design/web-vue";
 import { debounce } from "lodash-es";
-import { Tag, normalData, items } from "../api";
+import { normalData, items } from "../api";
+import tagmaps from "../api/tags/tag-map.json";
 
 const showData = ref(normalData);
 const itemsRef = ref();
 const scrollRef = ref();
 const keyword = ref("");
+const tagMap = tagmaps.reduce((acc, cur) => {
+  acc[cur.value] = cur.label;
+  return acc;
+}, {} as Record<string, string>);
 
 const onKeywordChange = debounce(() => {
   if (!keyword.value) {
@@ -96,25 +110,23 @@ const onKeywordChange = debounce(() => {
   });
   showData.value = [
     {
-      label: `搜索结果：${keyword.value}，共 ${children.length} 条。`,
+      label: `搜索：${keyword.value}，共 ${children.length} 条结果。`,
       children: children,
     },
   ];
-}, 500);
+}, 300);
 
 const onCopyUrl = (item: any) => {
   navigator.clipboard.writeText(item.url);
-  Message.success(`已复制 ${item.title} 的网址`);
+  Message.success(`提示: 已复制 ${item.title} 的网址!`);
 };
-
-const itemsLength = items.length;
 </script>
 
 <route lang="json">
 {
   "meta": {
-    "title": "网址列表",
-    "icon": "icon-park-outline-html-five"
+    "title": "网址导航",
+    "icon": "icon-park-outline-navigation"
   }
 }
 </route>
@@ -137,7 +149,22 @@ const itemsLength = items.length;
   transition: all 0.3s ease;
 }
 .item:hover {
-  border-color: #0099ff40;
-  box-shadow: 0 0 12px #0099ff30;
+  border-color: #0099ff50;
+  box-shadow: 0 0 12px #0099ff40;
+}
+.fade-in-bottom {
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 </style>

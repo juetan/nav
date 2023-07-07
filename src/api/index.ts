@@ -25,8 +25,17 @@ const itemsMap: Record<string, Item> = items.reduce((prev, curr) => {
   return prev;
 }, {} as Record<string, Item>);
 
+const cache = new Set();
 const normalData = normalTags.map((tag) => {
-  const children = items.filter((item) => item.tags?.includes(tag.value));
+  const children = items.filter((item) => {
+    if (cache.has(item)) {
+      return false;
+    }
+    if (item.tags?.includes(tag.value)) {
+      cache.add(item);
+      return true;
+    }
+  });
   return { ...tag, children };
 });
 

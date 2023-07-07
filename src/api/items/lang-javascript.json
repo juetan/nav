@@ -3,7 +3,7 @@
     "title": "Estree",
     "description": "EcmaScript的AST解析标准。",
     "logo": "https://github.com/fluidicon.png",
-    "logoFileName": "",
+    "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/estree/estree",
     "tags": ["javascript"]
   },
@@ -11,7 +11,7 @@
     "title": "Esprima",
     "description": "JQuery出品，基于Estree，高性能的解析器。",
     "logo": "https://github.com/fluidicon.png",
-    "logoFileName": "",
+    "logoFileName": "dlnx3fj2v7.png",
     "url": "https://esprima.org/",
     "tags": ["javascript"]
   },
@@ -19,7 +19,7 @@
     "title": "Acorn",
     "description": "基于Estree标准，使用JavaScript编写的解析器。",
     "logo": "https://github.com/fluidicon.png",
-    "logoFileName": "",
+    "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/acornjs/acorn",
     "tags": ["javascript"]
   },
@@ -27,7 +27,7 @@
     "title": "Espree",
     "description": "Eslint出品，基于Acorn，兼容Esprima的解析器。",
     "logo": "https://github.com/fluidicon.png",
-    "logoFileName": "",
+    "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/eslint/espree",
     "tags": ["javascript"]
   },
@@ -35,7 +35,7 @@
     "title": "Mdn",
     "description": "非常官方的开发者文档, 包含html，css，javascript相关的教程。",
     "logo": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
-    "logoFileName": "",
+    "logoFileName": "f40lfga5rs.png",
     "url": "https://developer.mozilla.org/zh-CN/",
     "tags": ["javascript", "css", "html"]
   },
@@ -43,7 +43,7 @@
     "title": "EcmaScript",
     "description": "一种具有函数优先特性的轻量级、解释型或者说即时编译型的编程语言。",
     "logo": "https://tc39.es/ecma262/2022/img/favicon.ico",
-    "logoFileName": "",
+    "logoFileName": "3a0lc2kv53.ico",
     "url": "https://262.ecma-international.org/#sec-intro",
     "tags": ["Javascript", "spec"]
   },
@@ -51,7 +51,7 @@
     "title": "JavaScript",
     "description": "Ecmascript的语言规范。",
     "logo": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
-    "logoFileName": "",
+    "logoFileName": "f40lfga5rs.png",
     "url": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
     "tags": ["Javascript", "spec"]
   },
@@ -59,7 +59,7 @@
     "title": "TypeScript",
     "description": "基于Javascript的强类型编程语言。",
     "logo": "https://www.typescriptlang.org/favicon-32x32.png",
-    "logoFileName": "",
+    "logoFileName": "qs5eox2zca.png",
     "url": "https://www.typescriptlang.org/zh/",
     "tags": ["Javascript", "spec", "typescript"]
   },
@@ -67,7 +67,7 @@
     "title": "NodeJS",
     "description": "一个开源、跨平台的 JavaScript 运行时环境。",
     "logo": "https://nodejs.org/static/images/logo-hexagon-card.png",
-    "logoFileName": "",
+    "logoFileName": "p29lkfttsm.png",
     "url": "https://nodejs.org/zh-cn/docs/",
     "tags": ["Javascript", "spec"]
   }

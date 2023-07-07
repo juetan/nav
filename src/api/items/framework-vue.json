@@ -3,41 +3,52 @@
     "title": "VueJS",
     "description": "易学易用，性能出色，适用场景丰富的 Web 前端框架。",
     "logo": "https://cn.vuejs.org/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "mp5cn7bi5v.svg",
     "url": "https://cn.vuejs.org/",
-    "tags": ["vue", "framework"]
+    "tags": [
+      "vue",
+      "framework"
+    ]
   },
   {
     "title": "Vue Router",
     "description": "为 Vue.js 提供富有表现力、可配置的、方便的路由。",
     "logo": "https://cn.vuejs.org/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "mp5cn7bi5v.svg",
     "url": "https://router.vuejs.org/zh/",
-    "tags": ["vue"]
+    "tags": [
+      "vue"
+    ]
   },
   {
     "title": "Vue I18n",
     "description": "Vue I18n 是 Vue.js 的国际化插件。",
     "logo": "https://cn.vuejs.org/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "mp5cn7bi5v.svg",
     "url": "https://kazupon.github.io/vue-i18n/zh/introduction.html",
-    "tags": ["vue"]
+    "tags": [
+      "vue"
+    ]
   },
   {
     "title": "VueUse",
     "description": "Collection of Essential Vue Composition Utilities。",
     "logo": "https://vueuse.org/favicon.svg",
-    "logoFileName": "",
+    "logoFileName": "5grrt3wydn.svg",
     "url": "https://vueuse.org/",
-    "tags": ["vue"]
+    "tags": [
+      "vue"
+    ]
   },
   {
     "title": "Pinia",
     "description": "符合直觉的 Vue.js 状态管理库。",
     "logo": "https://pinia.vuejs.org/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "tnvozdw51q.svg",
     "url": "https://pinia.vuejs.org/zh/",
-    "tags": ["vue"]
+    "tags": [
+      "vue"
+    ]
   },
   {
     "title": "Vue Macros",
@@ -45,62 +56,84 @@
     "logo": "https://vue-macros.sxzz.moe/favicon.svg",
     "logoFileName": "",
     "url": "https://vue-macros.sxzz.moe/guide/getting-started.html",
-    "tags": ["online-tools"]
+    "tags": [
+      "online-tools"
+    ]
   },
   {
     "title": "Vuepress",
     "description": "Vue 驱动的静态网站生成器。",
     "logo": "https://cn.vuejs.org/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "mp5cn7bi5v.svg",
     "url": "https://vuepress.vuejs.org/zh/guide/#%E5%AE%83%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84",
-    "tags": ["vue", "ssg"]
+    "tags": [
+      "vue",
+      "ssg"
+    ]
   },
   {
     "title": "Vitepress",
     "description": "Vite 和 Vue 驱动的静态网站生成器。",
     "logo": "https://cn.vuejs.org/logo.svg",
-    "logoFileName": "",
+    "logoFileName": "mp5cn7bi5v.svg",
     "url": "https://vitepress.vuejs.org/guide/what-is-vitepress",
-    "tags": ["vue", "ssg"]
+    "tags": [
+      "vue",
+      "ssg"
+    ]
   },
   {
     "title": "Nuxt",
     "description": "The Intuitive Web Framework。",
     "logo": "https://nuxt.com/icon.png",
-    "logoFileName": "",
+    "logoFileName": "q2ksun6ono.png",
     "url": "https://nuxt.com/docs/getting-started/introduction",
-    "tags": ["react", "ssg"]
+    "tags": [
+      "react",
+      "ssg"
+    ]
   },
   {
     "title": "Arco Design Vue",
     "description": "字节跳动出品的企业级设计系统, Vue版。",
     "logo": "https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico",
-    "logoFileName": "",
+    "logoFileName": "0hu40omp3i.ico",
     "url": "https://arco.design/vue/docs/start",
-    "tags": ["vue", "vue-ui"]
+    "tags": [
+      "vue",
+      "vue-ui"
+    ]
   },
   {
     "title": "Naive UI",
     "description": "一个 Vue 3 组件库, 比较完整，主题可调，使用 TypeScript。",
     "logo": "https://www.naiveui.com/assets/naivelogo-93278402.svg",
-    "logoFileName": "",
+    "logoFileName": "tyj9xzk6h7.svg",
     "url": "https://www.naiveui.com/zh-CN/os-theme/docs/installation",
-    "tags": ["vue", "vue-ui"]
+    "tags": [
+      "vue",
+      "vue-ui"
+    ]
   },
   {
     "title": "Element Plus",
     "description": "基于 Vue 3，面向设计师和开发者的组件库。",
     "logo": "https://element-plus.gitee.io/images/element-plus-logo-small.svg",
-    "logoFileName": "",
+    "logoFileName": "0nlhtf3umw.svg",
     "url": "https://element-plus.gitee.io/zh-CN/",
-    "tags": ["vue", "vue-ui"]
+    "tags": [
+      "vue",
+      "vue-ui"
+    ]
   },
   {
     "title": "Vue Docgen API",
     "description": "将vue组件转换为文档对象。",
     "logo": "https://vue-styleguidist.github.io/assets/logo.png",
-    "logoFileName": "",
+    "logoFileName": "df574p8sch.png",
     "url": "https://vue-styleguidist.github.io/docs/Docgen.html",
-    "tags": ["vue"]
+    "tags": [
+      "vue"
+    ]
   }
 ]

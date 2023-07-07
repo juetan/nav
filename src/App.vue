@@ -17,6 +17,13 @@
             </template>
           </a-button>
         </a-tooltip>
+        <a-tooltip :content="'Gihub仓库'">
+          <a-button shape="circle" @click="onGotoGithub">
+            <template #icon>
+              <i class="icon-park-outline-github"></i>
+            </template>
+          </a-button>
+        </a-tooltip>
         <!-- <a-button class="bg-transparent">
           <template #icon>
             <i class="icon-park-outline-config"></i>
@@ -95,6 +102,11 @@ watch(
 
 const onChangeRoute = (path: string) => {
   router.push(path);
+};
+
+const onGotoGithub = () => {
+  const repo = "https://github.com/juetan/nav";
+  window.open(repo, "_blank");
 };
 </script>
 

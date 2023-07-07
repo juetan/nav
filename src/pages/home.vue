@@ -32,11 +32,11 @@
       </div>
     </div> -->
     <a-scrollbar ref="scrollRef" outer-class="overflow-hidden" class="h-full overflow-auto mt-3 pb-4">
-      <div v-for="category in items" :key="category.title" ref="itemsRef">
-        <div class="text-slate-500 px-6 mb-3 mt-2">{{ category.title }}</div>
+      <div v-for="category in showData" :key="category.label" ref="itemsRef">
+        <div class="text-slate-500 px-6 mb-3 mt-2">{{ category.label }}</div>
         <div class="list flex-1 grid gap-4 px-5 pb-4">
           <div
-            v-for="item in category.items"
+            v-for="item in category.children"
             :key="item.title"
             class="item group flex w-[280px] gap-4 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
           >
@@ -52,7 +52,7 @@
                 <a :href="item.url" target="_blank" class="hover:text-blue-500 dark:text-slate-100">
                   <h3 class="font-normal m-0">{{ item.title }}</h3>
                 </a>
-                <span :title="'复制当前地址'">
+                <span :title="'复制网址'">
                   <i
                     class="hidden group-hover:block icon-park-outline-copy w-4 h-4 text-slate-300 hover:text-slate-500 cursor-pointer"
                     style="vertical-align: 1px; width: 13px; height: 13px"
@@ -77,45 +77,37 @@
 <script setup lang="ts">
 import { Message } from "@arco-design/web-vue";
 import { debounce } from "lodash-es";
-import data from "../data/items1.json";
+import { Tag, normalData, items } from "../api";
 
-const items = reactive([
-  {
-    title: "网址列表",
-    items: data,
-  },
-]);
-
+const showData = ref(normalData);
 const itemsRef = ref();
 const scrollRef = ref();
 const keyword = ref("");
 
 const onKeywordChange = debounce(() => {
-  const value = keyword.value;
-  items[0].items = data.filter((item) => {
-    const hasTitle = item.title.toLowerCase().includes(value.toLowerCase());
-    const hasDesc = item.description.toLowerCase().includes(value.toLowerCase());
+  if (!keyword.value) {
+    showData.value = normalData;
+    return;
+  }
+  const children = items.filter((item) => {
+    const hasTitle = item.title.toLowerCase().includes(keyword.value?.toLowerCase());
+    const hasDesc = item.description.toLowerCase().includes(keyword.value?.toLowerCase());
     return hasTitle || hasDesc;
   });
+  showData.value = [
+    {
+      label: `搜索结果：${keyword.value}，共 ${children.length} 条。`,
+      children: children,
+    },
+  ];
 }, 500);
-
-watch(
-  () => keyword.value,
-  () => {
-    if (keyword.value) {
-      items[0].title = `搜索结果：${keyword.value}，共 ${items[0].items.length} 条。`;
-    } else {
-      items[0].title = `网址列表`;
-    }
-  }
-);
 
 const onCopyUrl = (item: any) => {
   navigator.clipboard.writeText(item.url);
   Message.success(`已复制 ${item.title} 的网址`);
 };
 
-const itemsLength = data.length;
+const itemsLength = items.length;
 </script>
 
 <route lang="json">
@@ -132,8 +124,6 @@ const itemsLength = data.length;
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjxwYXRoIGZpbGw9IiM1NUFDRUUiIGQ9Ik0xNi44NjcgMTUuNzM0Yy42MjUuNjI2IDEuNjQuNjI2IDIuMjY2IDBsNi4yMzItNi4yMzFhMS42MDQgMS42MDQgMCAwIDAgMC0yLjI2NmwtNi4yMzItNi4yMzFhMS42MDIgMS42MDIgMCAwIDAtMi4yNjYgMGwtNi4yMzIgNi4yMzFhMS42MDIgMS42MDIgMCAwIDAgMCAyLjI2Nmw2LjIzMiA2LjIzMXptOS42MzEgOS42M2MuNjI1LjYyNiAxLjY0LjYyNiAyLjI2NiAwbDYuMjMyLTYuMjMxYTEuNjA0IDEuNjA0IDAgMCAwIDAtMi4yNjZsLTYuMjMyLTYuMjMxYTEuNjAyIDEuNjAyIDAgMCAwLTIuMjY2IDBsLTYuMjMyIDYuMjMxYTEuNjAyIDEuNjAyIDAgMCAwIDAgMi4yNjZsNi4yMzIgNi4yMzF6bS0xLjEzNCAxLjEzNGwtNi4yMzEtNi4yMzJhMS42MDIgMS42MDIgMCAwIDAtMi4yNjYgMGwtNi4yMzEgNi4yMzJhMS42IDEuNiAwIDAgMCAwIDIuMjY1bDYuMjMxIDYuMjMyYy42MjYuNjI1IDEuNjQuNjI1IDIuMjY2IDBsNi4yMzEtNi4yMzJhMS42IDEuNiAwIDAgMCAwLTIuMjY1em0tOS42My05LjYzbC02LjIzMS02LjIzMmExLjYwMiAxLjYwMiAwIDAgMC0yLjI2NiAwbC02LjIzMSA2LjIzMmExLjYgMS42IDAgMCAwIDAgMi4yNjVsNi4yMzEgNi4yMzJjLjYyNi42MjUgMS42NC42MjUgMi4yNjYgMGw2LjIzMS02LjIzMmExLjYgMS42IDAgMCAwIDAtMi4yNjV6Ii8+PHBhdGggZmlsbD0iIzNCODhDMyIgZD0ibTE1LjczNCAxNi44NjhsLTMuMjE0LTMuMjE1QTYuOTY1IDYuOTY1IDAgMCAwIDExIDE4YzAgMS42NDQuNTcxIDMuMTUzIDEuNTIgNC4zNDdsMy4yMTQtMy4yMTRhMS42IDEuNiAwIDAgMCAwLTIuMjY1em02LjYxNCA2LjYxMmwtMy4yMTUtMy4yMTVhMS42MDUgMS42MDUgMCAwIDAtMi4yNjYgMGwtMy4yMTUgMy4yMTVBNi45NjcgNi45NjcgMCAwIDAgMTggMjVhNi45NjcgNi45NjcgMCAwIDAgNC4zNDgtMS41MnptLTIuMDgyLTQuMzQ3bDMuMjE1IDMuMjE1QTYuOTczIDYuOTczIDAgMCAwIDI1IDE4YTYuOTYyIDYuOTYyIDAgMCAwLTEuNTItNC4zNDdsLTMuMjE1IDMuMjE1YTEuNjAzIDEuNjAzIDAgMCAwIC4wMDEgMi4yNjV6bS0xLjEzMy0zLjM5OWwzLjIxNS0zLjIxNEE2Ljk2NyA2Ljk2NyAwIDAgMCAxOCAxMWE2Ljk2MiA2Ljk2MiAwIDAgMC00LjM0NyAxLjUybDMuMjE1IDMuMjE0YTEuNiAxLjYgMCAwIDAgMi4yNjUgMHoiLz48Y2lyY2xlIGN4PSIxOCIgY3k9IjE4IiByPSI1IiBmaWxsPSIjQkJEREY1Ii8+PC9zdmc+")
-    no-repeat center center / contain;
 }
 
 .list {

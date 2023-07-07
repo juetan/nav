@@ -1,0 +1,74 @@
+[
+  {
+    "label": "构建工具",
+    "value": "bundler"
+  },
+  {
+    "label": "语言: JavaScript",
+    "value": "javascript"
+  },
+  {
+    "label": "语言: TypeScript",
+    "value": "typescript"
+  },
+  {
+    "label": "语言: NodeJS",
+    "value": "nodejs"
+  },
+  {
+    "label": "语言: Css",
+    "value": "css"
+  },
+  {
+    "label": "跨端平台",
+    "value": "cross-platform"
+  },
+  {
+    "label": "社区论坛",
+    "value": "community"
+  },
+  {
+    "label": "社区名人",
+    "value": "people"
+  },
+  {
+    "label": "命令行工具",
+    "value": "cli"
+  },
+  {
+    "label": "后端框架",
+    "value": "nodejs-framework"
+  },
+  {
+    "label": "在线工具",
+    "value": "online-tools"
+  },
+  {
+    "label": "图片相关",
+    "value": "image"
+  },
+  {
+    "label": "浏览器(chrome)",
+    "value": "chrome-extensions"
+  },
+  {
+    "label": "桌面软件",
+    "value": "software"
+  },
+  {
+    "label": "代码格式",
+    "value": "lint"
+  },
+  {
+    "label": "常用类库",
+    "value": "utils"
+  },
+  {
+    "label": "设计交互",
+    "value": "design"
+  },
+  {
+    "label": "框架: Vue",
+    "value": "vue"
+  }
+]

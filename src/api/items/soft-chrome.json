@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Vue Devtools",
+    "description": "一个用于调试 Vue.js 应用程序的浏览器扩展。",
+    "logo": "https://cn.vuejs.org/logo.svg",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=zh-CN",
+    "tags": ["vue", "chrome-extensions"]
+  },
+  {
+    "title": "FeHelper",
+    "description": "WEB前端助手, 包含一些前端实用的工具。",
+    "logo": "https://static.baidufe.com/fehelper/static/img/fe-128.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad?hl=zh-CN",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Tampermonkey(油猴)",
+    "description": "允许用户自定义并增强网页的功能，可在线搜索和安装用户脚本。",
+    "logo": "https://www.tampermonkey.net/images/icon180.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Stylus",
+    "description": "一个调整网页外观的用户样式管理器，可在线搜索和安装用户样式。",
+    "logo": "https://static.pictureknow.com/69525358619f4f6b80a490fe81e1842b.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=zh-CN",
+    "tags": ["css", "chrome-extensions"]
+  },
+  {
+    "title": "Google 翻译",
+    "description": "谷歌翻译，在浏览页面时，选中文本内容，点击图标即可翻译。",
+    "logo": "https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=zh-CN",
+    "tags": ["vue", "chrome-extensions"]
+  },
+  {
+    "title": "Console Importer",
+    "description": "一个便利工具，可以在控制台加载Javascript和Css资源。",
+    "logo": "https://static.pictureknow.com/3eac0a44c1c54bb8bd6e6b95618066e0.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/console-importer/hgajpakhafplebkdljleajgbpdmplhie?hl=zh-CN",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Proxy SwitchyOmega",
+    "description": "轻松快捷地管理和切换多个代理设置。",
+    "logo": "https://static.pictureknow.com/d0b17a182c494a09b9e377c965796cdc.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "React Developer Tools",
+    "description": "一个用于调试 React.js 应用程序的浏览器扩展。",
+    "logo": "https://static.pictureknow.com/06c224304a10463583fc5c1b4012e99c.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+    "tags": ["react", "chrome-extensions"]
+  },
+  {
+    "title": "Automa",
+    "description": "包含表单自动填充，截图，数据抓取等功能的自动化编排工具。",
+    "logo": "https://static.pictureknow.com/5006c749c71449c2a36b7d24c6ff6d4a.png",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcca",
+    "tags": ["chrome-extensions"]
+  }
+]

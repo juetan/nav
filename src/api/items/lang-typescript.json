@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Tsdoc",
+    "description": "一个标准化TypeScript文档注释的提案。",
+    "logo": "https://tsdoc.org/images/site/favicon.ico",
+    "logoFileName": "",
+    "url": "https://tsdoc.org/",
+    "tags": ["typescript"]
+  },
+  {
+    "title": "TsMorph",
+    "description": "操作TypeScript AST的工具。",
+    "logo": "https://tsdoc.org/images/site/favicon.ico",
+    "logoFileName": "",
+    "url": "https://ts-morph.com/",
+    "tags": ["typescript"]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Esm.sh",
+    "description": "一个可以从URL导入ES6模块的现代CDN。",
+    "logo": "https://esm.sh/favicon.svg",
+    "logoFileName": "",
+    "url": "https://esm.sh/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Esm.run",
+    "description": "JsDelivr出品, 可以从URL导入ES6模块的现代CDN。",
+    "logo": "https://www.jsdelivr.com/favicon.ico",
+    "logoFileName": "",
+    "url": "https://www.jsdelivr.com/esm",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Skypack",
+    "description": "无需安装和构建工具, 按需加载ES6模块的在线CDN。",
+    "logo": "https://www.skypack.dev/favicon.png",
+    "logoFileName": "",
+    "url": "https://www.skypack.dev/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Unpkg",
+    "description": "可使用URL加载npm包的在线CDN。",
+    "logo": "https://unpkg.com/favicon.ico",
+    "logoFileName": "",
+    "url": "https://unpkg.com/",
+    "tags": ["online-tools"]
+  },
+  {
+    "title": "Githack",
+    "description": "把github文件作为cdn使用。",
+    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
+    "logoFileName": "",
+    "url": "http://raw.githack.com/",
+    "tags": ["online-tools"]
+  }
+]

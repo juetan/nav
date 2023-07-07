@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Electron",
+    "description": "一个使用 JavaScript、HTML 和 CSS 构建桌面应用程序的框架。",
+    "logo": "https://www.electronjs.org/zh/assets/img/favicon.ico",
+    "logoFileName": "",
+    "url": "https://www.electronjs.org/zh/docs/latest/",
+    "tags": ["cross-platform", "pc"]
+  },
+  {
+    "title": "Tauri",
+    "description": "构建跨平台的快速、安全、前端隔离应用。",
+    "logo": "https://tauri.app/zh-cn/meta/favicon-32x32.png",
+    "logoFileName": "",
+    "url": "https://tauri.app/zh-cn/",
+    "tags": ["cross-platform", "pc"]
+  },
+  {
+    "title": "Taro",
+    "description": "一个开放式跨端跨框架解决方案。",
+    "logo": "https://docs.taro.zone/img/taroLogo180.png",
+    "logoFileName": "",
+    "url": "https://docs.taro.zone/docs",
+    "tags": ["cross-platform", "mobile"]
+  },
+  {
+    "title": "Uniapp",
+    "description": "一个使用 Vue.js 开发多端前端应用的框架。",
+    "logo": "https://web-assets.dcloud.net.cn/unidoc/zh/icon.png",
+    "logoFileName": "",
+    "url": "https://uniapp.dcloud.net.cn/",
+    "tags": ["cross-platform", "mobile"]
+  },
+  {
+    "title": "Flutter",
+    "description": " Google 开源的应用开发框架。",
+    "logo": "https://flutter.cn/assets/images/cn/flutter-icon.png",
+    "logoFileName": "",
+    "url": "https://flutter.cn/",
+    "tags": ["cross-platform", "mobile"]
+  },
+  {
+    "title": "React Native",
+    "description": "Learn once, write anywhere。",
+    "logo": "https://reactnative.dev/img/pwa/manifest-icon-512.png",
+    "logoFileName": "",
+    "url": "https://reactnative.dev/docs/environment-setup",
+    "tags": ["cross-platform", "mobile"]
+  }
+]

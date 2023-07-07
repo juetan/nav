@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lodash",
+    "description": "一致性、模块化、高性能的 JavaScript 实用工具库。",
+    "logo": "https://www.lodashjs.com/img/favicon.ico",
+    "logoFileName": "",
+    "url": "https://www.lodashjs.com/",
+    "tags": ["utils"]
+  },
+  {
+    "title": "Dayjs",
+    "description": "Moment.js 的 2kB 轻量化方案，拥有同样强大的 API。",
+    "logo": "https://dayjs.gitee.io/img/favicon.ico",
+    "logoFileName": "",
+    "url": "https://dayjs.gitee.io/docs/zh-CN/installation/installation",
+    "tags": ["utils"]
+  },
+  {
+    "title": "Axios",
+    "description": "一个基于 promise 网络请求库，作用于node.js 和浏览器中。",
+    "logo": "https://axios-http.com/assets/favicon.ico",
+    "logoFileName": "",
+    "url": "https://axios-http.com/zh/docs/intro",
+    "tags": ["utils"]
+  },
+  {
+    "title": "Numeral",
+    "description": "一个处理和格式化数字的Javascript库。",
+    "logo": "https://axios-http.com/assets/favicon.ico",
+    "logoFileName": "",
+    "url": "http://numeraljs.com/",
+    "tags": ["utils"]
+  },
+  {
+    "title": "Mock.js",
+    "description": "生成随机数据，拦截 Ajax 请求。",
+    "logo": "http://mockjs.com/assets/img/logo-2.svg",
+    "logoFileName": "",
+    "url": "http://mockjs.com/examples.html",
+    "tags": ["utils"]
+  },
+  {
+    "title": "Swagger Typescript API",
+    "description": "根据OpenAPI格式生成typescript类型, 请求API。",
+    "logo": "http://mockjs.com/assets/img/logo-2.svg",
+    "logoFileName": "",
+    "url": "https://github.com/acacode/swagger-typescript-api",
+    "tags": ["utils", "openapi", "typescript"]
+  }
+]

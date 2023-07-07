@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Eslint",
+    "description": "一个插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。",
+    "logo": "https://eslint.org/favicon.ico",
+    "logoFileName": "",
+    "url": "https://eslint.org/docs/latest/use/getting-started",
+    "tags": ["lint", "javascript"]
+  },
+  {
+    "title": "Prettier",
+    "description": "一个 “有主见” 的代码格式化工具。",
+    "logo": "https://prettier.io/icon.png",
+    "logoFileName": "",
+    "url": "https://prettier.io/docs/en/index.html",
+    "tags": ["lint", "javascript"]
+  },
+  {
+    "title": "Stylelint",
+    "description": "一个摩登的 CSS linter 工具。",
+    "logo": "https://stylelint.io/img/favicon.ico",
+    "logoFileName": "",
+    "url": "https://stylelint.io/",
+    "tags": ["lint", "css"]
+  },
+  {
+    "title": "Airbnb Guide",
+    "description": "Airbnb的JavaScript规范。",
+    "logo": "https://z1.muscache.cn/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico",
+    "logoFileName": "",
+    "url": "https://github.com/airbnb/javascript",
+    "tags": ["lint", "javascript"]
+  }
+]

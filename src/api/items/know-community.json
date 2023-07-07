@@ -1,0 +1,42 @@
+[
+  {
+    "title": "掘金",
+    "description": "面向全球中文开发者的技术内容分享与交流平台。",
+    "logo": "http://www.alloyteam.com/nav/static/images/gold-favicon.png",
+    "logoFileName": "",
+    "url": "https://juejin.cn/",
+    "tags": ["community"]
+  },
+  {
+    "title": "吾爱破解",
+    "description": "致力于软件安全与病毒分析的前沿，丰富的技术版块交相辉映，由无数热衷于软件加密解密及反病毒爱好者共同维护。",
+    "logo": "https://avatar.52pojie.cn/images/noavatar_small.gif",
+    "logoFileName": "",
+    "url": "https://www.52pojie.cn/",
+    "tags": ["community"]
+  },
+  {
+    "title": "知乎",
+    "description": "中文互联网高质量的问答社区和创作者聚集的原创内容平台。",
+    "logo": "https://static.zhihu.com/heifetz/assets/apple-touch-icon-76.7abf3393.png",
+    "logoFileName": "",
+    "url": "https://www.zhihu.com/",
+    "tags": ["community"]
+  },
+  {
+    "title": "V2ex",
+    "description": "创意工作者的社区, 讨论编程、设计、硬件、游戏等令人激动的话题。",
+    "logo": "https://v2ex.com/static/icon-192.png",
+    "logoFileName": "",
+    "url": "https://v2ex.com/",
+    "tags": ["community"]
+  },
+  {
+    "title": "博客园",
+    "description": "一个面向开发者的知识分享社区。",
+    "logo": "https://common.cnblogs.com/favicon.ico",
+    "logoFileName": "",
+    "url": "https://www.cnblogs.com/",
+    "tags": ["community"]
+  }
+]

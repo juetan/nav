@@ -70,5 +70,45 @@
     "logoFileName": "7tg5bs1igi.png",
     "url": "https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcca",
     "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "沉浸式翻译",
+    "description": "沉浸式网页双语翻译扩展，免费使用，支持 Deepl/Google/有道/腾讯翻译等多个翻译服务。",
+    "logo": "https://lh3.googleusercontent.com/FCCjGNQ3JhLebMSOBdTRV7UP5yMNa9lF5rsJxQ1B4gVcZy5V3vJIdIOh3DO7fCih1JfzIRbAHrxhhXjEUTMKtwdBDA=w128-h128-e365-rj-sc0x00ffffff",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Header Editor",
+    "description": "管理浏览器请求，包括修改请求头和响应头、重定向请求、取消请求。",
+    "logo": "https://lh3.googleusercontent.com/ubgIjcZIMGSSH3o5ebDDnpD27x5apQh82W1oklyNGvXTOmZMODySD9IIrtH0_QoDDBZfvzp2jyZd2zF6IQ3OIlYzNoM=w128-h128-e365-rj-sc0x00ffffff",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/header-editor/eningockdidmgiojffjmkdblpjocbhgh",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Stylus",
+    "description": "一个调整网页外观的用户样式管理器。它可以让您轻松为许多热门网站安装主题和皮肤。",
+    "logo": "https://lh3.googleusercontent.com/2K8pc_5-2DkPam9b3oAWoITZ7IuIz68A5a8Ssg2_MNNHTPWPOPSBVTFdTmeVu9hi8GJxpKbvTekgwpeyGV6vXyBKH80=w128-h128-e365-rj-sc0x00ffffff",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Picviewer CE+",
+    "description": "油猴脚本：图片翻转、旋转、缩放，显示原始大图。",
+    "logo": "https://greasyfork.org/vite/assets/blacklogo96-e0c2c761.png",
+    "logoFileName": "",
+    "url": "https://greasyfork.org/zh-CN/scripts/24204-picviewer-ce",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "东方永页机",
+    "description": "油猴脚本：加载并拼接下一分页内容至当前页尾，智能适配任意网页。",
+    "logo": "https://greasyfork.org/vite/assets/blacklogo96-e0c2c761.png",
+    "logoFileName": "",
+    "url": "https://greasyfork.org/zh-CN/scripts/438684-pagetual",
+    "tags": ["chrome-extensions"]
   }
 ]

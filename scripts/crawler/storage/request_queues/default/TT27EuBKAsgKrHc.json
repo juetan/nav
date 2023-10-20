@@ -1,9 +1,0 @@
-{
-	"id": "TT27EuBKAsgKrHc",
-	"json": "{\"id\":\"TT27EuBKAsgKrHc\",\"url\":\"http://www.ruanyifeng.com/blog/images/person2_s.jpg\",\"loadedUrl\":\"http://www.ruanyifeng.com/blog/images/person2_s.jpg\",\"uniqueKey\":\"http://www.ruanyifeng.com/blog/images/person2_s.jpg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:10.624Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://www.ruanyifeng.com/blog/images/person2_s.jpg",
-	"url": "http://www.ruanyifeng.com/blog/images/person2_s.jpg"
-}

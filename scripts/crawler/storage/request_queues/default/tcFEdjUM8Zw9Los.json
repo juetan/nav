@@ -1,9 +1,0 @@
-{
-	"id": "tcFEdjUM8Zw9Los",
-	"json": "{\"id\":\"tcFEdjUM8Zw9Los\",\"url\":\"https://www.typescriptlang.org/favicon-32x32.png\",\"loadedUrl\":\"https://www.typescriptlang.org/favicon-32x32.png\",\"uniqueKey\":\"https://www.typescriptlang.org/favicon-32x32.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:13.850Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.typescriptlang.org/favicon-32x32.png",
-	"url": "https://www.typescriptlang.org/favicon-32x32.png"
-}

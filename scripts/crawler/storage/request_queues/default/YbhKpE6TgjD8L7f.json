@@ -1,9 +1,0 @@
-{
-	"id": "YbhKpE6TgjD8L7f",
-	"json": "{\"id\":\"YbhKpE6TgjD8L7f\",\"url\":\"https://vue-styleguidist.github.io/assets/logo.png\",\"loadedUrl\":\"https://vue-styleguidist.github.io/assets/logo.png\",\"uniqueKey\":\"https://vue-styleguidist.github.io/assets/logo.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:18.784Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://vue-styleguidist.github.io/assets/logo.png",
-	"url": "https://vue-styleguidist.github.io/assets/logo.png"
-}

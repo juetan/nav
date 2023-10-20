@@ -1,9 +1,0 @@
-{
-	"id": "3JyjzOFcPaIKiTI",
-	"json": "{\"id\":\"3JyjzOFcPaIKiTI\",\"url\":\"https://static.canva.cn/static/images/favicon-1.ico\",\"loadedUrl\":\"https://static.canva.cn/static/images/favicon-1.ico\",\"uniqueKey\":\"https://static.canva.cn/static/images/favicon-1.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:17.884Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://static.canva.cn/static/images/favicon-1.ico",
-	"url": "https://static.canva.cn/static/images/favicon-1.ico"
-}

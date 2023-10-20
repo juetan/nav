@@ -5,7 +5,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/minimistjs/minimist",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Cac",
@@ -13,7 +15,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/cacjs/cac",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Prompts",
@@ -21,7 +25,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/terkelg/prompts",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Kolorist",
@@ -29,7 +35,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/marvinhagemeister/kolorist",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Commander",
@@ -37,7 +45,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/tj/commander.js/blob/master/Readme_zh-CN.md",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Inquirer",
@@ -45,7 +55,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/SBoudrias/Inquirer.js",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Ora",
@@ -53,7 +65,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/sindresorhus/ora",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Chalk",
@@ -61,7 +75,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/chalk/chalk",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Fs Extra",
@@ -69,7 +85,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/jprichardson/node-fs-extra",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Figlet",
@@ -77,7 +95,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/patorjk/figlet.js",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Plopjs",
@@ -85,7 +105,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://plopjs.com/documentation/",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Yeoman",
@@ -93,7 +115,9 @@
     "logo": "https://yeoman.io/static/favicon.b25e58c4b8.ico",
     "logoFileName": "ybj6cv35ca.ico",
     "url": "https://yeoman.io/",
-    "tags": ["cli"]
+    "tags": [
+      "cli"
+    ]
   },
   {
     "title": "Node.js Toolbox",
@@ -101,6 +125,8 @@
     "logo": "https://nodejstoolbox.com/apple-touch-icon.png",
     "logoFileName": "j3wl1gysw6.png",
     "url": "https://nodejstoolbox.com/",
-    "tags": ["online-tools"]
+    "tags": [
+      "online-tools"
+    ]
   }
 ]

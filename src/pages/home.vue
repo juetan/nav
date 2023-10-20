@@ -19,19 +19,8 @@
           @clear="onKeywordChange"
           @search="onKeywordChange"
         ></a-input-search>
-        <!-- <i class="icon-park-outline-more"></i> -->
       </div>
     </div>
-    <!-- <div class="bg-white">
-      <div v-for="tag in tags" :key="tag.value" class="flex items-center gap-2 px-6 mt-2 text-slate-500 bg-white">
-        <span class="w-16">{{ tag.label }}({{ tag.children.length }}): </span>
-        <a-link v-for="item in tag.children" :key="item.label" bordered @click="onClickTag(tag.value)">
-          <span>
-            {{ item.label }}
-          </span>
-        </a-link>
-      </div>
-    </div> -->
     <a-scrollbar ref="scrollRef" outer-class="overflow-hidden" class="h-full overflow-auto mt-3 pb-4">
       <div v-for="category in showData" :key="category.label" ref="itemsRef" class="fade-in-bottom">
         <div class="text-slate-500 px-6 mb-3 mt-2">{{ category.label }}</div>

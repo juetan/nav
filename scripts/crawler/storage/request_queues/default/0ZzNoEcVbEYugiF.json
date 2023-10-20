@@ -1,9 +1,0 @@
-{
-	"id": "0ZzNoEcVbEYugiF",
-	"json": "{\"id\":\"0ZzNoEcVbEYugiF\",\"url\":\"https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico\",\"loadedUrl\":\"https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico\",\"uniqueKey\":\"https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:11.703Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico",
-	"url": "https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico"
-}

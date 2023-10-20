@@ -1,9 +1,0 @@
-{
-	"id": "B7aY1xOlZuPshh9",
-	"json": "{\"id\":\"B7aY1xOlZuPshh9\",\"url\":\"https://pinia.vuejs.org/logo.svg\",\"loadedUrl\":\"https://pinia.vuejs.org/logo.svg\",\"uniqueKey\":\"https://pinia.vuejs.org/logo.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:12.119Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://pinia.vuejs.org/logo.svg",
-	"url": "https://pinia.vuejs.org/logo.svg"
-}

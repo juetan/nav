@@ -1,9 +1,0 @@
-{
-	"id": "M26aAHkNzrEF0Rk",
-	"json": "{\"id\":\"M26aAHkNzrEF0Rk\",\"url\":\"https://docs.npmjs.com/favicon-32x32.png\",\"loadedUrl\":\"https://docs.npmjs.com/favicon-32x32.png\",\"uniqueKey\":\"https://docs.npmjs.com/favicon-32x32.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:14.098Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://docs.npmjs.com/favicon-32x32.png",
-	"url": "https://docs.npmjs.com/favicon-32x32.png"
-}

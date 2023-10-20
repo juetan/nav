@@ -1,9 +1,0 @@
-{
-	"id": "egfO98Hhr44AzX1",
-	"json": "{\"id\":\"egfO98Hhr44AzX1\",\"url\":\"https://github.com/volta-cli/volta/raw/main/volta.png?raw=true\",\"loadedUrl\":\"https://raw.githubusercontent.com/volta-cli/volta/main/volta.png\",\"uniqueKey\":\"https://github.com/volta-cli/volta/raw/main/volta.png?raw=true\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:15.368Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://github.com/volta-cli/volta/raw/main/volta.png?raw=true",
-	"url": "https://github.com/volta-cli/volta/raw/main/volta.png?raw=true"
-}

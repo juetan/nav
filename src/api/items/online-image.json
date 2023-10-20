@@ -3,7 +3,7 @@
     "title": "Icon Horse",
     "description": "在线获取任何网站的图标(favicon)。",
     "logo": "https://unpkg.com/favicon.ico",
-    "logoFileName": "",
+    "logoFileName": "x1c1ijxk35.ico",
     "url": "https://unpkg.com/",
     "tags": []
   },
@@ -13,7 +13,10 @@
     "logo": "https://simpleicons.org/icons/vfairs.svg",
     "logoFileName": "1npwhqypig.svg",
     "url": "https://favicon.io/favicon-generator/",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "Sheilds.io",
@@ -29,7 +32,9 @@
     "logo": "https://picsum.photos/assets/images/favicon/favicon-32x32.png",
     "logoFileName": "h3ywr33cd9.png",
     "url": "https://picsum.photos/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "TypyPNG",
@@ -37,7 +42,9 @@
     "logo": "https://tinypng.com/images/favicon.ico",
     "logoFileName": "y43o0dd1lv.ico",
     "url": "https://tinypng.com/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Carbon",
@@ -45,7 +52,9 @@
     "logo": "https://carbon.now.sh/favicon.ico",
     "logoFileName": "131unub5vb.ico",
     "url": "https://carbon.now.sh/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "GitMoji",
@@ -53,7 +62,9 @@
     "logo": "https://gitmoji.dev/static/android-icon-192x192.png",
     "logoFileName": "ddk8934m0r.png",
     "url": "https://gitmoji.dev/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "EmojiAll",
@@ -61,7 +72,9 @@
     "logo": "https://www.emojiall.com/apple-touch-icon.png",
     "logoFileName": "f0lx538c0l.png",
     "url": "https://www.emojiall.com/zh-hans/all-emojis?type=normal",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Remove.bg",
@@ -69,7 +82,9 @@
     "logo": "https://www.remove.bg/apple-touch-icon.png?v=YAXaAv7pao",
     "logoFileName": "m9spr5hoqh.png",
     "url": "https://www.remove.bg/zh",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Many pixels",
@@ -77,7 +92,9 @@
     "logo": "https://www.manypixels.co/favicon.ico",
     "logoFileName": "ih5ut7rqxf.ico",
     "url": "https://www.manypixels.co/gallery",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Svg wave",
@@ -85,7 +102,9 @@
     "logo": "https://www.manypixels.co/favicon.ico",
     "logoFileName": "ih5ut7rqxf.ico",
     "url": "https://svgwave.in/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Canva(可画)",
@@ -93,7 +112,9 @@
     "logo": "https://static.canva.cn/static/images/favicon-1.ico",
     "logoFileName": "zg12el998b.ico",
     "url": "https://www.canva.cn/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Unsplash",
@@ -101,7 +122,10 @@
     "logo": "https://unsplash.com/apple-touch-icon.png",
     "logoFileName": "lyqjhzrd5u.svg",
     "url": "https://unsplash.com/",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "Coverview",
@@ -109,7 +133,10 @@
     "logo": "https://coverview.vercel.app/static/media/logo.5d3dd1b68da4b08fcf92.png",
     "logoFileName": "gbet9osft2.png",
     "url": "https://coverview.vercel.app/editor",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "Unsplash",
@@ -117,7 +144,10 @@
     "logo": "https://unsplash.com/safari-pinned-tab.svg",
     "logoFileName": "lyqjhzrd5u.svg",
     "url": "https://unsplash.com/",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "Pixabay",
@@ -125,7 +155,10 @@
     "logo": "https://pixabay.com/safari-pinned-tab.svg",
     "logoFileName": "kxsiud0re8.svg",
     "url": "https://pixabay.com/",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "Stocksnap",
@@ -133,7 +166,10 @@
     "logo": "https://stocksnap.io/img/favicon.png",
     "logoFileName": "56283bk9pd.png",
     "url": "https://stocksnap.io/",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "LogolyPro",
@@ -141,7 +177,10 @@
     "logo": "https://www.logoly.pro/favicon.ico",
     "logoFileName": "txulne0p8i.ico",
     "url": "https://www.logoly.pro/#/",
-    "tags": ["image", "ui"]
+    "tags": [
+      "image",
+      "ui"
+    ]
   },
   {
     "title": "Shape Divider",
@@ -149,7 +188,9 @@
     "logo": "https://shapedivider.app/favicon.ico",
     "logoFileName": "h6jyigcw80.ico",
     "url": "https://www.shapedivider.app/",
-    "tags": ["image"]
+    "tags": [
+      "image"
+    ]
   },
   {
     "title": "Svgrepo",
@@ -157,7 +198,9 @@
     "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.svgrepo.com/&size=128",
     "logoFileName": "qkefzxyqq9.png",
     "url": "https://www.svgrepo.com/",
-    "tags": ["icon"]
+    "tags": [
+      "icon"
+    ]
   },
   {
     "title": "Icones",
@@ -165,6 +208,8 @@
     "logo": "https://icones.js.org/favicon.svg",
     "logoFileName": "7txnrioqvv.svg",
     "url": "https://icones.js.org/",
-    "tags": ["icon"]
+    "tags": [
+      "icon"
+    ]
   }
 ]

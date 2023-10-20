@@ -1,9 +1,0 @@
-{
-	"id": "jBYMUSm5252psVi",
-	"json": "{\"id\":\"jBYMUSm5252psVi\",\"url\":\"https://www.electronjs.org/zh/assets/img/favicon.ico\",\"loadedUrl\":\"https://www.electronjs.org/zh/assets/img/favicon.ico\",\"uniqueKey\":\"https://www.electronjs.org/zh/assets/img/favicon.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:12.373Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.electronjs.org/zh/assets/img/favicon.ico",
-	"url": "https://www.electronjs.org/zh/assets/img/favicon.ico"
-}

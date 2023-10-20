@@ -1,9 +1,0 @@
-{
-	"id": "Fxpmigv7pATYEps",
-	"json": "{\"id\":\"Fxpmigv7pATYEps\",\"url\":\"https://pnpm.io/zh/img/favicon.png\",\"loadedUrl\":\"https://pnpm.io/zh/img/favicon.png\",\"uniqueKey\":\"https://pnpm.io/zh/img/favicon.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:14.059Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://pnpm.io/zh/img/favicon.png",
-	"url": "https://pnpm.io/zh/img/favicon.png"
-}

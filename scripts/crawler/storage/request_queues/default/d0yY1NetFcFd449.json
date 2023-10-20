@@ -1,9 +1,0 @@
-{
-	"id": "d0yY1NetFcFd449",
-	"json": "{\"id\":\"d0yY1NetFcFd449\",\"url\":\"https://yeoman.io/static/favicon.b25e58c4b8.ico\",\"loadedUrl\":\"https://yeoman.io/static/favicon.b25e58c4b8.ico\",\"uniqueKey\":\"https://yeoman.io/static/favicon.b25e58c4b8.ico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:16.692Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://yeoman.io/static/favicon.b25e58c4b8.ico",
-	"url": "https://yeoman.io/static/favicon.b25e58c4b8.ico"
-}

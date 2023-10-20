@@ -1,9 +1,0 @@
-{
-	"id": "npZf3LRDQs7gcUS",
-	"json": "{\"id\":\"npZf3LRDQs7gcUS\",\"url\":\"https://rollupjs.org/favicon.png\",\"loadedUrl\":\"https://rollupjs.org/favicon.png\",\"uniqueKey\":\"https://rollupjs.org/favicon.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:11.080Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://rollupjs.org/favicon.png",
-	"url": "https://rollupjs.org/favicon.png"
-}

@@ -5,7 +5,10 @@
     "logo": "https://cn.vuejs.org/logo.svg",
     "logoFileName": "mp5cn7bi5v.svg",
     "url": "https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=zh-CN",
-    "tags": ["vue", "chrome-extensions"]
+    "tags": [
+      "vue",
+      "chrome-extensions"
+    ]
   },
   {
     "title": "FeHelper",
@@ -13,7 +16,9 @@
     "logo": "https://static.baidufe.com/fehelper/static/img/fe-128.png",
     "logoFileName": "v9s44jh50h.png",
     "url": "https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad?hl=zh-CN",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Tampermonkey(油猴)",
@@ -21,7 +26,9 @@
     "logo": "https://www.tampermonkey.net/images/icon180.png",
     "logoFileName": "derp9o86ox.png",
     "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Stylus",
@@ -29,7 +36,10 @@
     "logo": "https://static.pictureknow.com/69525358619f4f6b80a490fe81e1842b.png",
     "logoFileName": "ron7cva0qz.png",
     "url": "https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=zh-CN",
-    "tags": ["css", "chrome-extensions"]
+    "tags": [
+      "css",
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Google 翻译",
@@ -37,7 +47,9 @@
     "logo": "https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png",
     "logoFileName": "bflayb9fiv.png",
     "url": "https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=zh-CN",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Console Importer",
@@ -45,7 +57,9 @@
     "logo": "https://static.pictureknow.com/3eac0a44c1c54bb8bd6e6b95618066e0.png",
     "logoFileName": "yhv4hxbhmc.png",
     "url": "https://chrome.google.com/webstore/detail/console-importer/hgajpakhafplebkdljleajgbpdmplhie?hl=zh-CN",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Proxy SwitchyOmega",
@@ -53,7 +67,9 @@
     "logo": "https://static.pictureknow.com/d0b17a182c494a09b9e377c965796cdc.png",
     "logoFileName": "um6x177co8.png",
     "url": "https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "React Developer Tools",
@@ -61,7 +77,10 @@
     "logo": "https://static.pictureknow.com/06c224304a10463583fc5c1b4012e99c.png",
     "logoFileName": "vgof6rk0rh.png",
     "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
-    "tags": ["react", "chrome-extensions"]
+    "tags": [
+      "react",
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Automa",
@@ -69,62 +88,78 @@
     "logo": "https://static.pictureknow.com/5006c749c71449c2a36b7d24c6ff6d4a.png",
     "logoFileName": "7tg5bs1igi.png",
     "url": "https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcca",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "沉浸式翻译",
     "description": "沉浸式网页双语翻译扩展，免费使用，支持 Deepl/Google/有道/腾讯翻译等多个翻译服务。",
     "logo": "https://lh3.googleusercontent.com/FCCjGNQ3JhLebMSOBdTRV7UP5yMNa9lF5rsJxQ1B4gVcZy5V3vJIdIOh3DO7fCih1JfzIRbAHrxhhXjEUTMKtwdBDA=w128-h128-e365-rj-sc0x00ffffff",
-    "logoFileName": "",
+    "logoFileName": "kedodjje2c.jpeg",
     "url": "https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Header Editor",
     "description": "管理浏览器请求，包括修改请求头和响应头、重定向请求、取消请求。",
     "logo": "https://lh3.googleusercontent.com/ubgIjcZIMGSSH3o5ebDDnpD27x5apQh82W1oklyNGvXTOmZMODySD9IIrtH0_QoDDBZfvzp2jyZd2zF6IQ3OIlYzNoM=w128-h128-e365-rj-sc0x00ffffff",
-    "logoFileName": "",
+    "logoFileName": "vxttsqihsa.jpeg",
     "url": "https://chrome.google.com/webstore/detail/header-editor/eningockdidmgiojffjmkdblpjocbhgh",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Stylus",
     "description": "一个调整网页外观的用户样式管理器。它可以让您轻松为许多热门网站安装主题和皮肤。",
     "logo": "https://lh3.googleusercontent.com/2K8pc_5-2DkPam9b3oAWoITZ7IuIz68A5a8Ssg2_MNNHTPWPOPSBVTFdTmeVu9hi8GJxpKbvTekgwpeyGV6vXyBKH80=w128-h128-e365-rj-sc0x00ffffff",
-    "logoFileName": "",
+    "logoFileName": "9agmt6k2rk.jpeg",
     "url": "https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Picviewer CE+",
     "description": "油猴脚本：图片翻转、旋转、缩放，显示原始大图。",
     "logo": "https://greasyfork.org/vite/assets/blacklogo96-e0c2c761.png",
-    "logoFileName": "",
+    "logoFileName": "5oqnmtkuhb.png",
     "url": "https://greasyfork.org/zh-CN/scripts/24204-picviewer-ce",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "东方永页机",
     "description": "油猴脚本：加载并拼接下一分页内容至当前页尾，智能适配任意网页。",
     "logo": "https://greasyfork.org/vite/assets/blacklogo96-e0c2c761.png",
-    "logoFileName": "",
+    "logoFileName": "5oqnmtkuhb.png",
     "url": "https://greasyfork.org/zh-CN/scripts/438684-pagetual",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "CrxDL",
     "description": "国内推荐, 下载Chrome扩展插件Crx离线安装包。",
     "logo": "https://crxdl.com/image/favicon.ico",
-    "logoFileName": "",
+    "logoFileName": "p21b3m5ezo.ico",
     "url": "https://crxdl.com/",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   },
   {
     "title": "Web Scraper",
     "description": "网络数据提取工具，具有简单的点选式界面，适用于现代网络。",
     "logo": "https://crxdl.com/storage/crx-file/icons/jnhgnonknehpejjnehehllkliplmbmhn.png",
-    "logoFileName": "",
+    "logoFileName": "f6rtng4ehg.png",
     "url": "https://chromewebstore.google.com/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en",
-    "tags": ["chrome-extensions"]
+    "tags": [
+      "chrome-extensions"
+    ]
   }
 ]

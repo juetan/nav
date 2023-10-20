@@ -1,9 +1,0 @@
-{
-	"id": "x36DYQ6S92RpG2W",
-	"json": "{\"id\":\"x36DYQ6S92RpG2W\",\"url\":\"https://tauri.app/zh-cn/meta/favicon-32x32.png\",\"loadedUrl\":\"https://tauri.app/zh-cn/meta/favicon-32x32.png\",\"uniqueKey\":\"https://tauri.app/zh-cn/meta/favicon-32x32.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:11.481Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://tauri.app/zh-cn/meta/favicon-32x32.png",
-	"url": "https://tauri.app/zh-cn/meta/favicon-32x32.png"
-}

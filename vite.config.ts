@@ -7,7 +7,6 @@ import { ArcoResolver } from "unplugin-vue-components/resolvers";
 import autoComponent from "unplugin-vue-components/vite";
 import { defineConfig } from "vite";
 import page from "vite-plugin-pages";
-import layout from "vite-plugin-vue-layouts";
 
 export default defineConfig({
   base: "./",
@@ -36,7 +35,6 @@ export default defineConfig({
       dts: "./src/types/auto-component.d.ts",
     }),
     page({ importMode: "sync" }),
-    layout(),
     unocss({
       presets: [
         presetUno({ preflight: true }),

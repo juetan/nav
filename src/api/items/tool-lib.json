@@ -5,7 +5,9 @@
     "logo": "https://www.lodashjs.com/img/favicon.ico",
     "logoFileName": "p0gi30dx8j.ico",
     "url": "https://www.lodashjs.com/",
-    "tags": ["utils"]
+    "tags": [
+      "utils"
+    ]
   },
   {
     "title": "Dayjs",
@@ -13,7 +15,9 @@
     "logo": "https://dayjs.gitee.io/img/favicon.ico",
     "logoFileName": "onjk1i0eha.ico",
     "url": "https://dayjs.gitee.io/docs/zh-CN/installation/installation",
-    "tags": ["utils"]
+    "tags": [
+      "utils"
+    ]
   },
   {
     "title": "Axios",
@@ -21,7 +25,9 @@
     "logo": "https://axios-http.com/assets/favicon.ico",
     "logoFileName": "gwdcl1zdkm.ico",
     "url": "https://axios-http.com/zh/docs/intro",
-    "tags": ["utils"]
+    "tags": [
+      "utils"
+    ]
   },
   {
     "title": "Numeral",
@@ -29,7 +35,9 @@
     "logo": "https://axios-http.com/assets/favicon.ico",
     "logoFileName": "gwdcl1zdkm.ico",
     "url": "http://numeraljs.com/",
-    "tags": ["utils"]
+    "tags": [
+      "utils"
+    ]
   },
   {
     "title": "Mock.js",
@@ -37,7 +45,9 @@
     "logo": "http://mockjs.com/assets/img/logo-2.svg",
     "logoFileName": "cuvxp9nfks.svg",
     "url": "http://mockjs.com/examples.html",
-    "tags": ["utils"]
+    "tags": [
+      "utils"
+    ]
   },
   {
     "title": "Swagger Typescript API",
@@ -45,14 +55,20 @@
     "logo": "http://mockjs.com/assets/img/logo-2.svg",
     "logoFileName": "cuvxp9nfks.svg",
     "url": "https://github.com/acacode/swagger-typescript-api",
-    "tags": ["utils", "openapi", "typescript"]
+    "tags": [
+      "utils",
+      "openapi",
+      "typescript"
+    ]
   },
   {
     "title": "Gsap",
     "description": "现代web动画工具。",
     "logo": "https://greensock.com/uploads/monthly_2018_06/favicon.ico.4811a987b377f271db584b422f58e5a7.ico",
-    "logoFileName": "",
+    "logoFileName": "a06icbwufl.html",
     "url": "https://greensock.com/get-started/",
-    "tags": ["utils"]
+    "tags": [
+      "utils"
+    ]
   }
 ]

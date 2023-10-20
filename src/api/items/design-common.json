@@ -5,7 +5,9 @@
     "logo": "https://www.shanhaibi.com/wp-content/themes/twentyseventeen/assets/images/favicon.ico",
     "logoFileName": "8gnab53u77.ico",
     "url": "https://www.shanhaibi.com/?type=marketlist",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "联通云",
@@ -13,7 +15,9 @@
     "logo": "https://anov.cucloud.cn/anov-projects/favicon.ico",
     "logoFileName": "a81sb64ya3.ico",
     "url": "https://anov.cucloud.cn/anov-projects/",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "Google Fonts",
@@ -21,7 +25,9 @@
     "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
     "logoFileName": "j2br536sur.svg",
     "url": "https://fonts.google.com/",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "屏幕尺寸",
@@ -29,7 +35,9 @@
     "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
     "logoFileName": "j2br536sur.svg",
     "url": "https://uiiiuiii.com/screen/index.htm",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "纸张尺寸",
@@ -37,7 +45,9 @@
     "logo": "https://papersizes.io/icon/apple-touch-icon.png",
     "logoFileName": "fad90tkbpe.png",
     "url": "https://papersizes.io/chinese/",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "UI中国",
@@ -45,7 +55,9 @@
     "logo": "https://www.ui.cn/Public/img/favicon.ico",
     "logoFileName": "co4bjqhkb2.ico",
     "url": "https://www.ui.cn/",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "Mockup",
@@ -53,7 +65,9 @@
     "logo": "https://mockup.photos/Images/Site/metalogo.png",
     "logoFileName": "v80v1awvez.png",
     "url": "https://mockup.photos/",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "中国色",
@@ -61,7 +75,9 @@
     "logo": "http://zhongguose.com/img/favicon.ico",
     "logoFileName": "xjzasnracg.ico",
     "url": "http://zhongguose.com/#lizi",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "Adobe Color",
@@ -69,7 +85,9 @@
     "logo": "https://color.adobe.com/apple-touch-icon.png",
     "logoFileName": "3br2bnj9co.png",
     "url": "https://color.adobe.com/zh/create/color-contrast-analyzer",
-    "tags": ["design"]
+    "tags": [
+      "design"
+    ]
   },
   {
     "title": "Graphemica",
@@ -77,14 +95,20 @@
     "logo": "https://graphemica.com/assets/touch/apple-touch-icon-144x144-precomposed-fcf60ad170a7abd111aff90166435ccf9bfeacf9ffdc30431504afa03a2646f0.png",
     "logoFileName": "gl9nzwzy50.png",
     "url": "https://graphemica.com/",
-    "tags": ["design", "online-tools"]
+    "tags": [
+      "design",
+      "online-tools"
+    ]
   },
   {
     "title": "Bibata Cursor",
     "description": "一个开源、简约且Meterial风格的光标集, 旨在改善用户的光标体验。",
     "logo": "https://github.githubassets.com/favicons/favicon.svg",
-    "logoFileName": "",
+    "logoFileName": "zs2bt82wyh.svg",
     "url": "https://github.com/ful1e5/Bibata_Cursor",
-    "tags": ["design", "online-tools"]
+    "tags": [
+      "design",
+      "online-tools"
+    ]
   }
 ]

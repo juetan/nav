@@ -1,9 +1,0 @@
-{
-	"id": "O0Umb19zC6Tf1ZC",
-	"json": "{\"id\":\"O0Umb19zC6Tf1ZC\",\"url\":\"https://coverview.vercel.app/static/media/logo.5d3dd1b68da4b08fcf92.png\",\"loadedUrl\":\"https://coverview.vercel.app/static/media/logo.5d3dd1b68da4b08fcf92.png\",\"uniqueKey\":\"https://coverview.vercel.app/static/media/logo.5d3dd1b68da4b08fcf92.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:18.887Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://coverview.vercel.app/static/media/logo.5d3dd1b68da4b08fcf92.png",
-	"url": "https://coverview.vercel.app/static/media/logo.5d3dd1b68da4b08fcf92.png"
-}

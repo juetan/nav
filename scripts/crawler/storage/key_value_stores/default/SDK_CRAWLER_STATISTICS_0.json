@@ -1,27 +1,50 @@
 {
-  "requestsFinished": 135,
-  "requestsFailed": 0,
-  "requestsRetries": 0,
-  "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 639,
-  "requestMinDurationMillis": 94,
-  "requestMaxDurationMillis": 5457,
-  "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 102902,
-  "crawlerStartedAt": "2023-05-18T13:23:10.092Z",
-  "crawlerFinishedAt": "2023-05-18T13:23:22.603Z",
-  "statsPersistedAt": "2023-05-18T13:23:22.603Z",
-  "crawlerRuntimeMillis": 12667,
-  "crawlerLastStartTimestamp": 1684416189936,
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 2,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 3282,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2023-10-20T02:48:37.317Z",
+  "crawlerFinishedAt": "2023-10-20T02:49:00.736Z",
+  "statsPersistedAt": "2023-10-20T02:49:00.736Z",
+  "crawlerRuntimeMillis": 23474,
+  "crawlerLastStartTimestamp": 1697770117262,
   "requestRetryHistogram": [
-    135
+    null,
+    null,
+    null,
+    1
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 762,
-  "requestTotalDurationMillis": 102902,
-  "requestsTotal": 135,
+  "requestAvgFailedDurationMillis": 3282,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 3282,
+  "requestsTotal": 1,
   "requestsWithStatusCode": {},
-  "errors": {},
-  "retryErrors": {}
+  "errors": {
+    "j:\\github\\nav\\node_modules\\.pnpm\\got-cjs@12.5.4\\node_modules\\got-cjs\\dist\\source\\core\\index.js:324:21": {
+      "ECONNRESET": {
+        "RequestError": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "j:\\github\\nav\\node_modules\\.pnpm\\got-cjs@12.5.4\\node_modules\\got-cjs\\dist\\source\\core\\index.js:324:21": {
+      "ECONNRESET": {
+        "RequestError": {
+          "Client network socket disconnected before secure TLS connection was established": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
 }

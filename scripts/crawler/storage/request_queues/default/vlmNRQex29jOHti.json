@@ -1,9 +1,0 @@
-{
-	"id": "vlmNRQex29jOHti",
-	"json": "{\"id\":\"vlmNRQex29jOHti\",\"url\":\"https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png\",\"loadedUrl\":\"https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png\",\"uniqueKey\":\"https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:15.203Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png",
-	"url": "https://static.pictureknow.com/b3059b2fae3f4b71a6a115d3b121e806.png"
-}

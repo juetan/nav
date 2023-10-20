@@ -5,7 +5,9 @@
     "logo": "https://simpleicons.org/icons/conventionalcommits.svg",
     "logoFileName": "oco3irdaem.svg",
     "url": "https://github.com/senchalabs/connect",
-    "tags": ["nodejs-framework"]
+    "tags": [
+      "nodejs-framework"
+    ]
   },
   {
     "title": "ExpressJS",
@@ -13,7 +15,9 @@
     "logo": "https://www.expressjs.com.cn/images/favicon.png",
     "logoFileName": "3uf8g5oomx.png",
     "url": "https://www.expressjs.com.cn/",
-    "tags": ["nodejs-framework"]
+    "tags": [
+      "nodejs-framework"
+    ]
   },
   {
     "title": "KoaJS",
@@ -21,7 +25,9 @@
     "logo": "https://simpleicons.org/icons/koa.svg",
     "logoFileName": "f0pjnz5f6h.svg",
     "url": "https://koa.bootcss.com/",
-    "tags": ["nodejs-framework"]
+    "tags": [
+      "nodejs-framework"
+    ]
   },
   {
     "title": "NestJS",
@@ -29,7 +35,9 @@
     "logo": "https://nestjs.com/apple-touch-icon.50147714.png",
     "logoFileName": "sy6stox7x0.png",
     "url": "https://docs.nestjs.com/",
-    "tags": ["nodejs-framework"]
+    "tags": [
+      "nodejs-framework"
+    ]
   },
   {
     "title": "EggJS",
@@ -37,7 +45,9 @@
     "logo": "https://www.eggjs.org/logo.svg",
     "logoFileName": "5lb22lau9m.svg",
     "url": "https://www.eggjs.org/zh-CN/intro/quickstart",
-    "tags": ["nodejs-framework"]
+    "tags": [
+      "nodejs-framework"
+    ]
   },
   {
     "title": "MidwayJS",
@@ -45,6 +55,8 @@
     "logo": "https://midwayjs.org/img/logo.svg",
     "logoFileName": "lr3m2ed5oq.svg",
     "url": "http://midwayjs.org/docs/intro",
-    "tags": ["nodejs-framework"]
+    "tags": [
+      "nodejs-framework"
+    ]
   }
 ]

@@ -1,9 +1,0 @@
-{
-	"id": "clJ6ZZePxO6oW5e",
-	"json": "{\"id\":\"clJ6ZZePxO6oW5e\",\"url\":\"https://www.postman.com/_ar-assets/images/favicon-1-48.png\",\"loadedUrl\":\"https://www.postman.com/_ar-assets/images/favicon-1-48.png\",\"uniqueKey\":\"https://www.postman.com/_ar-assets/images/favicon-1-48.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:14.410Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.postman.com/_ar-assets/images/favicon-1-48.png",
-	"url": "https://www.postman.com/_ar-assets/images/favicon-1-48.png"
-}

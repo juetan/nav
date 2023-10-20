@@ -1,9 +1,0 @@
-{
-	"id": "QmcPZvQzaBmAMKx",
-	"json": "{\"id\":\"QmcPZvQzaBmAMKx\",\"url\":\"https://mockup.photos/Images/Site/metalogo.png\",\"loadedUrl\":\"https://mockup.photos/Images/Site/metalogo.png\",\"uniqueKey\":\"https://mockup.photos/Images/Site/metalogo.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:21.736Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://mockup.photos/Images/Site/metalogo.png",
-	"url": "https://mockup.photos/Images/Site/metalogo.png"
-}

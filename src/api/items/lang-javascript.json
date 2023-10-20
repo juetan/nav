@@ -5,7 +5,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/estree/estree",
-    "tags": ["javascript"]
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "title": "Esprima",
@@ -13,7 +15,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://esprima.org/",
-    "tags": ["javascript"]
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "title": "Acorn",
@@ -21,7 +25,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/acornjs/acorn",
-    "tags": ["javascript"]
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "title": "Espree",
@@ -29,7 +35,9 @@
     "logo": "https://github.com/fluidicon.png",
     "logoFileName": "dlnx3fj2v7.png",
     "url": "https://github.com/eslint/espree",
-    "tags": ["javascript"]
+    "tags": [
+      "javascript"
+    ]
   },
   {
     "title": "Mdn",
@@ -37,7 +45,11 @@
     "logo": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
     "logoFileName": "f40lfga5rs.png",
     "url": "https://developer.mozilla.org/zh-CN/",
-    "tags": ["javascript", "css", "html"]
+    "tags": [
+      "javascript",
+      "css",
+      "html"
+    ]
   },
   {
     "title": "EcmaScript",
@@ -45,7 +57,10 @@
     "logo": "https://tc39.es/ecma262/2022/img/favicon.ico",
     "logoFileName": "3a0lc2kv53.ico",
     "url": "https://262.ecma-international.org/#sec-intro",
-    "tags": ["Javascript", "spec"]
+    "tags": [
+      "Javascript",
+      "spec"
+    ]
   },
   {
     "title": "JavaScript",
@@ -53,7 +68,10 @@
     "logo": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
     "logoFileName": "f40lfga5rs.png",
     "url": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript",
-    "tags": ["Javascript", "spec"]
+    "tags": [
+      "Javascript",
+      "spec"
+    ]
   },
   {
     "title": "TypeScript",
@@ -61,7 +79,11 @@
     "logo": "https://www.typescriptlang.org/favicon-32x32.png",
     "logoFileName": "qs5eox2zca.png",
     "url": "https://www.typescriptlang.org/zh/",
-    "tags": ["Javascript", "spec", "typescript"]
+    "tags": [
+      "Javascript",
+      "spec",
+      "typescript"
+    ]
   },
   {
     "title": "NodeJS",
@@ -69,6 +91,9 @@
     "logo": "https://nodejs.org/static/images/logo-hexagon-card.png",
     "logoFileName": "p29lkfttsm.png",
     "url": "https://nodejs.org/zh-cn/docs/",
-    "tags": ["Javascript", "spec"]
+    "tags": [
+      "Javascript",
+      "spec"
+    ]
   }
 ]

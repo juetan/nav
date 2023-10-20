@@ -1,9 +1,0 @@
-{
-	"id": "GIkDUCVGbX4RhC9",
-	"json": "{\"id\":\"GIkDUCVGbX4RhC9\",\"url\":\"https://nuxt.com/icon.png\",\"loadedUrl\":\"https://nuxt.com/icon.png\",\"uniqueKey\":\"https://nuxt.com/icon.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:11.889Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://nuxt.com/icon.png",
-	"url": "https://nuxt.com/icon.png"
-}

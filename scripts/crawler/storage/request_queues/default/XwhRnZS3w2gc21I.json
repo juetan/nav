@@ -1,9 +1,0 @@
-{
-	"id": "XwhRnZS3w2gc21I",
-	"json": "{\"id\":\"XwhRnZS3w2gc21I\",\"url\":\"https://reactnative.dev/img/pwa/manifest-icon-512.png\",\"loadedUrl\":\"https://reactnative.dev/img/pwa/manifest-icon-512.png\",\"uniqueKey\":\"https://reactnative.dev/img/pwa/manifest-icon-512.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:11.755Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://reactnative.dev/img/pwa/manifest-icon-512.png",
-	"url": "https://reactnative.dev/img/pwa/manifest-icon-512.png"
-}

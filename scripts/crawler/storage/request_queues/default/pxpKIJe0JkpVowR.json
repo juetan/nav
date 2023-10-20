@@ -1,9 +1,0 @@
-{
-	"id": "pxpKIJe0JkpVowR",
-	"json": "{\"id\":\"pxpKIJe0JkpVowR\",\"url\":\"https://www.stylus-lang.cn/img/stylus-logo.png\",\"loadedUrl\":\"https://www.stylus-lang.cn/img/stylus-logo.png\",\"uniqueKey\":\"https://www.stylus-lang.cn/img/stylus-logo.png\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:13.843Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.stylus-lang.cn/img/stylus-logo.png",
-	"url": "https://www.stylus-lang.cn/img/stylus-logo.png"
-}

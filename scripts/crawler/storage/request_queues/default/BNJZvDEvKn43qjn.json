@@ -1,9 +1,0 @@
-{
-	"id": "BNJZvDEvKn43qjn",
-	"json": "{\"id\":\"BNJZvDEvKn43qjn\",\"url\":\"https://vueuse.org/favicon.svg\",\"loadedUrl\":\"https://vueuse.org/favicon.svg\",\"uniqueKey\":\"https://vueuse.org/favicon.svg\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-05-18T13:23:12.117Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://vueuse.org/favicon.svg",
-	"url": "https://vueuse.org/favicon.svg"
-}

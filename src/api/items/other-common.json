@@ -151,7 +151,7 @@
     "title": "User Agents",
     "description": "提供常见桌面浏览器的用户代理(useragent)。",
     "logo": "https://www.useragents.me/static/apple-touch-icon.png",
-    "logoFileName": "",
+    "logoFileName": "a4zzuj5j6e.png",
     "url": "https://www.useragents.me/",
     "tags": [
       "online-tools"
@@ -161,7 +161,7 @@
     "title": "Permission",
     "description": "可查看浏览器，可能需要用户允许才能使用的功能。",
     "logo": "https://www.useragents.me/static/apple-touch-icon.png",
-    "logoFileName": "",
+    "logoFileName": "a4zzuj5j6e.png",
     "url": "https://permission.site/",
     "tags": [
       "online-tools"
@@ -171,7 +171,7 @@
     "title": "Cursor Test",
     "description": "在浏览器上测试各种Css光标的样式。",
     "logo": "https://github.githubassets.com/favicons/favicon.svg",
-    "logoFileName": "",
+    "logoFileName": "zs2bt82wyh.svg",
     "url": "https://vibhorjaiswal.github.io/Cursor-Test/",
     "tags": [
       "online-tools"

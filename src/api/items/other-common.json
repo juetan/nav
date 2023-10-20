@@ -166,5 +166,15 @@
     "tags": [
       "online-tools"
     ]
+  },
+  {
+    "title": "Cursor Test",
+    "description": "在浏览器上测试各种Css光标的样式。",
+    "logo": "https://github.githubassets.com/favicons/favicon.svg",
+    "logoFileName": "",
+    "url": "https://vibhorjaiswal.github.io/Cursor-Test/",
+    "tags": [
+      "online-tools"
+    ]
   }
 ]

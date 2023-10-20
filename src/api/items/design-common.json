@@ -78,5 +78,13 @@
     "logoFileName": "gl9nzwzy50.png",
     "url": "https://graphemica.com/",
     "tags": ["design", "online-tools"]
+  },
+  {
+    "title": "Bibata Cursor",
+    "description": "一个开源、简约且Meterial风格的光标集, 旨在改善用户的光标体验。",
+    "logo": "https://github.githubassets.com/favicons/favicon.svg",
+    "logoFileName": "",
+    "url": "https://github.com/ful1e5/Bibata_Cursor",
+    "tags": ["design", "online-tools"]
   }
 ]

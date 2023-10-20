@@ -110,5 +110,21 @@
     "logoFileName": "",
     "url": "https://greasyfork.org/zh-CN/scripts/438684-pagetual",
     "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "CrxDL",
+    "description": "国内推荐, 下载Chrome扩展插件Crx离线安装包。",
+    "logo": "https://crxdl.com/image/favicon.ico",
+    "logoFileName": "",
+    "url": "https://crxdl.com/",
+    "tags": ["chrome-extensions"]
+  },
+  {
+    "title": "Web Scraper",
+    "description": "网络数据提取工具，具有简单的点选式界面，适用于现代网络。",
+    "logo": "https://crxdl.com/storage/crx-file/icons/jnhgnonknehpejjnehehllkliplmbmhn.png",
+    "logoFileName": "",
+    "url": "https://chromewebstore.google.com/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en",
+    "tags": ["chrome-extensions"]
   }
 ]

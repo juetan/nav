@@ -1,6 +1,8 @@
 <template>
-  <div class="w-full px-5 py-4">
-    <a-card title="关于本站"> 分享关于前端的内容。 </a-card>
+  <div class="w-full max-w-[1280px] mx-auto px-5 py-4 ">
+    <a-card title="关于本站" :bordered="false">
+      使用 Vite + Vue3 + Arco Design 构建，部署在 vercel 上面。
+    </a-card>
   </div>
 </template>
 

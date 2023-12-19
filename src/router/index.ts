@@ -1,15 +1,9 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import routes from "~pages";
 
 const router = createRouter({
-  history: createWebHashHistory(),
-  routes: [
-    {
-      path: "/",
-      redirect: "/home",
-    },
-    ...routes,
-  ],
+  history: createWebHistory(),
+  routes: [...routes],
 });
 
 export { router };

@@ -94,5 +94,16 @@
       "software",
       "markdown"
     ]
+  },
+  {
+    "title": "Mkcert",
+    "description": "一个基于 Go 语言开发，零配置生成本地自签SSL证书的工具。",
+    "logo": "https://github.com/fluidicon.png",
+    "logoFileName": "dlnx3fj2v7.png",
+    "url": "https://github.com/FiloSottile/mkcert#installation",
+    "tags": [
+      "software",
+      "markdown"
+    ]
   }
 ]

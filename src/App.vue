@@ -1,46 +1,32 @@
 <template>
   <a-layout class="w-full h-full grid grid-rows-[auto_1fr] bg-slate-100 dark:bg-slate-900 dark:text-slate-100">
-    <a-layout-header
-      class="flex justify-between items-center gap-4 h-12 px-5 bg-white dark:bg-slate-800 border-b border-gray-5=200 dark:border-gray-700"
-    >
-      <router-link to="/">
-        <h1 class="flex items-center gap-2 text-base font-normal dark:text-white">
-          <img src="/favicon.ico" alt="" class="w-5 h-5" />
-          前端驿站
-        </h1>
-      </router-link>
-      <div class="flex gap-2">
-        <a-tooltip :content="isDark ? '切换为亮色模式' : '切换为暗色模式'">
-          <a-button shape="circle" @click="toggleTheme">
-            <template #icon>
-              <i :class="!isDark ? 'icon-park-outline-moon' : 'icon-park-outline-sun'"></i>
-            </template>
-          </a-button>
-        </a-tooltip>
-        <a-tooltip :content="'打开 Github 仓库'">
-          <a-button shape="circle" @click="onGotoGithub">
-            <template #icon>
-              <i class="icon-park-outline-github"></i>
-            </template>
-          </a-button>
-        </a-tooltip>
+    <a-layout-header class="h-12 bg-white dark:bg-slate-800 border-b border-gray-5=200 dark:border-gray-700">
+      <div class="mx-auto max-w-[1280px] flex justify-between items-center gap-4 px-6 ">
+        <router-link to="/">
+          <h1 class="flex items-center gap-2 text-base font-normal dark:text-white">
+            <img src="/favicon.ico" alt="" class="w-5 h-5" />
+            绝弹导航
+          </h1>
+        </router-link>
+        <div class="flex gap-2">
+          <a-tooltip :content="isDark ? '亮色模式' : '暗色模式'">
+            <a-button shape="circle" @click="toggleTheme">
+              <template #icon>
+                <i :class="!isDark ? 'icon-park-outline-moon' : 'icon-park-outline-sun'"></i>
+              </template>
+            </a-button>
+          </a-tooltip>
+          <!-- <a-tooltip :content="'菜单'">
+            <a-button shape="circle">
+              <template #icon>
+                <i class="icon-park-outline-hamburger-button"></i>
+              </template>
+            </a-button>
+          </a-tooltip> -->
+        </div>
       </div>
     </a-layout-header>
     <a-layout class="flex overflow-hidden">
-      <a-layout-sider
-        :width="224"
-        :collapsible="true"
-        class="dark:bg-slate-800 border-r border-gray-100 dark:border-gray-700 hidden md:block"
-      >
-        <a-menu class="h-full !bg-transparent" :selected-keys="selectedKeys">
-          <a-menu-item v-for="item in routes" :key="item.path" @click="onChangeRoute(item.path)">
-            <template #icon>
-              <i :class="item.meta?.icon"></i>
-            </template>
-            {{ item.meta?.title }}
-          </a-menu-item>
-        </a-menu>
-      </a-layout-sider>
       <router-view></router-view>
     </a-layout>
   </a-layout>

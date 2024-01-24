@@ -2,7 +2,7 @@
   <div class="flex-1 h-full grid grid-rows-[auto_1fr]">
     <div class="">
       <div class="px-6 pb-2 md:pb-1 mx-auto max-w-[1180px] mt-2">
-        <div class="bg-gradient-to-br from-blue-300 to-blue-200 dark:from-slate-800 dark:to-slate-800 py-8 px-4 dark:bg-gray-800 rounded">
+        <div class="bg-gradient-to-br from-blue-300 via-blue-400 to-blue-300 dark:from-slate-800 dark:to-slate-800 py-8 px-4 dark:bg-gray-800 rounded">
           <div class="text-center">
             <div class="text-xl">前端导航</div>
             <p class="p-0 mt-2.5 text-slate-600">

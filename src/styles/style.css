@@ -40,11 +40,10 @@ a:visited {
   background: transparent;
 }
 
-[class="icon-*"] {
+[class*=" icon-"],
+[class^="icon-"] {
   display: inline-block;
-  vertical-align: middle;
-  width: 16px;
-  height: 16px;
+  vertical-align: -3px;
 }
 
 a:-webkit-any-link {

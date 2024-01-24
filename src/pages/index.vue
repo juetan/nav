@@ -1,39 +1,38 @@
 <template>
   <div class="flex-1 h-full grid grid-rows-[auto_1fr]">
-    <div class="border-b border-gray-100 dark:border-slate-800 bg-white dark:bg-slate-800">
-      <div class="md:flex justify-between items-center px-6 pt-4 pb-4 md:pb-1 mx-auto max-w-[1280px]">
-        <div>
-          <div class="text-base">前端导航</div>
-          <p class="text-slate-500 p-0 mt-1">
-            涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ items.length }} 个网站。
-          </p>
-        </div>
-        <div class="flex gap-2">
-          <a-input-search
-            v-model="keyword"
-            class="w-96"
-            placeholder="名称/描述关键字..."
-            allow-clear
-            @input="onKeywordChange"
-            @clear="onKeywordChange"
-            @search="onKeywordChange"
-          ></a-input-search>
+    <div class="">
+      <div class="px-6 pb-2 md:pb-1 mx-auto max-w-[1180px] mt-2">
+        <div class="bg-gradient-to-br from-blue-300 to-blue-200 dark:from-slate-800 dark:to-slate-800 py-8 px-4 dark:bg-gray-800 rounded">
+          <div class="text-center">
+            <div class="text-xl">前端导航</div>
+            <p class="p-0 mt-2.5 text-slate-600">
+              涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ items.length }} 个网站。
+            </p>
+          </div>
+          <div class="flex gap-2 justify-center mt-5">
+            <a-input-search
+              v-model="keyword"
+              class="md:w-[40%]! bg-[rgba(255,255,255,.4)]! dark:bg-[rgba(255,255,255,.1)]! rounded-full!"
+              placeholder="输入名称/描述..."
+              shape="round"
+              allow-clear
+              @input="onKeywordChange"
+              @clear="onKeywordChange"
+              @search="onKeywordChange"
+            ></a-input-search>
+          </div>
         </div>
       </div>
     </div>
-    <a-scrollbar
-      ref="scrollRef"
-      outer-class="overflow-hidden"
-      class="roller h-full overflow-auto mt-3 pb-4 "
-    >
-      <div class="max-w-[1280px] mx-auto">
+    <div>
+      <div class="max-w-[1180px] mx-auto mt-6">
         <div v-for="category in showData" :key="category.label" ref="itemsRef" class="fade-in-bottom">
           <div class="text-slate-500 px-6 mb-3 mt-2">{{ category.label }}</div>
           <div v-if="category.children?.length" class="list flex-1 grid gap-4 px-5 pb-4">
             <div
               v-for="item in category.children"
               :key="item.title"
-              class="item group flex w-[280px] gap-4 h-32 p-4 rounded-sm bg-white dark:bg-slate-800"
+              class="item group flex w-[280px] gap-4 h-32 p-4 rounded hover:bg-gray-200 bg-gray-100 dark:bg-slate-800"
             >
               <img
                 :src="item.logoFileName ? `./images/${item.logoFileName}` : item.logo"
@@ -74,40 +73,7 @@
           </a-empty>
         </div>
       </div>
-      <a-back-top :target-container="'.roller'">
-        <a-button shape="round" size="large">
-          <template #icon>
-            <i class="icon-park-outline-arrow-up"></i>
-          </template>
-        </a-button>
-      </a-back-top>
-      <div class="text-center text-gray-500 py-6">
-        <div>
-          <ul class="list-none flex justify-center items-center gap-2 m-0">
-            <li>
-              <a href="https://github.com/juetan/nav" class="hover:text-blue-500 hover:underline underline-offset-2">仓库地址</a>
-            </li>
-            <li class="leading-none text-xs text-gray-400">|</li>
-            <li>
-              <a href="https://github.com/juetan/nav/pulls" class="hover:text-blue-500 hover:underline underline-offset-2">参与贡献</a>
-            </li>
-            <li class="text-xs text-gray-400">|</li>
-            <li>
-              <a href="https://juetan.cn/" class="hover:text-blue-500 hover:underline underline-offset-2">绝弹博客</a>
-            </li>
-            <li class="text-xs text-gray-400">|</li>
-            <li>
-              <a href="https://github.com/juetan" class="hover:text-blue-500 hover:underline underline-offset-2">绝弹仓库</a>
-            </li>
-            <li class="text-xs text-gray-400">|</li>
-            <li>
-              <a href="javascript:;" class="hover:text-blue-500 hover:underline underline-offset-2" @click="$router.push('/about')">关于本站</a>
-            </li>
-          </ul>
-        </div>
-        <div class="mt-1.5">Copyright &copy; 绝弹导航，版权所有</div>
-      </div>
-    </a-scrollbar>
+    </div>
   </div>
 </template>
 
@@ -175,12 +141,7 @@ const onCopyUrl = (item: any) => {
 .item {
   width: 100%;
   overflow: hidden;
-  border: 1px solid transparent;
   transition: all 0.3s ease;
-}
-.item:hover {
-  border-color: #0099ff50;
-  box-shadow: 0 0 12px #0099ff40;
 }
 .fade-in-bottom {
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;

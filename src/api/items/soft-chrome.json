@@ -153,6 +153,36 @@
     ]
   },
   {
+    "title": "uBlock Origin",
+    "description": "一款高效的网络请求过滤工具，占用极低的内存和 CPU。",
+    "logo": "https://lh3.googleusercontent.com/rrgyVBVte7CfjjeTU-rCHDKba7vtq-yn3o8-10p5b6QOj_2VCDAO3VdggV5fUnugbG2eDGPPjoJ9rsiU_tUZBExgLGc=s60",
+    "logoFileName": "",
+    "url": "https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "tags": [
+      "chrome-extensions"
+    ]
+  },
+  {
+    "title": "XPath Helper",
+    "description": "XPath是一种用于在 XML 文档中选择节点或节点集的表达式语言。",
+    "logo": "https://lh3.googleusercontent.com/J7n7qDIrekKpjDDP-oLo03rvP2drIRqOqTDdSK5MyUBhE2UCkYx1LXurAVNA_4lgHCkdZUtnVaEt0SvGed9gaSKhAA=s60",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/mapjgeachilmcbbokkgcbgpbakaaeehi",
+    "tags": [
+      "chrome-extensions"
+    ]
+  },
+  {
+    "title": "Omni",
+    "description": "增强浏览器体验，管理选项卡、书签、浏览历史和自定义命令等内容。",
+    "logo": "https://lh3.googleusercontent.com/lLhcYl9-gNb5ugTsJxLHb30GxzOaRcZGHT1Yg0f1d2ipj0kB-VNXgIlAQDdPgvkvP4as3cTr5uk36LaoQ59shqXyeQ=s60",
+    "logoFileName": "",
+    "url": "https://chrome.google.com/webstore/detail/hgimnogjllphhhkhlmebbmlgjoejdpjl",
+    "tags": [
+      "chrome-extensions"
+    ]
+  },
+  {
     "title": "Web Scraper",
     "description": "网络数据提取工具，具有简单的点选式界面，适用于现代网络。",
     "logo": "https://crxdl.com/storage/crx-file/icons/jnhgnonknehpejjnehehllkliplmbmhn.png",

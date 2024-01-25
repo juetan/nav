@@ -1,7 +1,7 @@
 [
   {
     "title": "Terser",
-    "description": "JavaScript代码压缩器。",
+    "description": "一个兼容ES2015 + 的JavaScript 压缩器。 与 UglifyJS 相比，它是面向未来的选择。",
     "logo": "https://terser.org/favicon.ico",
     "logoFileName": "mvkkswi325.ico",
     "url": "https://terser.org/docs/cli-usage",
@@ -51,7 +51,7 @@
   },
   {
     "title": "Esbuild",
-    "description": "基于 Go 语言的web端构建工具。",
+    "description": "基于 Go 语言，构建速度极快的web端构建工具。",
     "logo": "https://esbuild.github.io/favicon.svg",
     "logoFileName": "ka2r2ml0p7.svg",
     "url": "https://esbuild.github.io/",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Unbuild",
-    "description": "基于 Rollup 的构建工具。",
+    "description": "基于 Rollup , 支持 Typescript 并生成 EJS 和 MJS 模块格式的构建工具。",
     "logo": "https://esbuild.github.io/favicon.svg",
     "logoFileName": "ka2r2ml0p7.svg",
     "url": "https://github.com/unjs/unbuild",

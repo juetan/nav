@@ -39,6 +39,4 @@ const normalData = normalTags.map((tag) => {
   return { ...tag, children };
 });
 
-console.log(items);
-
 export { items, itemsMap, normalData };

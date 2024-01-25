@@ -8,7 +8,7 @@
             绝弹导航
           </h1>
         </router-link>
-        <div class="flex gap-2">
+        <div class="gap-2 hidden md:flex">
           <a-dropdown trigger="hover">
             <button
               class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
@@ -34,26 +34,20 @@
             <i class="icon-park-outline-github-one text-sm"></i>
             仓库
           </button>
-          <button
+          <router-link
+            to="/about"
             class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
           >
             <i class="icon-park-outline-user text-sm"></i>
             关于
-          </button>
-          <!-- <a-tooltip :content="'菜单'">
-            <a-button shape="circle">
-              <template #icon>
-                <i class="icon-park-outline-hamburger-button"></i>
-              </template>
-            </a-button>
-          </a-tooltip> -->
+          </router-link>
         </div>
       </div>
     </div>
     <a-scrollbar outer-class="overflow-hidden" class="roller h-full overflow-auto mt-3 pb-4">
       <div class="h-full grid grid-rows-[1fr_auto]">
         <router-view></router-view>
-        <div class="text-center text-gray-500 pt-9 pb-8 mt-4 bg-gray-50 dark:bg-slate-800">
+        <div class="text-center text-gray-500 pt-12 pb-10 mt-4 bg-gray-50 dark:bg-slate-800">
           <div>
             <ul class="list-none flex justify-center items-center gap-2 m-0">
               <li>
@@ -94,7 +88,7 @@
               </li>
             </ul>
           </div>
-          <div class="mt-1.5">Copyright &copy; 绝弹导航，版权所有</div>
+          <div class="mt-2">Copyright &copy; 绝弹导航，版权所有</div>
         </div>
       </div>
       <a-back-top :target-container="'.roller'">
@@ -126,9 +120,29 @@ const isDark = useDark({
     }
   },
 });
-const toggleTheme = () => {
-  isDark.value = !isDark.value;
-};
+
+const links = [
+  {
+    name: '仓库地址',
+    url: 'https://github.com/juetan/nav'
+  },
+  {
+    name: '参与贡献',
+    url: 'https://github.com/juetan/nav/pulls'
+  },
+  {
+    name: '绝弹博客',
+    url: 'https://juetan.cn/'
+  },
+  {
+    name: '绝弹仓库',
+    url: 'https://github.com/juetan'
+  },
+  {
+    name: '关于本站',
+    url: '/about'
+  },
+]
 
 watch(
   () => route.path,

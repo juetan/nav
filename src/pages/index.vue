@@ -2,7 +2,7 @@
   <div class="flex-1 h-full grid grid-rows-[auto_1fr]">
     <div class="">
       <div class="px-6 pb-2 md:pb-1 mx-auto max-w-[1180px] mt-2">
-        <div class="bg-gradient-to-br from-blue-300 via-indigo-300 to-blue-300 dark:from-slate-800 dark:to-slate-800 py-8 px-4 dark:bg-gray-800 rounded">
+        <div class="bg-gradient-to-br from-blue-200 via-indigo-200 to-blue-200 dark:from-slate-800 dark:to-slate-700 py-8 px-4 dark:bg-gray-800 rounded">
           <div class="text-center">
             <div class="text-xl">前端导航</div>
             <p class="p-0 mt-2.5 text-slate-600">
@@ -32,7 +32,7 @@
             <div
               v-for="item in category.children"
               :key="item.title"
-              class="item group flex w-[280px] gap-4 h-32 p-4 rounded hover:bg-gray-200 bg-gray-100 dark:bg-slate-800"
+              class="item group flex w-[280px] gap-4 h-32 p-4 rounded hover:bg-gray-200 dark:hover-bg-gray-700 bg-gray-100 dark:bg-slate-800"
             >
               <img
                 :src="item.logoFileName ? `./images/${item.logoFileName}` : item.logo"
@@ -48,7 +48,7 @@
                   </a>
                   <span :title="'复制网址'">
                     <i
-                      class="hidden group-hover:block icon-park-outline-copy w-4 h-4 text-slate-300 hover:text-slate-500 cursor-pointer"
+                      class="hidden! group-hover:block! icon-park-outline-copy text-slate-300 hover:text-slate-500 cursor-pointer"
                       style="vertical-align: 1px; width: 13px; height: 13px"
                       @click="onCopyUrl(item)"
                     ></i>
@@ -114,7 +114,7 @@ const onKeywordChange = debounce(() => {
 
 const onCopyUrl = (item: any) => {
   navigator.clipboard.writeText(item.url);
-  Message.success(`提示: 已复制 ${item.title} 的网址!`);
+  Message.success(`已复制 ${item.title} 的网址!`);
 };
 </script>
 

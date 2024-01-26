@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  modules: ["@unocss/nuxt", "arco-design-nuxt-module"],
+  modules: ["@unocss/nuxt", "@nuxtjs/sitemap", "arco-design-nuxt-module"],
   css: ["~/assets/base.css"],
   runtimeConfig: {
     v1: "11",
@@ -39,5 +39,8 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+  site: {
+    url: "https://nav.juetan.cn",
   },
 });

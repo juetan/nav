@@ -29,6 +29,10 @@
             <i class="icon-park-outline-github-one text-sm"></i>
             仓库
           </button>
+          <NuxtLink to="/admin" class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2">
+            <i class="icon-park-outline-user text-sm"></i>
+            管理
+          </NuxtLink>
           <router-link to="/about" class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2">
             <i class="icon-park-outline-user text-sm"></i>
             关于

@@ -1,0 +1,114 @@
+[
+  {
+    "title": "山海鲸",
+    "description": "新一代人工智能数据可视化大屏软件。",
+    "logo": "https://www.shanhaibi.com/wp-content/themes/twentyseventeen/assets/images/favicon.ico",
+    "logoFileName": "8gnab53u77.ico",
+    "url": "https://www.shanhaibi.com/?type=marketlist",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "联通云",
+    "description": "可视化平台优秀项目案例。",
+    "logo": "https://anov.cucloud.cn/anov-projects/favicon.ico",
+    "logoFileName": "a81sb64ya3.ico",
+    "url": "https://anov.cucloud.cn/anov-projects/",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "Google Fonts",
+    "description": "包含1400+开源字体的查询网站，可以使用api引用。",
+    "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+    "logoFileName": "j2br536sur.svg",
+    "url": "https://fonts.google.com/",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "屏幕尺寸",
+    "description": "屏幕尺寸大全。",
+    "logo": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+    "logoFileName": "j2br536sur.svg",
+    "url": "https://uiiiuiii.com/screen/index.htm",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "纸张尺寸",
+    "description": "纸张尺寸大全。",
+    "logo": "https://papersizes.io/icon/apple-touch-icon.png",
+    "logoFileName": "fad90tkbpe.png",
+    "url": "https://papersizes.io/chinese/",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "UI中国",
+    "description": "UI中国用户体验平台,中国用户体验联盟理事单位。",
+    "logo": "https://www.ui.cn/Public/img/favicon.ico",
+    "logoFileName": "co4bjqhkb2.ico",
+    "url": "https://www.ui.cn/",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "Mockup",
+    "description": "在线生成样机图片的平台。",
+    "logo": "https://mockup.photos/Images/Site/metalogo.png",
+    "logoFileName": "v80v1awvez.png",
+    "url": "https://mockup.photos/",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "中国色",
+    "description": "提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示。",
+    "logo": "http://zhongguose.com/img/favicon.ico",
+    "logoFileName": "xjzasnracg.ico",
+    "url": "http://zhongguose.com/#lizi",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "Adobe Color",
+    "description": "Adobe Color。",
+    "logo": "https://color.adobe.com/apple-touch-icon.png",
+    "logoFileName": "3br2bnj9co.png",
+    "url": "https://color.adobe.com/zh/create/color-contrast-analyzer",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "title": "Graphemica",
+    "description": "查询unicode字符的在线网站",
+    "logo": "https://graphemica.com/assets/touch/apple-touch-icon-144x144-precomposed-fcf60ad170a7abd111aff90166435ccf9bfeacf9ffdc30431504afa03a2646f0.png",
+    "logoFileName": "gl9nzwzy50.png",
+    "url": "https://graphemica.com/",
+    "tags": [
+      "design",
+      "online-tools"
+    ]
+  },
+  {
+    "title": "Bibata Cursor",
+    "description": "一个开源、简约且Meterial风格的光标集, 旨在改善用户的光标体验。",
+    "logo": "https://github.githubassets.com/favicons/favicon.svg",
+    "logoFileName": "zs2bt82wyh.svg",
+    "url": "https://github.com/ful1e5/Bibata_Cursor",
+    "tags": [
+      "design",
+      "online-tools"
+    ]
+  }
+]

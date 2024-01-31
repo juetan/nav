@@ -43,8 +43,8 @@ export default defineConfig({
           extraProperties: {
             display: "inline-block",
             "vertical-align": "middle",
-            width: "16px",
-            height: "16px",
+            width: "1em",
+            height: "1em",
           },
         }),
       ],

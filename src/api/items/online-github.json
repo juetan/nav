@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Github",
+    "description": "面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管，故名GitHub。",
+    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
+    "logoFileName": "dlnx3fj2v7.png",
+    "url": "https://github.com/",
+    "tags": ["github"]
+  },
+  {
+    "title": "Github Dev",
+    "description": "官方出品，浏览和编辑 Github 仓库的在线工具。",
+    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
+    "logoFileName": "dlnx3fj2v7.png",
+    "url": "https://github.dev/",
+    "tags": ["github"]
+  },
+  {
+    "title": "Githack",
+    "description": "把github文件作为cdn使用。",
+    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
+    "logoFileName": "jsl2ocemqd.png",
+    "url": "http://raw.githack.com/",
+    "tags": ["github"]
+  },
+  {
+    "title": "GitHub Proxy",
+    "description": "代理和加速下载 Github Releases , archive , gist , raw.githubusercontent.com 文件。",
+    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
+    "logoFileName": "jsl2ocemqd.png",
+    "url": "https://ghproxy.com/",
+    "tags": ["github"]
+  },
+  {
+    "title": "Github1s",
+    "description": "基于Vscode, 用于阅读 Github 代码的在线工具。",
+    "logo": "https://github1s.com/favicon-light.svg",
+    "logoFileName": "qda3o34zzq.svg",
+    "url": "https://github1s.com/",
+    "tags": ["github"]
+  }
+]

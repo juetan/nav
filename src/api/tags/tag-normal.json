@@ -4,19 +4,19 @@
     "value": "bundler"
   },
   {
-    "label": "语言: JavaScript",
+    "label": "JavaScript",
     "value": "javascript"
   },
   {
-    "label": "语言: TypeScript",
+    "label": "TypeScript",
     "value": "typescript"
   },
   {
-    "label": "语言: NodeJS",
+    "label": "NodeJS",
     "value": "nodejs"
   },
   {
-    "label": "语言: Css",
+    "label": "Css",
     "value": "css"
   },
   {
@@ -28,7 +28,7 @@
     "value": "community"
   },
   {
-    "label": "命令行工具",
+    "label": "命令行",
     "value": "cli"
   },
   {
@@ -44,7 +44,7 @@
     "value": "image"
   },
   {
-    "label": "浏览器(chrome)",
+    "label": "浏览器插件",
     "value": "chrome-extensions"
   },
   {
@@ -64,7 +64,11 @@
     "value": "design"
   },
   {
-    "label": "框架: Vue",
+    "label": "Github",
+    "value": "github"
+  },
+  {
+    "label": "Vue",
     "value": "vue"
   }
 ]

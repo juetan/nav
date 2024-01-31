@@ -54,6 +54,16 @@
     ]
   },
   {
+    "title": "Rubick",
+    "description": "类似于 Utools 但是开源，更轻便、更简洁、更安全的插件化桌面端工具箱。",
+    "logo": "https://picx.zhimg.com/80/v2-96ec85fa4127686cffc525cf3d14d914_720w.png",
+    "logoFileName": "",
+    "url": "https://rubickcenter.github.io/docs/",
+    "tags": [
+      "software"
+    ]
+  },
+  {
     "title": "Snipaste",
     "description": "一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上。",
     "logo": "https://www.snipaste.com/favicon.ico",

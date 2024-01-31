@@ -84,7 +84,7 @@
   },
   {
     "title": "Nuxt",
-    "description": "The Intuitive Web Framework。",
+    "description": "基于 VueJS 的开源框架，其设计目标是使创建类型安全、高性能、生产级别的全栈式Web应用程序和网站变得直观和简单。",
     "logo": "https://nuxt.com/icon.png",
     "logoFileName": "q2ksun6ono.png",
     "url": "https://nuxt.com/docs/getting-started/introduction",
@@ -95,7 +95,7 @@
   },
   {
     "title": "Arco Design Vue",
-    "description": "字节跳动出品的企业级设计系统, Vue版。",
+    "description": "UI组件库，字节跳动出品的企业级设计系统, Vue版。",
     "logo": "https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico",
     "logoFileName": "0hu40omp3i.ico",
     "url": "https://arco.design/vue/docs/start",
@@ -106,7 +106,7 @@
   },
   {
     "title": "Naive UI",
-    "description": "一个 Vue 3 组件库, 比较完整，主题可调，使用 TypeScript。",
+    "description": "UI组件库, 比较完整，主题可调，使用 TypeScript的 Vue 3 组件库。",
     "logo": "https://www.naiveui.com/assets/naivelogo-93278402.svg",
     "logoFileName": "tyj9xzk6h7.svg",
     "url": "https://www.naiveui.com/zh-CN/os-theme/docs/installation",
@@ -117,7 +117,7 @@
   },
   {
     "title": "Element Plus",
-    "description": "基于 Vue 3，面向设计师和开发者的组件库。",
+    "description": "UI组件库，基于 Vue 3，面向设计师和开发者的组件库。",
     "logo": "https://element-plus.gitee.io/images/element-plus-logo-small.svg",
     "logoFileName": "0nlhtf3umw.svg",
     "url": "https://element-plus.gitee.io/zh-CN/",

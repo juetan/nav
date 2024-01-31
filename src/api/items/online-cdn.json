@@ -1,22 +1,3 @@
 [
-  {
-    "title": "Githack",
-    "description": "把github文件作为cdn使用。",
-    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
-    "logoFileName": "jsl2ocemqd.png",
-    "url": "http://raw.githack.com/",
-    "tags": [
-      "online-tools"
-    ]
-  },
-  {
-    "title": "GitHub Proxy",
-    "description": "GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务.",
-    "logo": "https://raw.githubusercontent.com/neoascetic/rawgithack/679b0e7/web/img/sushi.png",
-    "logoFileName": "jsl2ocemqd.png",
-    "url": "https://ghproxy.com/",
-    "tags": [
-      "online-tools"
-    ]
-  }
+
 ]

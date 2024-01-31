@@ -37,16 +37,6 @@
     ]
   },
   {
-    "title": "Github1s",
-    "description": "一个基于Vscode, 用于阅读Github代码的在线工具。",
-    "logo": "https://github1s.com/favicon-light.svg",
-    "logoFileName": "qda3o34zzq.svg",
-    "url": "https://github1s.com/",
-    "tags": [
-      "online-tools"
-    ]
-  },
-  {
     "title": "Vue SFC Playground",
     "description": "Vue 单文件组件(SFC)在线调试工具。",
     "logo": "https://sfc.vuejs.org/logo.svg",

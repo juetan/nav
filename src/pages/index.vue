@@ -2,52 +2,21 @@
   <div class="flex-1 h-full grid grid-rows-[auto_1fr]">
     <div class="">
       <div class="px-6 pb-2 md:pb-1 mx-auto max-w-[1380px]">
-        <div v-if="!showTags" class="relative bg-blue-400 py-8 px-4 dark:bg-[rgba(255,255,255,.05)] rounded">
-          <div class="text-center">
-            <div class="text-2xl text-[rgba(0,0,0,.8)] dark:text-white">前端开发</div>
-            <p class="p-0 mt-4 text-[rgba(0,0,0,.5)] dark:text-gray-400">
-              涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ items.length }} 个网站。
-            </p>
-          </div>
-          <div class="flex gap-2 justify-center mt-5">
-            <a-input-search
-              v-model="keyword"
-              class="md:w-[40%]! bg-[rgba(255,255,255,.4)]! dark:bg-[rgba(255,255,255,.1)]! rounded-full!"
-              placeholder="输入名称/描述..."
-              shape="round"
-              allow-clear
-              @input="onKeywordChange"
-              @clear="onKeywordChange"
-              @search="onKeywordChange"
-            ></a-input-search>
-          </div>
-          <div class="hidden! absolute top-2 right-4 flex gap-2 text-slate-500">
-            <a-tooltip position="bottom">
-              <i class="icon-park-outline-switch px-1 cursor-pointer hover:bg-[rgba(255,255,255,.05)]"></i>
-              <template #content> 切换到标签面板 </template>
-            </a-tooltip>
-            <a-tooltip position="bottom">
-              <i class="icon-park-outline-pin px-1 cursor-pointer hover:bg-[rgba(255,255,255,.05)]"></i>
-              <template #content> 固定位置，滚动时将始终显示在视图中。 </template>
-            </a-tooltip>
-            <a-tooltip position="bottom">
-              <i class="icon-park-outline-hamburger-button cursor-pointer"></i>
-              <template #content> 显示导航目录 </template>
-            </a-tooltip>
-          </div>
-        </div>
-        <div v-else class="bg-gray-100 py-8 px-4">
-          <div>
-            <ul class="inline-flex gap-2 list-none m-0 p-0">
-              <li>
-                <a-tag :checkable="true" color="blue">全部框架</a-tag>
-              </li>
-              <li>
-                <a-tag :checkable="true" color="blue">vue</a-tag>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <PageBanner
+          title="前端开发"
+          :description="`涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 ${items.length} 个网站。`"
+        >
+          <a-input-search
+            v-model="keyword"
+            class="md:w-[40%]! bg-[rgba(255,255,255,.4)]! dark:bg-[rgba(255,255,255,.1)]! rounded-full!"
+            placeholder="输入名称/描述..."
+            shape="round"
+            allow-clear
+            @input="onKeywordChange"
+            @clear="onKeywordChange"
+            @search="onKeywordChange"
+          ></a-input-search>
+        </PageBanner>
       </div>
     </div>
     <div>
@@ -61,52 +30,9 @@
             <h2 class="hidden" :id="category.value">{{ category.label }}</h2>
           </div>
           <ul v-if="category.children?.length" class="list list-none flex-1 grid gap-4 px-5 pb-4">
-            <li v-for="item in category.children" :key="item.title">
-              <a
-                class="item group flex w-[280px] gap-4 h-33 p-4 rounded bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark-hover:bg-slate-700 cursor-pointer"
-                :href="item.url"
-                target="_blank"
-              >
-                <img
-                  :src="item.logoFileName ? `./images/${item.logoFileName}` : item.logo"
-                  :alt="item.title"
-                  class="w-12 h-12 object-contain bg-slate-50 dark:bg-slate-700 p-1 rounded"
-                  width="48"
-                  height="48"
-                />
-                <div class="grid grid-rows-[auto_1fr_auto] gap-2">
-                  <div class="flex items-center gap-2">
-                    <h3 class="font-normal text-base m-0">
-                      {{ item.title }}
-                    </h3>
-                  </div>
-                  <p class="text-gray-500 leading-5 my-0 line-clamp-2" :title="item.description">
-                    {{ item.description }}
-                  </p>
-                  <div class="flex gap-2 h-[18px] mt-1">
-                    <!-- <span
-                      v-for="tag in item.tags.slice(0, 3)"
-                      :key="tag"
-                      size="small"
-                      color="blue"
-                      class="cursor-pointer text-xs text-gray-400"
-                    >
-                      <i class="icon-park-outline-tag-one text-sm"></i>
-                      {{ tagMap[tag] || tag }}
-                    </span> -->
-                    <!-- <a-link class="hidden! group-hover:inline-block!" :href="item.url" target="_blank">打开</a-link> -->
-                    <!-- <a-link class="hidden! group-hover:inline-block!" @click="onCopyUrl(item)">复制</a-link> -->
-                  </div>
-                </div>
-              </a>
-            </li>
+            <LinkItem v-for="item in category.children" :key="item.title" :item="item"> </LinkItem>
           </ul>
-          <a-empty v-else class="mt-32">
-            <template #image>
-              <img src="../assets//empty.svg" alt="empty" class="!h-48" />
-            </template>
-            结果为空，换个关键字试试？
-          </a-empty>
+          <Empty v-else description="没有结果，换个关键词试试?"></Empty>
         </div>
       </div>
     </div>
@@ -116,7 +42,7 @@
 <script setup lang="ts">
 import { Message } from "@arco-design/web-vue";
 import { debounce } from "lodash-es";
-import { normalData, items } from "../api";
+import { items, normalData } from "../api";
 import tagmaps from "../api/tags/tag-map.json";
 
 const showData = ref(normalData);
@@ -175,11 +101,6 @@ const onCopyUrl = (item: any) => {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
-.item {
-  width: 100%;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
 .fade-in-bottom {
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }

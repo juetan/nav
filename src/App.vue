@@ -4,11 +4,23 @@
       <div class="mx-auto max-w-[1380px] h-full flex justify-between items-center gap-4 px-6">
         <router-link to="/">
           <h1 class="flex items-center text-xl gap-2 font-normal dark:text-white hover:text-blue-500">
-            <img src="/favicon.svg" alt="" class="w-6 h-6" />
-            绝弹导航
+            <img src="./assets/logo.svg" alt="" class="h-10 select-none" />
+            <!-- 绝弹导航 -->
           </h1>
         </router-link>
-        <div class="gap-1 hidden md:flex text-[15px]">
+        <div class="hidden md:flex items-center text-[15px]">
+          <router-link
+            to="/"
+            class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
+          >
+            前端
+          </router-link>
+          <router-link
+            to="/ui"
+            class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
+          >
+            设计
+          </router-link>
           <button
             v-if="isDark"
             @click="isDark = false"
@@ -29,6 +41,9 @@
           >
             关于
           </router-link>
+          <span class="relative z-99">
+            <div id="he-plugin-simple"></div>
+          </span>
         </div>
       </div>
     </div>
@@ -106,7 +121,42 @@
 
 <script setup lang="ts">
 import { useDark } from "@vueuse/core";
-import routes from "~pages";
+
+(window as any).WIDGET = {
+  CONFIG: {
+    modules: "0124",
+    background: "5",
+    tmpColor: "000000",
+    tmpSize: "15",
+    cityColor: "434343",
+    citySize: "15",
+    aqiColor: "434343",
+    aqiSize: "15",
+    weatherIconSize: "20",
+    alertIconSize: "18",
+    padding: "10px 10px 10px 10px",
+    shadow: "0",
+    language: "auto",
+    borderRadius: "5",
+    fixed: "false",
+    vertical: "top",
+    horizontal: "left",
+    key: "cb25908ac1cf4b6380317aaadab25212",
+  },
+};
+
+onMounted(() => {
+  (function (d) {
+    var c = d.createElement("link");
+    c.rel = "stylesheet";
+    c.href = "https://widget.qweather.net/simple/static/css/he-simple.css?v=1.5.0";
+    var s = d.createElement("script");
+    s.src = "https://widget.qweather.net/simple/static/js/he-simple.js?v=1.5.0";
+    var sn = d.getElementsByTagName("script")[0];
+    sn.parentNode!.insertBefore(c, sn);
+    sn.parentNode!.insertBefore(s, sn);
+  })(document);
+});
 
 const router = useRouter();
 const route = useRoute();

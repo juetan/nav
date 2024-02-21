@@ -1,65 +1,41 @@
 <template>
   <div class="w-full h-full grid grid-rows-[auto_1fr] dark:bg-slate-900 dark:text-slate-100">
-    <div class="h-12 bg-white dark:bg-slate-800 shadow-[0px_16px_32px_rgba(0,0,0,0.04)] dark:border-gray-700">
-      <div class="mx-auto max-w-[1180px] h-full flex justify-between items-center gap-4 px-6">
+    <div class="h-13 bg-white dark:bg-slate-800 shadow-[0px1_16px_32px_rgba(0,0,0,0.04)] dark:border-gray-700">
+      <div class="mx-auto max-w-[1380px] h-full flex justify-between items-center gap-4 px-6">
         <router-link to="/">
-          <h1 class="flex items-center gap-2 text-base font-normal dark:text-white hover:text-blue-500">
-            <img src="/favicon.ico" alt="" class="w-5 h-5" />
+          <h1 class="flex items-center text-xl gap-2 font-normal dark:text-white hover:text-blue-500">
+            <img src="/favicon.ico" alt="" class="w-6 h-6" />
             绝弹导航
           </h1>
         </router-link>
-        <div class="gap-1 hidden md:flex">
-          <router-link
-            to="/"
-            class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
-          >
-            <i class="icon-park-outline-home text-sm"></i>
-            首页
-          </router-link>
+        <div class="gap-1 hidden md:flex text-[15px]">
           <button
             v-if="isDark"
             @click="isDark = false"
             class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
           >
-            <i class="icon-park-outline-sun text-sm"></i>
-            亮色
+            主题
           </button>
           <button
             v-else
             @click="isDark = true"
             class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
           >
-            <i class="icon-park-outline-moon text-sm"></i>
-            暗色
+            主题
           </button>
-          <!-- <button
-            @click="onGotoGithub"
-            class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
-          >
-            <i class="icon-park-outline-github-one text-sm"></i>
-            仓库
-          </button> -->
           <router-link
             to="/about"
             class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
           >
-            <i class="icon-park-outline-user text-sm"></i>
             关于
           </router-link>
-          <!-- <router-link
-            to="/admin"
-            class="cursor-pointer bg-transparent dark:text-white hover:bg-gray-200 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1 px-2"
-          >
-            <i class="icon-park-outline-config text-sm"></i>
-            管理
-          </router-link> -->
         </div>
       </div>
     </div>
-    <a-scrollbar outer-class="overflow-hidden" class="roller h-full overflow-auto mt-3 pb-4">
-      <div class="h-full grid grid-rows-[1fr_auto]">
+    <a-scrollbar outer-class="overflow-hidden" class="roller h-full overflow-auto pb-4">
+      <div class="h-full grid grid-rows-[1fr_auto] pt-2">
         <router-view></router-view>
-        <div class="text-center text-gray-500 pt-9 pb-8 mt-4 bg-gray-50 dark:bg-slate-800">
+        <div class="text-center text-gray-500 pb-10 pt-8">
           <div>
             <ul class="list-none flex justify-center items-center gap-2 m-0">
               <li>

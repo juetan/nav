@@ -77,10 +77,20 @@
   },
   {
     "title": "Whirl",
-    "description": "纯CSS实现的各种加载动效。",
+    "description": "纯CSS实现的各种 loading 加载动效。",
     "logo": "https://whirl.netlify.app/favicon.ico",
     "logoFileName": "xbhl7b14y6.ico",
     "url": "https://whirl.netlify.app/",
+    "tags": [
+      "css"
+    ]
+  },
+  {
+    "title": "Css Loaders",
+    "description": "包含 600+ 只使用 CSS 实现的各种 loading 加载动效。",
+    "logo": "https://css-loaders.com/fav.png",
+    "logoFileName": "",
+    "url": "https://css-loaders.com/",
     "tags": [
       "css"
     ]

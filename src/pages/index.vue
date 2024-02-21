@@ -1,11 +1,11 @@
 <template>
-  <div class=" flex-1 h-full grid grid-rows-[auto_1fr]">
+  <div class="flex-1 h-full grid grid-rows-[auto_1fr]">
     <div class="">
-      <div class="px-6 pb-2 md:pb-1 mx-auto max-w-[1180px] mt-2">
-        <div v-if="!showTags" class="relative bg-gradient-to-br from-blue-300 via-indigo-300 to-purple-200 dark:from-slate-800 dark:to-slate-700 py-8 px-4 dark:bg-gray-800 rounded">
+      <div class="px-6 pb-2 md:pb-1 mx-auto max-w-[1380px]">
+        <div v-if="!showTags" class="relative bg-blue-400 py-8 px-4 dark:bg-[rgba(255,255,255,.05)] rounded">
           <div class="text-center">
-            <div class="text-xl">前端开发</div>
-            <p class="p-0 mt-2.5 text-slate-600">
+            <div class="text-2xl text-[rgba(0,0,0,.8)] dark:text-white">前端开发</div>
+            <p class="p-0 mt-4 text-[rgba(0,0,0,.5)] dark:text-gray-400">
               涵盖前端开发、设计、运维、测试、产品、运营等领域，目前共收录 {{ items.length }} 个网站。
             </p>
           </div>
@@ -24,21 +24,15 @@
           <div class="hidden! absolute top-2 right-4 flex gap-2 text-slate-500">
             <a-tooltip position="bottom">
               <i class="icon-park-outline-switch px-1 cursor-pointer hover:bg-[rgba(255,255,255,.05)]"></i>
-              <template #content>
-                切换到标签面板
-              </template>
+              <template #content> 切换到标签面板 </template>
             </a-tooltip>
             <a-tooltip position="bottom">
               <i class="icon-park-outline-pin px-1 cursor-pointer hover:bg-[rgba(255,255,255,.05)]"></i>
-              <template #content>
-                固定位置，滚动时将始终显示在视图中。
-              </template>
+              <template #content> 固定位置，滚动时将始终显示在视图中。 </template>
             </a-tooltip>
             <a-tooltip position="bottom">
               <i class="icon-park-outline-hamburger-button cursor-pointer"></i>
-              <template #content>
-                显示导航目录
-              </template>
+              <template #content> 显示导航目录 </template>
             </a-tooltip>
           </div>
         </div>
@@ -57,7 +51,7 @@
       </div>
     </div>
     <div>
-      <div class="max-w-[1180px] mx-auto mt-6">
+      <div class="max-w-[1380px] mx-auto mt-6">
         <div v-for="category in showData" :key="category.label" ref="itemsRef" class="fade-in-bottom">
           <div class="text-slate-500 px-6 mb-3 mt-2">
             <a :href="`#${category.value}`">
@@ -66,47 +60,47 @@
             </a>
             <h2 class="hidden" :id="category.value">{{ category.label }}</h2>
           </div>
-          <div v-if="category.children?.length" class="list flex-1 grid gap-4 px-5 pb-4">
-            <div
-              v-for="item in category.children"
-              :key="item.title"
-              class="item group flex w-[280px] gap-4 h-32 p-4 rounded  bg-gray-100 dark:bg-slate-800"
-            >
-              <img
-                :src="item.logoFileName ? `./images/${item.logoFileName}` : item.logo"
-                :alt="item.title"
-                class="w-12 h-12 object-contain bg-slate-50 dark:bg-slate-700 p-1 rounded"
-                width="48"
-                height="48"
-              />
-              <div class="grid grid-rows-[auto_1fr_auto] gap-2">
-                <div class="flex items-center gap-2">
-                  <a :href="item.url" target="_blank" class="hover:text-blue-500 dark:text-slate-100 hover:underline underline-offset-3">
-                    <h3 class="font-normal m-0">{{ item.title }}</h3>
-                  </a>
-                  <span :title="'复制网址'">
-                    <i
-                      class="hidden! group-hover:block! icon-park-outline-copy text-slate-300 hover:text-slate-500 cursor-pointer"
-                      style="vertical-align: 1px; width: 13px; height: 13px"
-                      @click="onCopyUrl(item)"
-                    ></i>
-                  </span>
+          <ul v-if="category.children?.length" class="list list-none flex-1 grid gap-4 px-5 pb-4">
+            <li v-for="item in category.children" :key="item.title">
+              <a
+                class="item group flex w-[280px] gap-4 h-33 p-4 rounded bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark-hover:bg-slate-700 cursor-pointer"
+                :href="item.url"
+                target="_blank"
+              >
+                <img
+                  :src="item.logoFileName ? `./images/${item.logoFileName}` : item.logo"
+                  :alt="item.title"
+                  class="w-12 h-12 object-contain bg-slate-50 dark:bg-slate-700 p-1 rounded"
+                  width="48"
+                  height="48"
+                />
+                <div class="grid grid-rows-[auto_1fr_auto] gap-2">
+                  <div class="flex items-center gap-2">
+                    <h3 class="font-normal text-base m-0">
+                      {{ item.title }}
+                    </h3>
+                  </div>
+                  <p class="text-gray-500 leading-5 my-0 line-clamp-2" :title="item.description">
+                    {{ item.description }}
+                  </p>
+                  <div class="flex gap-2 h-[18px] mt-1">
+                    <!-- <span
+                      v-for="tag in item.tags.slice(0, 3)"
+                      :key="tag"
+                      size="small"
+                      color="blue"
+                      class="cursor-pointer text-xs text-gray-400"
+                    >
+                      <i class="icon-park-outline-tag-one text-sm"></i>
+                      {{ tagMap[tag] || tag }}
+                    </span> -->
+                    <!-- <a-link class="hidden! group-hover:inline-block!" :href="item.url" target="_blank">打开</a-link> -->
+                    <!-- <a-link class="hidden! group-hover:inline-block!" @click="onCopyUrl(item)">复制</a-link> -->
+                  </div>
                 </div>
-                <p class="text-gray-500 leading-5 my-0 line-clamp-2" :title="item.description">
-                  {{ item.description }}
-                </p>
-                <div class="flex gap-2 h-[18px]">
-                  <!-- <a-tag v-for="tag in item.tags" :key="tag" size="small" color="blue" class="cursor-pointer">
-                    {{ tagMap[tag] || tag }}
-                  </a-tag> -->
-                  <span v-for="tag in item.tags" :key="tag" size="small" color="blue" class="cursor-pointer text-xs text-gray-400">
-                    <i class="icon-park-outline-tag-one text-sm"></i>
-                    {{ tagMap[tag] || tag }}
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+              </a>
+            </li>
+          </ul>
           <a-empty v-else class="mt-32">
             <template #image>
               <img src="../assets//empty.svg" alt="empty" class="!h-48" />
@@ -130,7 +124,7 @@ const itemsRef = ref();
 const scrollRef = ref();
 const keyword = ref("");
 const router = useRouter();
-const showTags = ref(false)
+const showTags = ref(false);
 const tagMap = tagmaps.reduce((acc, cur) => {
   acc[cur.value] = cur.label;
   return acc;

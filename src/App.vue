@@ -4,7 +4,7 @@
       <div class="mx-auto max-w-[1380px] h-full flex justify-between items-center gap-4 px-6">
         <router-link to="/">
           <h1 class="flex items-center text-xl gap-2 font-normal dark:text-white hover:text-blue-500">
-            <img src="/favicon.ico" alt="" class="w-6 h-6" />
+            <img src="/favicon.svg" alt="" class="w-6 h-6" />
             绝弹导航
           </h1>
         </router-link>

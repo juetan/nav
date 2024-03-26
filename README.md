@@ -1,20 +1,8 @@
 
-A front-end related navigation site, include 170+ websites.
+基于 NuxtJS 的导航网站，正在开发中...
 
-link: [https://juetan.github.io/nav](https://juetan.github.io/nav)
+## TODO
 
-## Preview
-
-![Light](./.github/home.png)
-
-![Dark](./.github/home-dark.png)
-
-![Mobile Light](./.github/mobile.png)
-
-![Mobile Dark](./.github/mobile-dark.png)
-
-## Tech Stack
-
-- vue3
-- vite
-- arco-design
+- 增加暗黑主题
+- 适配移动端
+- 支持纯静态化部署

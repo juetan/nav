@@ -43,10 +43,11 @@
 </template>
 
 <script lang="ts" setup>
-import { OnScrollKey } from '~/utils/ref';
+import { OnScrollKey } from '@/utils/ref'
 
 definePageMeta({
   title: '首页',
+  middleware: ['analytics'],
 })
 
 useHead({

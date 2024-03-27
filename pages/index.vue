@@ -42,7 +42,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script lang='ts' setup>
 import { OnScrollKey } from '@/utils/ref'
 
 definePageMeta({

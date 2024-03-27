@@ -68,13 +68,13 @@ defineOptions({
   name: 'AppPage',
 })
 
+const app = useApp()
+
 useHead({
   titleTemplate(title) {
-    return title ? `${title} - 绝弹导航` : '绝弹导航'
+    return title ? `${title} - ${app.value?.title}` : `${app.value?.title}`
   },
 })
-
-const app = useApp()
 
 const navs = [
   {
@@ -139,7 +139,6 @@ provide(OnScrollKey, (fn) => onScrolls.push(fn))
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url('/favicon.ico') no-repeat center center / contain;
 }
 
 .list {

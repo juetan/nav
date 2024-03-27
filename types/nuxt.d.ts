@@ -12,4 +12,9 @@ declare module 'vue-router' {
   }
 }
 
+declare module '*?raw' {
+  const value: string
+  export default value
+}
+
 export {}

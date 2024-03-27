@@ -96,13 +96,9 @@ const onSubmitForm = async () => {
 .login-box {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
 }
-.login-left {
-  background: rgb(var(--primary-6)) url(/images/login-br.svg) no-repeat center center/90% auto;
-}
 .login-title {
   font-weight: 400;
   font-size: 22px;
   margin: 0;
-  /* color: rgb(var(--primary-6)); */
 }
 </style>

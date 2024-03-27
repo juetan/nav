@@ -28,7 +28,6 @@
     <section class="mt-4">
       <NuxtPage></NuxtPage>
     </section>
-    <NuxtLoadingIndicator />
   </div>
 </template>
 

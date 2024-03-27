@@ -1,5 +1,5 @@
 /**
- * 适用于 /admin 开头的路由
+ * 全局中间件
  */
 export default defineNuxtRouteMiddleware(async (to, from) => {
   const app = useApp()

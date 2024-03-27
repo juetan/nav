@@ -1,9 +1,13 @@
 interface Option {
+  inited: boolean
   title: string
   description: string
   logoUrl: string
 }
 
+/**
+ * 获取配置
+ */
 export default defineEventHandler(async (event) => {
   const result = await db.options.findMany()
   const options: Record<string, any> = {}

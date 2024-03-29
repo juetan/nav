@@ -87,6 +87,11 @@ const navs = [
     icon: 'i-icon-park-outline-config',
     path: 'https://juetan.cn',
   },
+  {
+    title: '仓库',
+    icon: 'i-icon-park-outline-config',
+    path: 'https://github.com/juetan/nav',
+  },
   import.meta.dev && {
     title: '后台',
     icon: 'i-icon-park-outline-config',

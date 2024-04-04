@@ -1,8 +1,8 @@
 <template>
   <div class="mx-auto pt-60 w-[360px]!">
-    <div>
+    <div >
       <h2 class="login-title">登陆</h2>
-      <p class="text-gray-500 mt-2.5">您尚未登陆，请使用账号和密码登陆后再继续。</p>
+      <p class="text-gray-500 mt-2.5">您尚未登陆，请使用账号和密码登陆后再继续</p>
     </div>
     <a-form :model="model" :rules="formRules" ref="formRef" layout="vertical" class="mt-6">
       <a-form-item field="username" label="账号" :disabled="loading" hide-asterisk>
@@ -49,7 +49,7 @@ useHead({
   title: '登陆',
 })
 
-const model = reactive({ username: 'juetan', password: 'juetan' })
+const model = reactive({ username: '', password: '' })
 const route = useRoute()
 const router = useRouter()
 const user = useUser()
@@ -98,7 +98,7 @@ const onSubmitForm = async () => {
 }
 .login-title {
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
   margin: 0;
 }
 </style>

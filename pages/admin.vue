@@ -69,14 +69,14 @@ const menus = [
     icon: 'i-icon-park-outline-home',
     path: '/admin',
   },
-  {
-    title: '分类管理',
-    icon: 'i-icon-park-outline-folder-close',
-    path: '/admin/category',
-  },
+  // {
+  //   title: '分类管理',
+  //   icon: 'i-icon-park-outline-folder-close',
+  //   path: '/admin/category',
+  // },
   {
     title: '链接管理',
-    icon: 'i-icon-park-outline-link',
+    icon: 'i-icon-park-outline-sphere',
     path: '/admin/link',
   },
   {
@@ -103,7 +103,7 @@ const onMenuItemClick = (key: string) => {
     display: none;
   }
   .arco-menu-selected {
-    background-color: rgb(var(--primary-1)) !important;
+    background-color: rgb(var(--primary-2)) !important;
   }
   .arco-menu-icon {
     margin-right: 0 !important;

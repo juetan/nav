@@ -52,3 +52,8 @@ export const icons = [
   'i-icon-park-outline-eagle',
   'i-icon-park-outline-deer',
 ]
+
+export const getSiteIconUrl = (url: string) => {
+  const hostname = new URL(url).hostname
+  return 'https://icon.horse/icon/' + hostname
+}

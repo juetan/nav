@@ -4,7 +4,7 @@
       <a-input-search
         v-model="keyword"
         class="search-input"
-        :placeholder="`搜索${categories?.length ?? 0}个分类中的${total}条链接...`"
+        :placeholder="`搜索${categories?.length ?? 0}个分类的${total}条链接...`"
         :allow-clear="true"
         @clear="onClickSearch"
         @search="onClickSearch"

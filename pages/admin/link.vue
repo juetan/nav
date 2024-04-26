@@ -163,7 +163,6 @@ const CategoryModal = useFormModal({
     text: '新增分类',
     buttonProps: {
       long: true,
-      type: 'outline'
     },
   },
   items: [

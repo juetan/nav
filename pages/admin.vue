@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-rows-[auto_1fr]">
-    <header class="flex items-center justify-between gap-4 border-b border-gray-100">
+    <header class="flex items-center justify-between gap-4 border-b border-slate-200">
       <a-menu
         mode="horizontal"
         :default-selected-keys="[route.path]"

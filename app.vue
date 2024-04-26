@@ -3,14 +3,14 @@
   <a-scrollbar
     ref="scrollbarRef"
     outer-class="h-full overflow-hidden dark:text-gray-200"
-    class="roller relative h-full overflow-auto dark:bg-gray-800"
+    class="roller relative h-full overflow-auto dark:bg-gray-800 scroll-smooth"
     @scroll="onScroll"
   >
     <!-- 滚动条需要唯一的子元素 -->
     <section class="relative mx-auto">
-      <header class="sticky top-0 w-full z-99 bg-white dark:bg-gray-800 dark:border-[var(--color-secondary)]">
+      <header class="sticky top-0 w-full z-99 bg-white dark:bg-gray-800 dark:border-[var(--color-secondary)] border-b border-slate-200 ">
         <div
-          class="mx-auto px-4 xl:px-0 max-w-[1380px] h-13 border-b border-[#eef] dark:border-gray-700 flex justify-between items-center gap-4"
+          class="mx-auto px-4 xl:px-0 max-w-[1380px] h-13 dark:border-gray-700 flex justify-between items-center gap-4"
         >
           <NuxtLink to="/" class="flex items-center">
             <h1 class="flex items-center text-xl gap-2 font-normal dark:text-white hover:text-blue-500">
@@ -24,7 +24,7 @@
               v-for="nav in navs"
               :key="nav.path"
               :to="nav.path"
-              class="cursor-pointer bg-transparent dark:text-white hover:text-blue-500 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1.5 px-2.5"
+              class="cursor-pointer bg-transparent dark:text-white hover:underline hover:text-blue-500 dark:hover-bg-[rgba(255,255,255,.2)] rounded py-1.5 px-2.5"
             >
               <!-- <i :class="nav.icon"></i> -->
               {{ nav.title }}

@@ -67,15 +67,15 @@ const CategoryTable = useTable({
   ],
   create: {
     items: [
-      // {
-      //   label: "父级分类",
-      //   field: "parentId",
-      //   setter: "select",
-      //   async options() {
-      //     const categories = await $fetch<Category[]>("/api/categories");
-      //     return categories.map(({ id, name }) => ({ label: name, value: id }));
-      //   },
-      // },
+      {
+        label: "父级分类",
+        field: "parentId",
+        setter: "select",
+        async options() {
+          const categories = await $fetch<Category[]>("/api/categories");
+          return categories.map(({ id, name }) => ({ label: name, value: id }));
+        },
+      },
       {
         label: '名字',
         field: 'name',

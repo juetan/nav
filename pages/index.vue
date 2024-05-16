@@ -1,6 +1,6 @@
 <template>
   <div class="relative min-h-screen mt-4 px-4 xl:px-0">
-    <aside class="aside hidden lg:grid fixed grid-rows-[32px_auto] gap-2 overflow-hidden w-56 pb-4 z-9999">
+    <aside class="aside hidden lg:grid fixed grid-rows-[32px_auto] gap-2 overflow-hidden w-60 pb-4 z-9999">
       <a-input-search
         v-model="keyword"
         class="search-input"
@@ -10,30 +10,35 @@
         @search="onClickSearch"
         @press-enter="onClickSearch"
       ></a-input-search>
-      <ul v-if="categories?.length" class="category-list h-full overflow-auto space-y-1">
+      <ul v-if="categories?.length" class="category-list rounded h-full overflow-auto space-y-1">
         <li
           v-for="(item, index) in categories"
           :key="item.id"
           ref="categoriesRef"
           class="flex items-center justify-between px-3 h-8 text-gray-500 rounded hover:bg-gray-100 dark-hover:bg-[var(--color-secondary)]! cursor-pointer"
-          :class="{ 'bg-blue-100! dark:bg-[var(--color-secondary)]! text-blue-500!': currentCategoryId == item.id }"
+          :class="{
+            'bg-blue-100! font-bold dark:bg-[var(--color-secondary)]! text-blue-500!': currentCategoryId == item.id,
+          }"
           @click="onClickItem(item, index)"
         >
           <span>
-            <i class="text-base mr-0" :class="item.icon ?? 'i-icon-park-outline-tag-one'"></i>
+            <i class="text-base mr-1" :class="item.icon ?? 'i-icon-park-outline-tag-one'"></i>
             {{ item.name }}
+            <span class="text-xs"> ({{ item.links.length }}) </span>
           </span>
-          <span class="text-xs">{{ item.links.length }}</span>
+          <span class="text-xs"> </span>
         </li>
       </ul>
     </aside>
     <article class="pl-0 lg:pl-64 fade-in-bottom">
       <section v-for="category in categories" :key="category.id" ref="itemsRef" class="pb-6">
-        <h2 class="text-slate-500 text-sm font-normal pb-3 m-0">
-          <i class="mr-1 text-base" :class="category.icon ?? 'i-icon-park-outline-tag-one'"></i>
-          <span>{{ category.name }}</span>
-        </h2>
-        <ul class="list list-none flex-1 grid gap-4">
+        <div class="flex items-center justify-between gap-4">
+          <h2 class="text-slate-500 text-sm font-normal pb-3 m-0">
+            <i class="mr-1 text-base" :class="category.icon ?? 'i-icon-park-outline-tag-one'"></i>
+            <span>{{ category.name }}</span>
+          </h2>
+        </div>
+        <ul class="list list-none flex-1 grid gap-2">
           <LinkItem v-for="link in category.links" :key="link.id" :item="link as any" :replace-keyword="replaceKeyword">
           </LinkItem>
         </ul>
@@ -99,13 +104,13 @@ onScroll?.(async (e: Event) => {
     currentCategoryId.value = categories.value?.[i + 1].id ?? 1
     break
   }
-  await nextTick();
-  const index = categories.value?.findIndex(i => i.id === currentCategoryId.value);
-  if(index === undefined || index < 0) {
+  await nextTick()
+  const index = categories.value?.findIndex((i) => i.id === currentCategoryId.value)
+  if (index === undefined || index < 0) {
     return
   }
   const categoryRef = categoriesRef.value?.[index]
-  if(categoryRef) {
+  if (categoryRef) {
     categoryRef.scrollIntoView(false)
   }
 })
@@ -174,8 +179,8 @@ const onClickSearch = async () => {
 
 .category-list {
   &::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
+    width: 8px;
+    height: 8px;
     display: none;
   }
   &:hover::-webkit-scrollbar {

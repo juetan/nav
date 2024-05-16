@@ -69,11 +69,11 @@ const menus = [
     icon: 'i-icon-park-outline-home',
     path: '/admin',
   },
-  // {
-  //   title: '分类管理',
-  //   icon: 'i-icon-park-outline-folder-close',
-  //   path: '/admin/category',
-  // },
+  {
+    title: '分类管理',
+    icon: 'i-icon-park-outline-folder-close',
+    path: '/admin/category',
+  },
   {
     title: '链接管理',
     icon: 'i-icon-park-outline-sphere',

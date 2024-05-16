@@ -1,7 +1,7 @@
 <template>
   <li class="overflow-hidden">
     <a
-      class="group flex gap-4 h-33 p-4 rounded bg-gray-100 dark:bg-[rgba(255,255,255,.04)] hover:bg-gray-200 dark-hover:bg-[rgba(255,255,255,.02)] cursor-pointer"
+      class="group flex gap-4 p-4 rounded bg-gray-100 dark:bg-[rgba(255,255,255,.04)] hover:bg-gray-200 dark-hover:bg-[rgba(255,255,255,.02)] cursor-pointer"
       :href="item.url"
       target="_blank"
     >
@@ -16,11 +16,10 @@
       <div class="flex-1 grid grid-rows-[auto_1fr_auto] gap-2">
         <h3 class="font-normal text-base m-0 dark:text-gray-100" v-html="replaceKeyword(item.name)"></h3>
         <p
-          class="text-gray-600 dark:text-gray-500 leading-5 my-0 line-clamp-2"
+          class="text-gray-600 dark:text-gray-500 h-11 leading-5 my-0 line-clamp-2"
           :title="item.description ?? ''"
           v-html="replaceKeyword(item.description ?? '')"
         ></p>
-        <div class="flex gap-2 h-[18px] mt-1"></div>
       </div>
     </a>
   </li>
